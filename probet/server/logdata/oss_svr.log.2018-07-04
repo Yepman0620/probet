@@ -1,0 +1,88 @@
+2018-07-04 09:47:03,035|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 17085, datetime.datetime(2018, 7, 3, 9, 35, 19))
+2018-07-04 09:47:03,066|ERROR|oss_svr.py:90|__initData|bill log is between two days
+2018-07-04 09:47:07,207|ERROR|ossFile.py:251|parse_line_data|seekPos[13845] not valid bill log error[KeyError('thirdPayOrder',)]
+2018-07-04 09:47:07,208|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:39:47,564|{"payIp": "", "payCoin": 1500000, "firstPayTime": 1530272387, "agentId": "", "firstPayCoin": 0, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272387, "accountId": "yeshifu11", "orderId": "15b0170e-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,210|ERROR|ossFile.py:251|parse_line_data|seekPos[14115] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,210|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:39:50,577|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272390, "accountId": "yeshifu11", "orderId": "16bfd9ff-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,212|ERROR|ossFile.py:251|parse_line_data|seekPos[14385] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,212|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:39:52,439|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272392, "accountId": "yeshifu11", "orderId": "17dd6b44-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,214|ERROR|ossFile.py:251|parse_line_data|seekPos[14655] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,215|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:39:54,424|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272394, "accountId": "yeshifu11", "orderId": "17dd6b45-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,217|ERROR|ossFile.py:251|parse_line_data|seekPos[14925] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,218|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:39:56,135|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272396, "accountId": "yeshifu11", "orderId": "19031c62-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,220|ERROR|ossFile.py:251|parse_line_data|seekPos[15195] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,220|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:40:01,137|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272401, "accountId": "yeshifu11", "orderId": "16bfd9fe-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,222|ERROR|ossFile.py:251|parse_line_data|seekPos[15465] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,223|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:40:13,045|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272413, "accountId": "yeshifu11", "orderId": "1a2cd133-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,225|ERROR|ossFile.py:251|parse_line_data|seekPos[15735] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,225|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:40:14,623|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272414, "accountId": "yeshifu11", "orderId": "1b619a1b-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,227|ERROR|ossFile.py:251|parse_line_data|seekPos[16005] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,228|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:40:17,572|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272417, "accountId": "yeshifu11", "orderId": "1a2cd132-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,229|ERROR|ossFile.py:251|parse_line_data|seekPos[16275] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,230|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:40:19,666|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272419, "accountId": "yeshifu11", "orderId": "19031c63-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,232|ERROR|ossFile.py:251|parse_line_data|seekPos[16545] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,233|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:41:10,593|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272470, "accountId": "yeshifu11", "orderId": "1b619a1a-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,235|ERROR|ossFile.py:251|parse_line_data|seekPos[16815] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,236|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:41:12,530|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272472, "accountId": "yeshifu11", "orderId": "1c7763f8-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 09:47:07,238|ERROR|ossFile.py:251|parse_line_data|seekPos[17085] not valid bill log error[KeyError('firstPayTime',)]
+2018-07-04 09:47:07,238|ERROR|ossFile.py:252|parse_line_data|2018-06-29 19:41:14,404|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272474, "accountId": "yeshifu11", "orderId": "1c7763f9-7b91-11e8-a0a8-000c29bf6fb0"}
+
+2018-07-04 15:19:16,563|ERROR|base_events.py:1148|default_exception_handler|_GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=KeyboardInterrupt() created at /usr/lib/python3.5/asyncio/tasks.py:576>
+source_traceback: Object created at (most recent call last):
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1599, in <module>
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1026, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/python/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/python/Desktop/company_project/server/osssvr/oss_svr.py", line 177, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 633, in gather
+    outer = _GatheringFuture(children, loop=loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 576, in __init__
+    super().__init__(loop=loop)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/osssvr/oss_svr.py", line 177, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "/home/python/Desktop/company_project/server/osssvr/oss_svr.py", line 32, in __secTickCallLater
+    g_obj_loop.call_later(1, lambda: asyncio.async(__secTickCallLater()))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 462, in call_later
+    timer = self.call_at(self.time() + delay, callback, *args)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 478, in call_at
+    timer = events.TimerHandle(when, callback, args, self)
+  File "/usr/lib/python3.5/asyncio/events.py", line 147, in __init__
+    super().__init__(callback, args, loop)
+  File "/usr/lib/python3.5/asyncio/events.py", line 91, in __init__
+    self._source_traceback = traceback.extract_stack(sys._getframe(1))
+  File "/usr/lib/python3.5/traceback.py", line 207, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/usr/lib/python3.5/traceback.py", line 352, in extract
+    filename, lineno, name, lookup_line=False, locals=f_locals))
+  File "/usr/lib/python3.5/traceback.py", line 239, in __init__
+    def __init__(self, filename, lineno, name, *, lookup_line=True,
+  File "/home/python/.pycharm_helpers/pydev/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 81, in __call__
+    def __call__(self, frame, event, arg):
+KeyboardInterrupt
+2018-07-04 15:19:19,437|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 17085, datetime.datetime(2018, 7, 4, 9, 47, 7))
+2018-07-04 16:37:44,959|WARNING|base_events.py:1308|_run_once|Executing <Task finished coro=<__secTickCallLater() done, defined at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:26> result=None created at /usr/lib/python3.5/asyncio/tasks.py:532> took 0.109 seconds

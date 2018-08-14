@@ -1,0 +1,173 @@
+2018-05-11 15:42:34,423|ERROR|logic_svr.py:311|<module>|Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 202, in init
+    yield from __initFiFo()
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 95, in __initFiFo
+    yield from fifoMgr.classFIFOMgr.getInstance().connectRedis()
+  File "/home/python/Desktop/company_project/server/lib/redismodule/redisMgr.py", line 65, in connectRedis
+    raise e
+  File "/home/python/Desktop/company_project/server/lib/redismodule/redisMgr.py", line 59, in connectRedis
+    password=self.strPwd,minsize=self.iMinPoolSize,maxsize=self.iMaxPoolSize,encoding=self.strEncodeing)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 42, in create_pool
+    yield from pool._fill_free(override_min=False)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 235, in _fill_free
+    conn = yield from self._create_new_connection()
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/commands/__init__.py", line 146, in create_redis
+    loop=loop)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/connection.py", line 88, in create_connection
+    yield from conn.auth(password)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/util.py", line 61, in wait_ok
+    res = yield from fut
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+aioredis.errors.ReplyError: ERR Client sent AUTH, but no password is set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 301, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 307, in _wakeup
+    self._step()
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 219, in init
+    exit(0)
+  File "/usr/lib/python3.5/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: 0
+
+2018-05-11 15:42:34,432|ERROR|base_events.py:1148|default_exception_handler|Task exception was never retrieved
+future: <Task finished coro=<init() done, defined at /home/python/Desktop/company_project/server/logic/logic_svr.py:192> exception=SystemExit(0,)>
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 202, in init
+    yield from __initFiFo()
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 95, in __initFiFo
+    yield from fifoMgr.classFIFOMgr.getInstance().connectRedis()
+  File "/home/python/Desktop/company_project/server/lib/redismodule/redisMgr.py", line 65, in connectRedis
+    raise e
+  File "/home/python/Desktop/company_project/server/lib/redismodule/redisMgr.py", line 59, in connectRedis
+    password=self.strPwd,minsize=self.iMinPoolSize,maxsize=self.iMaxPoolSize,encoding=self.strEncodeing)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 42, in create_pool
+    yield from pool._fill_free(override_min=False)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 235, in _fill_free
+    conn = yield from self._create_new_connection()
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/commands/__init__.py", line 146, in create_redis
+    loop=loop)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/connection.py", line 88, in create_connection
+    yield from conn.auth(password)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/util.py", line 61, in wait_ok
+    res = yield from fut
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+aioredis.errors.ReplyError: ERR Client sent AUTH, but no password is set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 301, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 307, in _wakeup
+    self._step()
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 219, in init
+    exit(0)
+  File "/usr/lib/python3.5/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: 0
+2018-05-11 17:13:49,917|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:95> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.101 seconds
+2018-05-11 17:22:12,554|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.138 seconds
+2018-05-11 17:33:26,531|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.113 seconds
+2018-05-11 17:36:20,242|WARNING|base_events.py:1308|_run_once|Executing <Handle _SelectorSocketTransport._read_ready() created at /usr/lib/python3.5/asyncio/selector_events.py:232> took 0.155 seconds
+2018-05-11 17:41:40,554|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.114 seconds
+2018-05-11 17:47:48,558|WARNING|base_events.py:1308|_run_once|Executing <Handle _SelectorSocketTransport._read_ready() created at /usr/lib/python3.5/asyncio/selector_events.py:232> took 0.111 seconds
+2018-05-11 18:22:34,565|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:95> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.132 seconds
+2018-05-11 19:04:02,575|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.168 seconds
+2018-05-11 19:16:32,025|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 19:28:06,908|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 19:28:07,114|ERROR|base_events.py:1148|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>
+    main()
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1658, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1068, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/python/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 309, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 176, in <lambda>
+    g_obj_loop.call_later(1, lambda: asyncio.async(__secTickCallLater()))
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 532, in async
+    return ensure_future(coro_or_future, loop=loop)
+task: <Task pending coro=<__secTickCallLater() running at /usr/lib/python3.5/asyncio/coroutines.py:204> created at /usr/lib/python3.5/asyncio/tasks.py:532>
+2018-05-11 19:33:44,562|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:95> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.177 seconds
+2018-05-11 19:35:48,629|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=36803.314906311 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/logic/logic_svr.py:176 created at /home/python/Desktop/company_project/server/logic/logic_svr.py:176> took 0.242 seconds
+2018-05-11 19:37:52,677|WARNING|base_events.py:1308|_run_once|Executing <Handle _SelectorSocketTransport._read_ready() created at /usr/lib/python3.5/asyncio/selector_events.py:232> took 0.290 seconds
+2018-05-11 19:40:56,693|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.312 seconds
+2018-05-11 19:42:58,660|WARNING|base_events.py:1308|_run_once|Executing <Handle _SelectorSocketTransport._read_ready() created at /usr/lib/python3.5/asyncio/selector_events.py:232> took 0.270 seconds
+2018-05-11 19:44:48,865|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 19:50:54,315|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.101 seconds
+2018-05-11 19:57:01,546|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=38076.319265753 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/logic/logic_svr.py:176 created at /home/python/Desktop/company_project/server/logic/logic_svr.py:176> took 0.155 seconds
+2018-05-11 19:59:05,520|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:95> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.134 seconds
+2018-05-11 20:07:40,641|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 20:18:40,910|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 20:53:50,598|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:95> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.199 seconds
+2018-05-11 21:01:13,373|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 21:08:25,611|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.196 seconds
+2018-05-11 21:10:31,763|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<RedisConnection._read_data() running at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:132> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> cb=[Future.set_result()] created at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:111> took 0.340 seconds
+2018-05-11 21:11:36,577|WARNING|base_events.py:1308|_run_once|Executing <Handle _SelectorSocketTransport._read_ready() created at /usr/lib/python3.5/asyncio/selector_events.py:232> took 0.151 seconds
+2018-05-11 21:15:44,623|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165> took 0.198 seconds
+2018-05-11 21:16:46,604|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<RedisConnection._read_data() running at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:132> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> cb=[Future.set_result()] created at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:111> took 0.178 seconds
+2018-05-11 21:19:49,596|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<RedisConnection._read_data() running at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:132> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> cb=[Future.set_result()] created at /usr/local/lib/python3.5/dist-packages/aioredis/connection.py:111> took 0.163 seconds
+2018-05-11 21:23:57,894|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-11 21:23:57,919|ERROR|base_events.py:1148|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>
+    main()
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1658, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1068, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/python/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 309, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 176, in <lambda>
+    g_obj_loop.call_later(1, lambda: asyncio.async(__secTickCallLater()))
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 532, in async
+    return ensure_future(coro_or_future, loop=loop)
+task: <Task pending coro=<__secTickCallLater() running at /usr/lib/python3.5/asyncio/coroutines.py:204> created at /usr/lib/python3.5/asyncio/tasks.py:532>

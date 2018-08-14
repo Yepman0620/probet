@@ -1,0 +1,19 @@
+2018-07-03 09:35:14,549|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 17085, datetime.datetime(2018, 7, 2, 9, 39, 31))
+2018-07-03 09:35:14,552|ERROR|oss_svr.py:90|__initData|bill log is between two days
+2018-07-03 09:35:19,252|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '15b0170e-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,261|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '16bfd9ff-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,272|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '17dd6b44-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,281|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '17dd6b45-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,290|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '19031c62-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,300|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '16bfd9fe-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,312|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1a2cd133-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,322|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1b619a1b-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,331|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1a2cd132-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,339|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '19031c63-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,348|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1b619a1a-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,357|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1c7763f8-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:35:19,373|ERROR|ossFile.py:337|deal_with_pay_bill|IntegrityError(1062, "Duplicate entry '1c7763f9-7b91-11e8-a0a8-000c29bf6fb0' for key 'PRIMARY'")
+2018-07-03 09:36:10,772|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=117708.545542605 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.135 seconds
+2018-07-03 11:54:47,946|WARNING|base_events.py:1308|_run_once|Executing <Task finished coro=<__secTickCallLater() done, defined at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:26> result=None created at /usr/lib/python3.5/asyncio/tasks.py:532> took 0.123 seconds
+2018-07-03 14:08:49,241|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=134067.040177179 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.107 seconds
+2018-07-03 18:06:26,553|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=148324.199288772 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.138 seconds

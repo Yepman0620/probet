@@ -1,0 +1,412 @@
+2018-06-26 19:37:36,599|ERROR|tools.py:59|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-06-26 19:37:36,806|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-26 19:37:36,902|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:36 +0000] "POST /player/system_manage/getAllActions HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:37:36,930|ERROR|tools.py:59|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-06-26 19:37:36,933|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-26 19:37:36,938|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:36 +0000] "POST /player/system_manage/getAllRole HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:37:43,154|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:43 +0000] "POST /player/system_manage/login HTTP/1.1" 200 745 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:37:47,518|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:47 +0000] "POST /player/system_manage/getAllActions HTTP/1.1" 200 719 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:37:47,581|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:47 +0000] "POST /player/system_manage/getAllRole HTTP/1.1" 200 850 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:37:51,408|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:37:51 +0000] "POST /player/system_manage/getAllAccount HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:39:45,816|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:39:45 +0000] "POST /player/system_manage/login HTTP/1.1" 200 742 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:40:02,354|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:40:02 +0000] "POST /player/system_manage/login HTTP/1.1" 200 743 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:40:13,725|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:40:13 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:40:13,794|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:40:13 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:40:13,806|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:40:13 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:41:07,210|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:41:07 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:41:07,225|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:41:07 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:41:07,232|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:41:07 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:41:21,240|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:41:21 +0000] "POST /player/msg_manage/getSysMsgHistory HTTP/1.1" 200 989 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:41:22,007|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:41:22 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:41:35,799|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:41:35 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:22,032|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:22 +0000] "POST /player/msg_manage/getSysMsgHistory HTTP/1.1" 200 989 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:22,657|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:22 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:22,691|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:22 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:22,697|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:22 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:40,094|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:40,100|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:40,105|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:43:50,291|INFO|helpers.py:529|log|192.168.1.171 - - [26/Jun/2018:11:43:50 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-26 19:44:40,222|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:44:40,258|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:44:40,278|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:40 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 478 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:44:51,698|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:51 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:44:54,297|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:54 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:44:58,502|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:44:58 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 490 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:45:15,588|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:45:15 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:45:17,313|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:45:17 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:45:45,863|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:45:45 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 308 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:45:48,312|DEBUG|getTransInfoByParams.py:168|handleHttp|"Could not locate column in row for column 'orderTime'"
+2018-06-26 19:45:48,316|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:45:48,325|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:45:48 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:46:51,851|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 19:46:51,875|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 19:46:51,876|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 19:46:51,877|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 19:46:51,878|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 19:46:51,887|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 19:46:51,887|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 19:46:51,888|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 19:46:51,930|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 19:46:51,932|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 19:46:51,938|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 19:46:51,939|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 19:46:51,939|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 19:46:51,958|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 19:46:51,959|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 19:46:51,974|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 19:46:51,974|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 19:46:51,975|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 19:46:52,032|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 19:46:52,043|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 19:46:52,043|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 19:46:52,045|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 19:46:52,046|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 19:46:52,046|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 19:46:52,047|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 19:46:52,057|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 19:46:52,058|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 19:46:52,059|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 19:46:52,059|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 19:46:52,060|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 19:46:52,060|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 19:46:52,061|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 19:46:52,071|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 19:46:52,072|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 19:46:52,079|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 19:46:52,080|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 19:46:52,080|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 19:46:52,081|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 19:46:52,084|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 19:46:52,085|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 19:46:52,105|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 19:46:52,109|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 19:47:08,700|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 19:48:41,205|ERROR|getTransInfoByParams.py:165|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 19:48:41,206|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:48:41,211|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:48:41 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:48:50,704|DEBUG|getTransInfoByParams.py:168|handleHttp|"Could not locate column in row for column 'orderTime'"
+2018-06-26 19:48:50,705|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:48:50,707|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:48:50 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:50:01,554|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 19:50:01,556|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 19:50:01,557|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 19:50:01,557|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 19:50:01,559|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 19:50:01,560|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 19:50:01,560|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 19:50:01,561|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 19:50:01,562|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 19:50:01,563|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 19:50:01,564|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 19:50:01,564|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 19:50:01,565|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 19:50:01,566|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 19:50:01,575|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 19:50:01,576|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 19:50:01,577|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 19:50:01,578|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 19:50:01,582|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 19:50:01,583|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 19:50:01,583|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 19:50:01,584|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 19:50:01,584|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 19:50:01,585|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 19:50:01,585|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 19:50:01,586|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 19:50:01,586|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 19:50:01,587|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 19:50:01,587|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 19:50:01,588|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 19:50:01,588|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 19:50:01,589|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 19:50:01,590|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 19:50:01,591|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 19:50:01,592|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 19:50:01,593|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 19:50:01,593|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 19:50:01,594|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 19:50:01,595|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 19:50:01,595|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 19:50:01,597|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 19:50:01,598|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 19:50:04,906|DEBUG|getTransInfoByParams.py:168|handleHttp|"Could not locate column in row for column 'orderTime'"
+2018-06-26 19:50:04,907|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:50:04,925|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:50:04 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:51:01,592|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 19:51:14,311|ERROR|getTransInfoByParams.py:165|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 19:51:14,312|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:51:14,314|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:51:14 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:51:59,264|DEBUG|getTransInfoByParams.py:168|handleHttp|"Could not locate column in row for column 'orderTime'"
+2018-06-26 19:51:59,265|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:51:59,287|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:51:59 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:56:58,934|DEBUG|getTransInfoByParams.py:169|handleHttp|"Could not locate column in row for column 'orderTime'"
+2018-06-26 19:56:58,935|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 19:56:58,940|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:56:58 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:58:53,346|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:58:53 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 486 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:32,556|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:32 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:37,637|DEBUG|getTransInfoByParams.py:61|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 19:59:37,637|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 19:59:37,638|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 19:59:37,640|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:37 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:40,764|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 19:59:40,765|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 19:59:40,766|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 19:59:40,769|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:40 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:42,805|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:42 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:50,430|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:50 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:52,337|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:52 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 19:59:53,949|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:11:59:53 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:00:08,471|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:00:08 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:00:14,293|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:00:14 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:00:40,058|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*='9' AND tradeType=1  limit 10 offset 0' at line 1")
+2018-06-26 20:00:40,058|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:00:40,059|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:00:40,060|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:00:40 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:00:42,905|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*='9' AND tradeType=1  limit 10 offset 0' at line 1")
+2018-06-26 20:00:42,905|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:00:42,906|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:00:42,907|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:00:42 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:01:08,594|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 20:01:08,595|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 20:01:08,596|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 20:01:08,596|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 20:01:08,598|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 20:01:08,601|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 20:01:08,602|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 20:01:08,603|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 20:01:08,605|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 20:01:08,605|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 20:01:08,607|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 20:01:08,608|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 20:01:08,608|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 20:01:08,610|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 20:01:08,610|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 20:01:08,611|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 20:01:08,612|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 20:01:08,612|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 20:01:08,617|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 20:01:08,618|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 20:01:08,618|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 20:01:08,619|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 20:01:08,619|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 20:01:08,620|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 20:01:08,620|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 20:01:08,621|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 20:01:08,622|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 20:01:08,622|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 20:01:08,623|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 20:01:08,623|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 20:01:08,624|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 20:01:08,624|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 20:01:08,625|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 20:01:08,625|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 20:01:08,626|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 20:01:08,627|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 20:01:08,627|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 20:01:08,628|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 20:01:08,629|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 20:01:08,629|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 20:01:08,632|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 20:01:08,633|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 20:01:38,544|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:02:21,812|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:02:21,813|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:02:21,815|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:02:21 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:02:27,398|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*='9' AND tradeType=1  limit 10 offset 0' at line 1")
+2018-06-26 20:02:27,403|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:02:27,404|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:02:27,405|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:02:27 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:03:50,930|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:04:02,995|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:04:02,996|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:04:02,998|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:04:02 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:04:33,468|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:05:54,282|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:05:54,282|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:05:54,285|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:05:54 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:06:00,031|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:06:00 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:06:17,608|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:06:17 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 552 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:06:58,049|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:06:58 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 552 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:04,620|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:04 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:05,841|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:05 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:07,501|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:07 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:08,759|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:08 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:09,985|DEBUG|sqlBaseMgr.py:73|_exeCute|(1111, 'Invalid use of group function')
+2018-06-26 20:07:09,986|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:07:09,986|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:07:09,988|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:09 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:13,101|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:13 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:15,075|DEBUG|sqlBaseMgr.py:73|_exeCute|(1111, 'Invalid use of group function')
+2018-06-26 20:07:15,076|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:07:15,076|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:07:15,078|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:07:15 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:07:34,597|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 20:07:34,600|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 20:07:34,601|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 20:07:34,601|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 20:07:34,602|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 20:07:34,603|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 20:07:34,604|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 20:07:34,605|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 20:07:34,606|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 20:07:34,607|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 20:07:34,608|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 20:07:34,608|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 20:07:34,609|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 20:07:34,610|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 20:07:34,611|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 20:07:34,613|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 20:07:34,614|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 20:07:34,614|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 20:07:34,619|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 20:07:34,619|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 20:07:34,620|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 20:07:34,620|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 20:07:34,621|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 20:07:34,622|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 20:07:34,622|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 20:07:34,623|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 20:07:34,623|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 20:07:34,624|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 20:07:34,624|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 20:07:34,624|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 20:07:34,625|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 20:07:34,625|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 20:07:34,626|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 20:07:34,627|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 20:07:34,627|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 20:07:34,628|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 20:07:34,629|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 20:07:34,630|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 20:07:34,631|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 20:07:34,632|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 20:07:34,635|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 20:07:34,636|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 20:07:57,146|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:08:22,344|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:08:22,345|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:08:22,348|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:08:22 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:09:24,076|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:09:27,217|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:09:27,218|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:09:27,220|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:09:27 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:12:42,077|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:12:42,078|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:12:42,079|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:12:42,081|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:12:42 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:12:47,898|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:12:47 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 436 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:12:52,664|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:12:52 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 436 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:07,896|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:13:07 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 410 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:10,401|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:13:10 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:30,372|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 20:13:30,373|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:30,373|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:30,375|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:13:30 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:33,858|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 20:13:33,859|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:33,859|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:33,864|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:13:33 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:35,365|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 20:13:35,366|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:35,366|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 20:13:35,368|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:13:35 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:13:47,271|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 20:13:47,273|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 20:13:47,274|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 20:13:47,274|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 20:13:47,282|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 20:13:47,284|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 20:13:47,285|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 20:13:47,286|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 20:13:47,288|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 20:13:47,288|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 20:13:47,289|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 20:13:47,290|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 20:13:47,290|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 20:13:47,292|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 20:13:47,293|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 20:13:47,294|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 20:13:47,295|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 20:13:47,296|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 20:13:47,300|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 20:13:47,301|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 20:13:47,301|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 20:13:47,302|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 20:13:47,302|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 20:13:47,303|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 20:13:47,303|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 20:13:47,304|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 20:13:47,305|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 20:13:47,305|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 20:13:47,306|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 20:13:47,306|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 20:13:47,307|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 20:13:47,307|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 20:13:47,308|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 20:13:47,309|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 20:13:47,310|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 20:13:47,311|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 20:13:47,313|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 20:13:47,314|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 20:13:47,315|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 20:13:47,316|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 20:13:47,319|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 20:13:47,320|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 20:14:06,547|DEBUG|sqlBaseMgr.py:73|_exeCute|
+2018-06-26 20:14:06,548|ERROR|getTransInfoByParams.py:166|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-26 20:14:06,549|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-26 20:14:06,551|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:14:06 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:14:50,569|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 20:14:50,570|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 20:14:50,571|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 20:14:50,573|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:14:50 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:14:58,590|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-26 20:14:58,592|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-26 20:14:58,594|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-26 20:14:58,595|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-26 20:14:58,595|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-26 20:14:58,596|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-26 20:14:58,597|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-26 20:14:58,597|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-26 20:14:58,600|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-26 20:14:58,601|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-26 20:14:58,603|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-26 20:14:58,604|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-26 20:14:58,604|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-26 20:14:58,606|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-26 20:14:58,607|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-26 20:14:58,608|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-26 20:14:58,610|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-26 20:14:58,611|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-26 20:14:58,615|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-26 20:14:58,616|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-26 20:14:58,616|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-26 20:14:58,617|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-26 20:14:58,617|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-26 20:14:58,618|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-26 20:14:58,618|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-26 20:14:58,619|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-26 20:14:58,620|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-26 20:14:58,620|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-26 20:14:58,621|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-26 20:14:58,621|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-26 20:14:58,622|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-26 20:14:58,623|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-26 20:14:58,623|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-26 20:14:58,624|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-26 20:14:58,626|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-26 20:14:58,627|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-26 20:14:58,628|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-26 20:14:58,628|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-26 20:14:58,629|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-26 20:14:58,630|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-26 20:14:58,631|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-26 20:14:58,632|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-26 20:15:37,993|DEBUG|getTransInfoByParams.py:70|handleHttp|[202, '提醒|账号未找到']
+2018-06-26 20:15:37,994|ERROR|getTransInfoByParams.py:166|handleHttp|[202] [提醒|账号未找到] []
+2018-06-26 20:15:37,994|ERROR|gmweb_svr.py:106|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-26 20:15:37,998|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:15:37 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-26 20:16:25,070|INFO|helpers.py:529|log|192.168.1.120 - - [26/Jun/2018:12:16:25 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 445 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"

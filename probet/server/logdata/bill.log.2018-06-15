@@ -1,0 +1,11 @@
+2018-06-15 10:31:26,682|singleLogger init finish
+2018-06-15 10:44:27,721|{"billType": "regBill", "agentId": "", "channel": 0, "accountId": "17319020115", "regTime": 1529030667, "regDevice": "", "regIp": ""}
+2018-06-15 11:01:20,216|singleLogger init finish
+2018-06-15 11:16:56,149|{"orderState": 1, "firstPayCoin": 100000, "payIp": "", "payCoin": 100000, "accountId": "test1", "payTime": 1529032616, "orderId": "8edaa718-704a-11e8-8e35-000c29bf6fb0", "billType": "payBill", "payChannel": "BankTransfer"}
+2018-06-15 11:17:09,841|{"orderState": 1, "firstPayCoin": 100000, "payIp": "", "payCoin": 100000, "accountId": "test1", "payTime": 1529032629, "orderId": "970414a6-704a-11e8-8e35-000c29bf6fb0", "billType": "payBill", "payChannel": "BankTransfer"}
+2018-06-15 11:17:21,036|{"orderState": 1, "firstPayCoin": 300000, "payIp": "", "payCoin": 300000, "accountId": "test1", "payTime": 1529032641, "orderId": "9db037a8-704a-11e8-8e35-000c29bf6fb0", "billType": "payBill", "payChannel": "BankTransfer"}
+2018-06-15 11:18:03,860|singleLogger init finish
+2018-06-15 11:18:08,193|{"payChannel": "BankTransfer", "payIp": "", "payCoin": 300000, "firstPayCoin": 300000, "orderId": "b9cb873a-704a-11e8-8e35-000c29bf6fb0", "accountId": "test1", "payTime": 1529032688, "orderState": 1, "billType": "payBill"}
+2018-06-15 11:18:39,133|{"payChannel": "BankTransfer", "payIp": "", "payCoin": 300000, "firstPayCoin": 300000, "orderId": "cc3ca9e4-704a-11e8-8e35-000c29bf6fb0", "accountId": "test1", "payTime": 1529032719, "orderState": 1, "billType": "payBill"}
+2018-06-15 11:19:20,025|{"payChannel": "BankTransfer", "payIp": "", "payCoin": 300000, "firstPayCoin": 300000, "orderId": "e49c87a2-704a-11e8-8e35-000c29bf6fb0", "accountId": "test1", "payTime": 1529032760, "orderState": 1, "billType": "payBill"}
+2018-06-15 16:18:39,246|singleLogger init finish

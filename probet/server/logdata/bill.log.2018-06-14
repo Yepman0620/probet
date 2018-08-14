@@ -1,0 +1,21 @@
+2018-06-14 14:53:48,381|singleLogger init finish
+2018-06-14 14:53:52,788|{"loginTime": 1528959232, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 14:57:51,005|{"loginTime": 1528959471, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:01:09,947|{"loginTime": 1528959669, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:04:07,452|{"loginTime": 1528959847, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:23:16,973|{"loginTime": 1528960996, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:24:35,065|{"loginTime": 1528961075, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:25:16,171|{"loginTime": 1528961116, "vipExp": 0, "billType": "loginBill", "vipLevel": 0, "loginDevice": "", "coin": 100000, "accountId": "test2", "loginIp": ""}
+2018-06-14 15:27:16,995|singleLogger init finish
+2018-06-14 15:27:59,272|{"loginTime": 1528961279, "loginDevice": "", "coin": 100000, "loginIp": "", "accountId": "test2", "billType": "loginBill", "vipLevel": 0, "vipExp": 0}
+2018-06-14 16:01:43,516|singleLogger init finish
+2018-06-14 16:01:57,211|{"regDevice": "", "accountId": "test10", "regIp": "", "channel": 0, "regTime": 1528963317, "billType": "regBill", "agentId": ""}
+2018-06-14 16:02:59,528|singleLogger init finish
+2018-06-14 16:05:19,660|{"regIp": "", "channel": 0, "accountId": "test11", "regDevice": "", "agentId": "", "billType": "regBill", "regTime": 1528963519}
+2018-06-14 19:05:28,921|singleLogger init finish
+2018-06-14 21:08:43,499|{"coin": 4200, "billType": "loginBill", "accountId": "test1", "loginIp": "", "loginDevice": "", "vipLevel": 9, "loginTime": 1528981723, "vipExp": 0}
+2018-06-14 21:11:03,159|singleLogger init finish
+2018-06-14 21:17:25,057|{"orderState": 1, "payTime": 1528982245, "billType": "payBill", "payIp": "", "accountId": "test1", "payChannel": "BankTransfer", "payCoin": 100000, "orderId": "47567374-6fd5-11e8-8e35-000c29bf6fb0"}
+2018-06-14 21:18:34,078|singleLogger init finish
+2018-06-14 21:32:14,870|singleLogger init finish
+2018-06-14 21:50:06,222|singleLogger init finish

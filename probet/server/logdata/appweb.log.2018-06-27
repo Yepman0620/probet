@@ -1,0 +1,1156 @@
+2018-06-27 13:45:59,726|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.03345322608947754]
+2018-06-27 13:45:59,749|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:05:45:59 +0000] "POST /player/login HTTP/1.1" 200 440 "-" "PostmanRuntime/7.1.1"
+2018-06-27 13:47:45,582|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:05:47:45 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 404 244 "-" "PostmanRuntime/7.1.1"
+2018-06-27 13:56:35,690|ERROR|appweb_svr.py:115|handlerWebApp|'level'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/joinOncePayRebate.py", line 19, in handleHttp
+    iLevel = int(dictParam["level"])
+KeyError: 'level'
+2018-06-27 13:56:35,695|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:05:56:35 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 287 "-" "PostmanRuntime/7.1.1"
+2018-06-27 13:56:48,099|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 13:56:48,101|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 13:56:48,102|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 13:56:48,102|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 13:56:48,103|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 13:56:48,104|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 13:56:48,104|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 13:56:48,105|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 13:56:48,107|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 13:56:48,107|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 13:56:48,123|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 13:56:48,124|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 13:56:48,124|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 13:56:48,126|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 13:56:48,126|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 13:56:48,127|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 13:56:48,128|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 13:56:48,128|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 13:56:48,133|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 13:56:48,134|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 13:56:48,134|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 13:56:48,136|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 13:56:48,136|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 13:56:48,137|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 13:56:48,138|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 13:56:48,139|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 13:56:48,139|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 13:56:48,140|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 13:56:48,140|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 13:56:48,141|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 13:56:48,141|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 13:56:48,142|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 13:56:48,142|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 13:56:48,143|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 13:56:48,143|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 13:56:48,144|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 13:56:48,145|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 13:56:48,145|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 13:56:48,146|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 13:56:48,147|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 13:56:48,148|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 13:56:48,149|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 13:57:15,575|ERROR|appweb_svr.py:111|handlerWebApp|[302] [错误|活动已经过期,请咨询客服人员] []
+2018-06-27 13:57:22,662|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:05:57:22 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.1"
+2018-06-27 13:58:37,911|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 13:58:37,913|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 13:58:37,913|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 13:58:37,914|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 13:58:37,915|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 13:58:37,915|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 13:58:37,916|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 13:58:37,917|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 13:58:37,918|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 13:58:37,918|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 13:58:37,921|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 13:58:37,922|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 13:58:37,923|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 13:58:37,924|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 13:58:37,925|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 13:58:37,925|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 13:58:37,926|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 13:58:37,927|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 13:58:37,930|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 13:58:37,931|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 13:58:37,931|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 13:58:37,932|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 13:58:37,932|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 13:58:37,933|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 13:58:37,934|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 13:58:37,934|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 13:58:37,935|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 13:58:37,935|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 13:58:37,936|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 13:58:37,936|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 13:58:37,937|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 13:58:37,938|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 13:58:37,938|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 13:58:37,939|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 13:58:37,939|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 13:58:37,940|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 13:58:37,940|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 13:58:37,940|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 13:58:37,941|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 13:58:37,942|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 13:58:37,943|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 13:58:37,944|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 13:58:40,525|ERROR|appweb_svr.py:115|handlerWebApp|getActiveDataByLock() missing 1 required positional argument: 'reenTrantLock'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/joinOncePayRebate.py", line 25, in handleHttp
+    yield from joinOncePayRebateActive(strAccountId, iLevel)
+  File "/home/python/Desktop/company_project/server/appweb/logic/active.py", line 68, in joinOncePayRebateActive
+    objActiveData, objActiveLock = yield from classDataBaseMgr.getInstance().getActiveDataByLock(strAccountId)
+TypeError: getActiveDataByLock() missing 1 required positional argument: 'reenTrantLock'
+2018-06-27 13:58:40,532|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:05:58:40 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 355 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:04:37,705|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:04:37,706|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:04:37,707|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:04:37,708|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:04:37,708|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:04:37,709|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:04:37,710|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:04:37,711|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:04:37,712|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:04:37,713|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:04:37,718|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:04:37,719|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:04:37,719|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:04:37,721|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:04:37,721|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:04:37,722|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:04:37,723|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:04:37,724|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:04:37,727|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:04:37,732|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:04:37,732|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:04:37,733|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:04:37,733|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:04:37,734|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:04:37,734|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:04:37,735|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:04:37,736|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:04:37,736|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:04:37,737|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:04:37,737|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:04:37,738|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:04:37,738|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:04:37,739|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:04:37,739|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:04:37,740|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:04:37,741|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:04:37,741|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:04:37,742|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:04:37,743|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:04:37,743|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:04:37,745|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:04:37,747|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:04:43,300|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 14:04:43,302|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:04:43 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:04:50,520|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 14:04:50,522|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:04:50 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:16:55,996|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 14:16:55,998|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:16:55 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:16:56,014|ERROR|appweb_svr.py:115|handlerWebApp|
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 74, in handleHttp
+    objPlayerData  = yield from classDataBaseMgr.getInstance().getPlayerData(strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/dataBaseMgr.py", line 217, in getPlayerData
+    bytesPlayerData = yield from redis.hget(playerDataHash, accountId)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 266, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+2018-06-27 14:16:56,027|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:16:56 +0000] "POST /player/regist HTTP/1.1" 200 287 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:16:56,029|ERROR|appweb_svr.py:115|handlerWebApp|
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 74, in handleHttp
+    objPlayerData  = yield from classDataBaseMgr.getInstance().getPlayerData(strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/dataBaseMgr.py", line 215, in getPlayerData
+    with (yield from self.dictAioRedis[userConfig].getRedisPool()) as redis:
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 279, in __iter__
+    conn = yield from self.acquire()
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 189, in acquire
+    yield from self._cond.wait()
+  File "/usr/lib/python3.5/asyncio/locks.py", line 326, in wait
+    yield from fut
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 266, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+2018-06-27 14:16:56,034|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:16:56 +0000] "POST /player/regist HTTP/1.1" 200 287 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:17:11,762|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005362272262573242]
+2018-06-27 14:17:11,776|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-27 14:17:11,776|ERROR|appweb_svr.py:115|handlerWebApp|string indices must be integers
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 97, in handleHttp
+    yield from initActiveData(strAccountId)
+  File "/home/python/Desktop/company_project/server/appweb/logic/active.py", line 23, in initActiveData
+    if (var_cfg["actStartTime"]) < iNowTime and (iNowTime < var_cfg["actEndTime"]):
+TypeError: string indices must be integers
+2018-06-27 14:17:11,784|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:17:11 +0000] "POST /player/regist HTTP/1.1" 200 314 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:22:13,845|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 14:22:13,846|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:22:13 +0000] "POST /player/regist HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:22:30,594|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.013506412506103516]
+2018-06-27 14:22:30,722|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:22:30,724|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:22:30,725|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:22:30,725|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:22:30,726|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:22:30,727|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:22:30,727|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:22:30,728|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:22:30,729|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:22:30,730|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:22:30,733|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:22:30,734|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:22:30,734|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:22:30,736|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:22:30,736|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:22:30,738|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:22:30,739|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:22:30,740|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:22:30,744|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:22:30,744|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:22:30,745|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:22:30,746|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:22:30,746|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:22:30,747|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:22:30,747|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:22:30,748|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:22:30,749|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:22:30,749|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:22:30,750|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:22:30,750|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:22:30,750|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:22:30,751|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:22:30,752|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:22:30,752|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:22:30,753|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:22:30,753|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:22:30,754|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:22:30,754|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:22:30,755|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:22:30,756|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:22:30,758|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:22:30,758|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:23:47,626|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-27 14:24:46,125|ERROR|appweb_svr.py:115|handlerWebApp|string indices must be integers
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 97, in handleHttp
+    yield from initActiveData(strAccountId)
+  File "/home/python/Desktop/company_project/server/appweb/logic/active.py", line 23, in initActiveData
+    if (var_cfg["actStartTime"]) < iNowTime and (iNowTime < var_cfg["actEndTime"]):
+TypeError: string indices must be integers
+2018-06-27 14:25:10,307|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:25:10 +0000] "POST /player/regist HTTP/1.1" 200 314 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:27:11,646|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.01051783561706543]
+2018-06-27 14:27:11,686|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-27 14:28:43,446|ERROR|appweb_svr.py:115|handlerWebApp|string indices must be integers
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 97, in handleHttp
+    yield from initActiveData(strAccountId)
+  File "/home/python/Desktop/company_project/server/appweb/logic/active.py", line 23, in initActiveData
+    if (var_cfg["actStartTime"]) < iNowTime and (iNowTime < var_cfg["actEndTime"]):
+TypeError: string indices must be integers
+2018-06-27 14:28:43,450|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:28:43 +0000] "POST /player/regist HTTP/1.1" 200 314 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:29:04,223|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.04087090492248535]
+2018-06-27 14:29:04,414|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:29:04,418|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:29:04,421|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:29:04,423|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:29:04,424|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:29:04,425|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:29:04,429|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:29:04,429|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:29:04,431|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:29:04,433|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:29:04,442|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:29:04,443|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:29:04,445|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:29:04,447|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:29:04,449|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:29:04,450|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:29:04,451|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:29:04,453|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:29:04,457|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:29:04,461|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:29:04,462|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:29:04,465|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:29:04,465|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:29:04,466|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:29:04,466|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:29:04,467|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:29:04,467|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:29:04,470|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:29:04,471|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:29:04,471|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:29:04,471|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:29:04,472|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:29:04,474|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:29:04,475|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:29:04,476|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:29:04,476|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:29:04,477|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:29:04,481|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:29:04,482|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:29:04,483|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:29:04,490|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:29:04,491|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:32:02,115|ERROR|appweb_svr.py:115|handlerWebApp|tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 97, in handleHttp
+    yield from initActiveData(strAccountId)
+  File "/home/python/Desktop/company_project/server/appweb/logic/active.py", line 23, in initActiveData
+    if (var_cfg["actStartTime"]) < iNowTime and (iNowTime < var_cfg["actEndTime"]):
+TypeError: tuple indices must be integers or slices, not str
+2018-06-27 14:32:02,119|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:32:02 +0000] "POST /player/regist HTTP/1.1" 200 326 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:32:26,432|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.012130022048950195]
+2018-06-27 14:32:26,533|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:32:26,535|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:32:26,537|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:32:26,539|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:32:26,540|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:32:26,541|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:32:26,541|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:32:26,542|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:32:26,544|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:32:26,545|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:32:26,547|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:32:26,548|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:32:26,549|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:32:26,550|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:32:26,551|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:32:26,551|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:32:26,552|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:32:26,554|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:32:26,558|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:32:26,559|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:32:26,559|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:32:26,560|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:32:26,560|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:32:26,561|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:32:26,561|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:32:26,562|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:32:26,563|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:32:26,563|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:32:26,564|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:32:26,564|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:32:26,564|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:32:26,565|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:32:26,566|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:32:26,566|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:32:26,567|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:32:26,567|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:32:26,568|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:32:26,568|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:32:26,569|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:32:26,570|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:32:26,572|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:32:26,572|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:33:03,890|ERROR|appweb_svr.py:115|handlerWebApp|setActiveDataByLock() missing 1 required positional argument: 'activeData'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 99, in handleHttp
+    yield from classDataBaseMgr.getInstance().setActiveDataByLock()
+TypeError: setActiveDataByLock() missing 1 required positional argument: 'activeData'
+2018-06-27 14:33:03,895|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:33:03 +0000] "POST /player/regist HTTP/1.1" 200 349 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:33:50,529|ERROR|appweb_svr.py:111|handlerWebApp|[218] [提醒|请使用字母开头和数字组合8-16长度的密码] []
+2018-06-27 14:33:50,533|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:33:50 +0000] "POST /player/regist HTTP/1.1" 200 356 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:34:01,870|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.014472723007202148]
+2018-06-27 14:34:01,919|ERROR|appweb_svr.py:115|handlerWebApp|setActiveDataByLock() missing 1 required positional argument: 'activeData'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 99, in handleHttp
+    yield from classDataBaseMgr.getInstance().setActiveDataByLock()
+TypeError: setActiveDataByLock() missing 1 required positional argument: 'activeData'
+2018-06-27 14:34:01,924|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:34:01 +0000] "POST /player/regist HTTP/1.1" 200 348 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:35:48,723|DEBUG|pinboRegister.py:35|register_pinbo|112:Login id is not valid.登录名无效
+2018-06-27 14:35:48,728|ERROR|appweb_svr.py:111|handlerWebApp|[112] [Login id is not valid.登录名无效] []
+2018-06-27 14:35:48,733|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:35:48 +0000] "POST /player/regist HTTP/1.1" 200 321 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:35:58,835|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006721019744873047]
+2018-06-27 14:35:58,974|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:35:58,977|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:35:58,981|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:35:58,982|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:35:58,983|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:35:58,984|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:35:58,985|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:35:58,987|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:35:58,988|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:35:58,989|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:35:58,992|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:35:58,993|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:35:58,994|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:35:58,997|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:35:58,998|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:35:58,999|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:35:58,999|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:35:59,000|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:35:59,004|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:35:59,005|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:35:59,005|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:35:59,006|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:35:59,006|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:35:59,007|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:35:59,007|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:35:59,008|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:35:59,009|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:35:59,009|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:35:59,010|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:35:59,010|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:35:59,011|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:35:59,011|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:35:59,013|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:35:59,014|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:35:59,015|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:35:59,015|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:35:59,016|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:35:59,016|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:35:59,017|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:35:59,018|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:35:59,019|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:35:59,020|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:36:21,988|ERROR|appweb_svr.py:115|handlerWebApp|setActiveDataByLock() missing 1 required positional argument: 'activeData'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/regist.py", line 99, in handleHttp
+    yield from classDataBaseMgr.getInstance().setActiveDataByLock()
+TypeError: setActiveDataByLock() missing 1 required positional argument: 'activeData'
+2018-06-27 14:36:21,992|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:36:21 +0000] "POST /player/regist HTTP/1.1" 200 348 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:44:49,818|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007466554641723633]
+2018-06-27 14:44:49,839|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:44:49 +0000] "POST /player/regist HTTP/1.1" 200 419 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:45:53,450|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.002191305160522461]
+2018-06-27 14:45:53,596|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:45:53,602|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:45:53,605|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:45:53,605|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:45:53,606|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:45:53,607|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:45:53,608|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:45:53,609|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:45:53,610|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:45:53,613|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:45:53,628|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:45:53,629|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:45:53,629|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:45:53,631|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:45:53,631|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:45:53,633|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:45:53,634|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:45:53,637|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:45:53,640|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:45:53,645|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:45:53,646|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:45:53,646|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:45:53,647|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:45:53,647|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:45:53,649|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:45:53,650|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:45:53,650|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:45:53,652|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:45:53,653|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:45:53,653|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:45:53,654|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:45:53,654|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:45:53,656|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:45:53,661|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:45:53,662|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:45:53,663|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:45:53,663|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:45:53,664|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:45:53,664|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:45:53,665|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:45:53,666|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:45:53,668|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:47:06,162|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:47:06 +0000] "POST /player/regist HTTP/1.1" 200 418 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:47:20,372|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.02081775665283203]
+2018-06-27 14:47:20,480|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:47:20,482|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:47:20,483|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:47:20,484|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:47:20,484|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:47:20,485|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:47:20,486|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:47:20,486|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:47:20,489|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:47:20,490|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:47:20,495|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:47:20,495|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:47:20,496|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:47:20,497|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:47:20,498|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:47:20,499|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:47:20,500|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:47:20,501|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:47:20,505|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:47:20,506|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:47:20,507|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:47:20,507|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:47:20,508|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:47:20,508|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:47:20,509|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:47:20,510|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:47:20,510|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:47:20,511|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:47:20,511|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:47:20,512|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:47:20,512|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:47:20,513|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:47:20,513|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:47:20,514|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:47:20,514|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:47:20,515|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:47:20,515|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:47:20,516|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:47:20,517|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:47:20,517|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:47:20,519|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:47:20,519|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:49:42,923|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:49:42 +0000] "POST /player/regist HTTP/1.1" 200 421 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:49:59,735|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.023440837860107422]
+2018-06-27 14:49:59,761|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:49:59 +0000] "POST /player/regist HTTP/1.1" 200 420 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:50:31,145|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.02852010726928711]
+2018-06-27 14:50:31,379|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 14:50:31,388|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 14:50:31,389|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 14:50:31,389|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 14:50:31,390|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 14:50:31,391|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 14:50:31,391|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 14:50:31,393|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 14:50:31,396|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 14:50:31,399|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 14:50:31,403|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 14:50:31,409|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 14:50:31,410|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 14:50:31,411|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 14:50:31,416|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 14:50:31,417|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 14:50:31,417|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 14:50:31,418|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 14:50:31,424|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 14:50:31,429|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 14:50:31,429|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 14:50:31,430|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 14:50:31,430|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 14:50:31,431|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 14:50:31,432|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 14:50:31,436|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 14:50:31,436|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 14:50:31,437|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 14:50:31,437|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 14:50:31,438|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 14:50:31,438|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 14:50:31,439|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 14:50:31,439|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 14:50:31,440|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 14:50:31,440|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 14:50:31,441|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 14:50:31,442|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 14:50:31,444|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 14:50:31,444|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 14:50:31,445|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 14:50:31,447|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 14:50:31,453|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 14:50:51,750|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:50:51 +0000] "POST /player/regist HTTP/1.1" 200 416 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:53:57,632|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 14:53:57,634|ERROR|appweb_svr.py:111|handlerWebApp|[111] [Login id ready exist in system.登录名在系统里已存在] []
+2018-06-27 14:53:57,637|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:53:57 +0000] "POST /player/regist HTTP/1.1" 200 351 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:54:12,091|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 14:54:12,092|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:54:12 +0000] "POST /player/regist HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:54:13,956|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 14:54:13,958|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:54:13 +0000] "POST /player/regist HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:54:14,885|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 14:54:14,886|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:54:14 +0000] "POST /player/regist HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:54:50,164|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 14:54:50,176|ERROR|appweb_svr.py:111|handlerWebApp|[111] [Login id ready exist in system.登录名在系统里已存在] []
+2018-06-27 14:54:50,184|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:54:50 +0000] "POST /player/regist HTTP/1.1" 200 351 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:55:17,496|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 14:55:17,501|ERROR|appweb_svr.py:111|handlerWebApp|[111] [Login id ready exist in system.登录名在系统里已存在] []
+2018-06-27 14:55:17,505|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:55:17 +0000] "POST /player/regist HTTP/1.1" 200 351 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:58:59,409|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 14:58:59,411|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:58:59 +0000] "POST /player/regist HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-27 14:59:16,380|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 14:59:16,948|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.03287911415100098]
+2018-06-27 14:59:16,977|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:06:59:16 +0000] "POST /player/regist HTTP/1.1" 200 417 "-" "PostmanRuntime/7.1.1"
+2018-06-27 15:32:58,993|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 15:32:59,572|ERROR|sqlBaseMgr.py:395|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.04097294807434082]
+2018-06-27 15:32:59,649|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:07:32:59 +0000] "POST /player/regist HTTP/1.1" 200 423 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:41:24,051|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-27 17:41:24,054|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:41:24 +0000] "POST /player/regist HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:41:49,773|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 17:41:50,325|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.014487504959106445]
+2018-06-27 17:41:50,450|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:41:50 +0000] "POST /player/regist HTTP/1.1" 200 421 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:43:29,676|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 17:43:29,677|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 17:43:29,678|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 17:43:29,679|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 17:43:29,680|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 17:43:29,681|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 17:43:29,681|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 17:43:29,682|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 17:43:29,684|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 17:43:29,685|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 17:43:29,688|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 17:43:29,689|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 17:43:29,689|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 17:43:29,690|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 17:43:29,691|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 17:43:29,692|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 17:43:29,692|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 17:43:29,693|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 17:43:29,697|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 17:43:29,698|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 17:43:29,699|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 17:43:29,699|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 17:43:29,700|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 17:43:29,700|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 17:43:29,701|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 17:43:29,702|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 17:43:29,702|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 17:43:29,703|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 17:43:29,703|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 17:43:29,704|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 17:43:29,704|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 17:43:29,705|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 17:43:29,706|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 17:43:29,706|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 17:43:29,707|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 17:43:29,707|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 17:43:29,708|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 17:43:29,708|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 17:43:29,709|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 17:43:29,710|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 17:43:29,711|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 17:43:29,712|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 17:43:47,436|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 31, in handleHttp
+    if objActiveData.dictActiveItem.get('1001').get('iActiveState')==1:
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 17:43:59,309|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:43:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 325 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:47:32,245|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 17:47:32,247|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:47:32 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:48:08,930|ERROR|appweb_svr.py:111|handlerWebApp|[302] [错误|活动已经过期,请咨询客服人员] []
+2018-06-27 17:48:08,933|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:48:08 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:50:45,445|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 17:50:45,447|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 17:50:45,449|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 17:50:45,450|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 17:50:45,451|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 17:50:45,453|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 17:50:45,454|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 17:50:45,467|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 17:50:45,468|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 17:50:45,469|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 17:50:45,519|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 17:50:45,520|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 17:50:45,521|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 17:50:45,522|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 17:50:45,523|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 17:50:45,523|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 17:50:45,524|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 17:50:45,526|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 17:50:45,530|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 17:50:45,531|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 17:50:45,531|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 17:50:45,532|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 17:50:45,533|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 17:50:45,533|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 17:50:45,534|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 17:50:45,535|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 17:50:45,535|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 17:50:45,536|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 17:50:45,537|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 17:50:45,538|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 17:50:45,538|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 17:50:45,539|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 17:50:45,539|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 17:50:45,540|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 17:50:45,541|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 17:50:45,541|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 17:50:45,542|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 17:50:45,542|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 17:50:45,543|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 17:50:45,544|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 17:50:45,545|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 17:50:45,546|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 17:52:22,498|ERROR|appweb_svr.py:111|handlerWebApp|[302] [错误|活动已经过期,请咨询客服人员] []
+2018-06-27 17:52:22,501|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:52:22 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:53:09,505|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 17:53:09,507|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 17:53:09,508|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 17:53:09,508|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 17:53:09,509|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 17:53:09,510|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 17:53:09,511|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 17:53:09,512|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 17:53:09,513|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 17:53:09,514|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 17:53:09,518|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 17:53:09,519|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 17:53:09,520|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 17:53:09,521|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 17:53:09,522|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 17:53:09,523|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 17:53:09,523|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 17:53:09,524|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 17:53:09,528|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 17:53:09,529|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 17:53:09,530|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 17:53:09,530|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 17:53:09,531|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 17:53:09,532|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 17:53:09,533|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 17:53:09,534|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 17:53:09,536|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 17:53:09,536|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 17:53:09,537|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 17:53:09,538|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 17:53:09,539|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 17:53:09,540|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 17:53:09,541|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 17:53:09,542|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 17:53:09,543|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 17:53:09,544|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 17:53:09,544|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 17:53:09,545|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 17:53:09,546|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 17:53:09,547|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 17:53:09,548|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 17:53:09,549|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 17:53:11,297|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:53:11 +0000] "POST /active/joinOncePayRebate HTTP/1.1" 200 248 "-" "PostmanRuntime/7.1.1"
+2018-06-27 17:54:05,936|DEBUG|pinboRegister.py:35|register_pinbo|111:Login id ready exist in system.登录名在系统里已存在
+2018-06-27 17:54:06,502|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.02353382110595703]
+2018-06-27 17:54:06,565|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:09:54:06 +0000] "POST /player/regist HTTP/1.1" 200 420 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:04:52,348|ERROR|appweb_svr.py:111|handlerWebApp|[210] [错误|用户鉴权信息过期，请重新登陆账号] []
+2018-06-27 18:04:52,350|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:04:52 +0000] "POST /player/deposit HTTP/1.1" 200 351 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:05:11,990|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.01650381088256836]
+2018-06-27 18:05:11,996|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:05:11 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:05:18,597|ERROR|appweb_svr.py:111|handlerWebApp|[230] [提醒|请选择正确的支付方式] []
+2018-06-27 18:05:18,599|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:05:18 +0000] "POST /player/deposit HTTP/1.1" 200 330 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:06:42,396|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.003312826156616211]
+2018-06-27 18:06:42,399|ERROR|appweb_svr.py:115|handlerWebApp|Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/random.py", line 253, in choice
+    i = self._randbelow(len(seq))
+  File "/usr/lib/python3.5/random.py", line 230, in _randbelow
+    r = getrandbits(k)          # 0 <= r < 2**k
+ValueError: number of bits must be greater than zero
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/player/deposit.py", line 101, in handleHttp
+    objRsp.data.payeeCardInfo = random.choice(accountInfoList)
+  File "/usr/lib/python3.5/random.py", line 255, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+2018-06-27 18:06:42,422|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:06:42 +0000] "POST /player/deposit HTTP/1.1" 200 322 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:12:07,357|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.002859830856323242]
+2018-06-27 18:12:07,392|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:12:07 +0000] "POST /player/deposit HTTP/1.1" 200 342 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:18:40,461|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.010255575180053711]
+2018-06-27 18:18:40,538|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:18:40 +0000] "POST /player/regist HTTP/1.1" 200 411 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:19:22,894|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.006600856781005859]
+2018-06-27 18:19:22,908|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:19:22 +0000] "POST /player/deposit HTTP/1.1" 200 342 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:23:38,580|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.024730920791625977]
+2018-06-27 18:23:38,610|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:23:38 +0000] "POST /player/regist HTTP/1.1" 200 417 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:23:56,167|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0024776458740234375]
+2018-06-27 18:23:56,181|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:23:56 +0000] "POST /player/deposit HTTP/1.1" 200 342 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:27:02,118|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 18:27:02,120|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:27:02 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:27:12,482|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 18:27:12,484|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 18:27:12,485|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 18:27:12,485|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 18:27:12,486|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 18:27:12,488|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 18:27:12,488|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 18:27:12,489|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 18:27:12,490|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 18:27:12,491|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 18:27:12,493|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 18:27:12,494|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 18:27:12,495|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 18:27:12,498|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 18:27:12,499|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 18:27:12,500|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 18:27:12,501|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 18:27:12,502|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 18:27:12,507|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 18:27:12,508|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 18:27:12,509|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 18:27:12,509|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 18:27:12,510|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 18:27:12,510|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 18:27:12,511|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 18:27:12,512|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 18:27:12,513|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 18:27:12,514|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 18:27:12,514|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 18:27:12,515|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 18:27:12,515|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 18:27:12,516|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 18:27:12,517|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 18:27:12,518|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 18:27:12,518|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 18:27:12,519|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 18:27:12,520|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 18:27:12,520|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 18:27:12,521|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 18:27:12,522|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 18:27:12,523|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 18:27:12,524|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 18:29:06,939|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-27 18:29:06,942|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:29:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:29:23,365|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 18:29:23,367|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 18:29:23,368|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 18:29:23,368|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 18:29:23,369|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 18:29:23,371|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 18:29:23,371|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 18:29:23,372|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 18:29:23,373|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 18:29:23,374|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 18:29:23,377|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 18:29:23,378|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 18:29:23,379|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 18:29:23,381|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 18:29:23,382|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 18:29:23,382|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 18:29:23,383|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 18:29:23,384|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 18:29:23,388|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 18:29:23,389|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 18:29:23,390|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 18:29:23,390|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 18:29:23,391|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 18:29:23,391|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 18:29:23,392|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 18:29:23,394|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 18:29:23,395|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 18:29:23,399|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 18:29:23,400|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 18:29:23,400|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 18:29:23,401|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 18:29:23,401|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 18:29:23,402|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 18:29:23,403|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 18:29:23,404|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 18:29:23,404|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 18:29:23,405|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 18:29:23,405|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 18:29:23,406|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 18:29:23,407|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 18:29:23,408|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 18:29:23,409|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 18:29:50,446|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get('1001').get('iActiveTime'))
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 18:29:50,451|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:29:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 325 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:31:20,153|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-27 18:31:20,156|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:31:20 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.1"
+2018-06-27 18:31:33,203|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 18:31:33,205|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 18:31:33,206|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 18:31:33,207|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 18:31:33,207|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 18:31:33,208|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 18:31:33,209|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 18:31:33,210|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 18:31:33,211|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 18:31:33,212|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 18:31:33,217|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 18:31:33,218|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 18:31:33,220|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 18:31:33,221|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 18:31:33,222|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 18:31:33,223|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 18:31:33,224|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 18:31:33,225|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 18:31:33,231|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 18:31:33,232|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 18:31:33,233|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 18:31:33,234|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 18:31:33,234|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 18:31:33,235|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 18:31:33,237|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 18:31:33,238|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 18:31:33,238|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 18:31:33,239|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 18:31:33,239|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 18:31:33,240|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 18:31:33,240|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 18:31:33,241|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 18:31:33,242|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 18:31:33,242|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 18:31:33,243|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 18:31:33,244|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 18:31:33,245|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 18:31:33,245|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 18:31:33,247|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 18:31:33,248|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 18:31:33,250|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 18:31:33,251|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 18:31:44,351|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-27 18:31:57,111|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:10:31:57 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:22:32,369|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-27 19:22:36,551|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:22:36 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:23:34,887|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-27 19:23:34,889|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:23:34 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:25:25,692|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get('1001').get('iActiveTime'))
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 19:25:25,697|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:25:25 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 327 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:27:58,301|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get('1001').get('iActiveTime'))
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 19:27:58,306|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:27:58 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 326 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:28:13,942|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get('1001').get('iActiveTime'))
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 19:28:13,947|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:28:13 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 326 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:28:22,789|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 19:28:22,792|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 19:28:22,793|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 19:28:22,795|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 19:28:22,796|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 19:28:22,797|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 19:28:22,798|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 19:28:22,799|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 19:28:22,800|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 19:28:22,805|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 19:28:22,825|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 19:28:22,826|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 19:28:22,827|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 19:28:22,829|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 19:28:22,830|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 19:28:22,831|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 19:28:22,832|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 19:28:22,832|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 19:28:22,839|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 19:28:22,840|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 19:28:22,841|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 19:28:22,841|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 19:28:22,842|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 19:28:22,843|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 19:28:22,844|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 19:28:22,845|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 19:28:22,846|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 19:28:22,846|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 19:28:22,847|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 19:28:22,848|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 19:28:22,848|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 19:28:22,849|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 19:28:22,849|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 19:28:22,850|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 19:28:22,853|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 19:28:22,854|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 19:28:22,856|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 19:28:22,856|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 19:28:22,857|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 19:28:22,858|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 19:28:22,860|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 19:28:22,861|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 19:28:29,412|ERROR|appweb_svr.py:115|handlerWebApp|'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get('1001').get('iActiveTime'))
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-06-27 19:29:41,844|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:29:41 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 326 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:29:51,002|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.014066696166992188]
+2018-06-27 19:29:51,004|ERROR|appweb_svr.py:115|handlerWebApp|'ResultProxy' object has no attribute 'buyCoin'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get(1000).iActiveTime)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 979, in getFirstRechValidWater
+    return result.buyCoin
+AttributeError: 'ResultProxy' object has no attribute 'buyCoin'
+2018-06-27 19:29:51,010|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:29:51 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 333 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:30:06,732|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 19:30:06,738|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 19:30:06,739|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 19:30:06,740|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 19:30:06,741|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 19:30:06,742|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 19:30:06,742|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 19:30:06,743|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 19:30:06,744|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 19:30:06,745|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 19:30:06,749|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 19:30:06,750|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 19:30:06,750|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 19:30:06,753|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 19:30:06,754|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 19:30:06,755|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 19:30:06,756|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 19:30:06,758|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 19:30:06,762|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 19:30:06,763|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 19:30:06,764|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 19:30:06,766|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 19:30:06,767|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 19:30:06,769|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 19:30:06,770|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 19:30:06,771|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 19:30:06,772|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 19:30:06,772|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 19:30:06,773|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 19:30:06,773|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 19:30:06,774|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 19:30:06,774|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 19:30:06,775|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 19:30:06,776|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 19:30:06,776|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 19:30:06,777|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 19:30:06,777|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 19:30:06,778|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 19:30:06,779|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 19:30:06,779|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 19:30:06,781|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 19:30:06,781|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 19:30:11,182|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[4.54935622215271]
+2018-06-27 19:32:50,669|ERROR|appweb_svr.py:115|handlerWebApp|'ResultProxy' object has no attribute 'buyCoin'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get(1000).iActiveTime)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 979, in getFirstRechValidWater
+    return result.buyCoin
+AttributeError: 'ResultProxy' object has no attribute 'buyCoin'
+2018-06-27 19:32:50,673|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:32:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 333 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:33:53,791|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.015025854110717773]
+2018-06-27 19:33:53,794|ERROR|appweb_svr.py:115|handlerWebApp|'ResultProxy' object has no attribute 'buyCoin'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 37, in handleHttp
+    validWater=yield from classSqlBaseMgr.getInstance().getFirstRechValidWater(strAccountId,objActiveData.dictActiveItem.get(1000).iActiveTime)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 980, in getFirstRechValidWater
+    return result.buyCoin
+AttributeError: 'ResultProxy' object has no attribute 'buyCoin'
+2018-06-27 19:33:53,800|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:33:53 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 333 "-" "PostmanRuntime/7.1.1"
+2018-06-27 19:37:10,641|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.013512134552001953]
+2018-06-27 19:37:10,655|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:11:37:10 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 283 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:13:58,549|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.004385948181152344]
+2018-06-27 20:13:58,555|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:13:58 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 284 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:17:24,833|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0026395320892333984]
+2018-06-27 20:17:24,837|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:17:24 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 284 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:24:44,682|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.002131938934326172]
+2018-06-27 20:24:44,685|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:24:44 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 284 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:24:46,847|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.006253957748413086]
+2018-06-27 20:24:46,851|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:24:46 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 284 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:25:00,443|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-27 20:25:00,446|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-27 20:25:00,448|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-27 20:25:00,449|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-27 20:25:00,450|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-27 20:25:00,451|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-27 20:25:00,452|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-27 20:25:00,453|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-27 20:25:00,454|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-27 20:25:00,454|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-27 20:25:00,459|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-27 20:25:00,463|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-27 20:25:00,464|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-27 20:25:00,465|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-27 20:25:00,466|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-27 20:25:00,467|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-27 20:25:00,467|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-27 20:25:00,468|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-27 20:25:00,475|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-27 20:25:00,479|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-27 20:25:00,481|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-27 20:25:00,482|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-27 20:25:00,483|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-27 20:25:00,484|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-27 20:25:00,485|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-27 20:25:00,486|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-27 20:25:00,486|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-27 20:25:00,487|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-27 20:25:00,489|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-27 20:25:00,489|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-27 20:25:00,490|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-27 20:25:00,491|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-27 20:25:00,491|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-27 20:25:00,492|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-27 20:25:00,493|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-27 20:25:00,494|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-27 20:25:00,495|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-27 20:25:00,496|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-27 20:25:00,497|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-27 20:25:00,498|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-27 20:25:00,499|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-27 20:25:00,500|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-27 20:25:17,273|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[16.932741165161133]
+2018-06-27 20:25:17,277|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:25:17 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 284 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:25:51,089|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[1.4148530960083008]
+2018-06-27 20:25:51,092|ERROR|appweb_svr.py:115|handlerWebApp|'decimal.Decimal' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 42, in handleHttp
+    objResp.data=data
+  File "/home/python/Desktop/company_project/server/lib/jsonhelp/classJsonDump.py", line 51, in dumps
+    return json.dumps(obj,default=convert_to_builtin_types, **args).encode()
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/python/Desktop/company_project/server/lib/jsonhelp/classJsonDump.py", line 48, in convert_to_builtin_types
+    return obj.__dict__
+AttributeError: 'decimal.Decimal' object has no attribute '__dict__'
+2018-06-27 20:25:51,108|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:25:51 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 332 "-" "PostmanRuntime/7.1.1"
+2018-06-27 20:26:53,235|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0036764144897460938]
+2018-06-27 20:26:53,245|INFO|helpers.py:529|log|192.168.1.120 - - [27/Jun/2018:12:26:53 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "PostmanRuntime/7.1.1"

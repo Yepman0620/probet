@@ -1,0 +1,1 @@
+~/run/python3/bin/pudb3 ~/code/server/osssvr/oss_svr.py --rf release --gdb gdb

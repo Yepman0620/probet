@@ -1,0 +1,494 @@
+2018-07-04 09:50:11,351|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-04 09:50:11,374|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 09:50:11,377|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:50:11 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:50:16,406|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:50:16 +0000] "POST /player/system_manage/login HTTP/1.1" 200 741 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:50:18,404|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:50:18 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:51:25,676|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 09:51:25,677|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 09:51:25,678|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 09:51:25,680|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:51:25 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:51:31,911|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 09:51:31,912|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 09:51:31,913|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 09:51:31,915|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:51:31 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:52:27,627|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:52:27 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:52:33,817|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:52:33 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:52:42,106|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-07-04 09:52:42,108|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-07-04 09:52:42,109|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-07-04 09:52:42,109|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-07-04 09:52:42,110|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-07-04 09:52:42,111|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-07-04 09:52:42,112|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-07-04 09:52:42,113|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-07-04 09:52:42,115|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-07-04 09:52:42,116|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-07-04 09:52:42,118|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-07-04 09:52:42,119|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-07-04 09:52:42,120|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-07-04 09:52:42,122|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-07-04 09:52:42,122|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-07-04 09:52:42,124|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-07-04 09:52:42,125|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-07-04 09:52:42,126|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-07-04 09:52:42,134|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-07-04 09:52:42,135|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-07-04 09:52:42,136|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-07-04 09:52:42,138|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-07-04 09:52:42,139|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-07-04 09:52:42,140|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-07-04 09:52:42,142|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-07-04 09:52:42,147|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-07-04 09:52:42,148|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-07-04 09:52:42,148|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-07-04 09:52:42,149|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-07-04 09:52:42,149|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-07-04 09:52:42,150|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-07-04 09:52:42,155|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-07-04 09:52:42,155|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-07-04 09:52:42,156|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-07-04 09:52:42,156|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-07-04 09:52:42,157|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-07-04 09:52:42,157|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-07-04 09:52:42,158|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-07-04 09:52:42,158|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-07-04 09:52:42,159|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-07-04 09:52:42,160|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-07-04 09:52:42,161|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-07-04 09:52:46,297|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:52:46 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:52:50,591|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:52:50 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:52:57,245|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:52:57 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:53:06,262|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 09:53:06,263|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 09:53:06,263|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 09:53:06,265|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:53:06 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:53:46,298|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:53:46 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:54:02,116|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 09:54:02,117|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 09:54:02,118|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 09:54:02,120|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:54:02 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:54:39,169|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:54:39 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:54:40,578|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:54:40 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 543 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:54:43,932|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:54:43 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 09:54:53,412|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:01:54:53 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:15:14,714|DEBUG|tools.py:64|wrapper|[260, '提醒|token信息有误']
+2018-07-04 10:15:14,716|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 10:15:14,719|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:15:14 +0000] "POST /player/msg_manage/getAllBanner HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:15:19,716|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:15:19 +0000] "POST /player/system_manage/login HTTP/1.1" 200 744 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:15:35,196|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-04 10:15:35,197|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 10:15:35,199|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:15:35 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:15:40,117|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:15:40 +0000] "POST /player/system_manage/login HTTP/1.1" 200 739 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:15:43,293|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:15:43 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:15:47,799|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:15:47 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:16:03,858|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:16:03 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:18:27,105|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:18:27 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:18:34,948|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:18:34 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:18:37,442|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:18:37,443|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:37,443|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:37,445|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:18:37 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:18:39,251|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:18:39,251|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:39,252|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:39,256|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:18:39 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:18:58,451|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:18:58,452|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:58,453|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:18:58,457|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:18:58 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:19:07,196|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:19:07,197|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:19:07,197|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:19:07,200|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:19:07 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:19:40,906|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:19:46,637|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:19:46,638|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:19:46,669|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:19:46 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:21:12,614|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:21:13,499|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:13,500|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:13,502|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:21:13 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:21:16,309|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:21:16,310|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:16,311|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:16,313|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:21:16 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:21:17,759|DEBUG|sqlBaseMgr.py:76|_exeCute|(1054, "Unknown column 'chen1' in 'where clause'")
+2018-07-04 10:21:17,760|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:17,761|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:21:17,762|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:21:17 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:21:55,979|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:22:10,668|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:22:10,670|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:22:10,672|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:22:10 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:22:24,600|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:22:24 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:22:28,548|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:22:28 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:23:12,209|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:23:12 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:23:13,016|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:23:13 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:24:00,956|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:24:00,957|ERROR|selectBetData.py:217|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:24:00,957|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:24:00,959|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:24:00 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:24:26,428|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:24:26 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:24:56,830|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:24:56 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:24:59,251|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:24:59 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 547 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:02,962|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:02 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 546 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:23,287|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:23 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 546 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:26,144|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:26 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 547 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:28,041|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:28 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:28,739|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:28 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:29,825|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:29 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:29,985|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:29 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:30,170|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:30 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:30,333|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:30 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:30,662|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:30 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:30,810|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:30 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:32,811|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:32 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:32,900|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:32 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:34,373|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:34 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:34,668|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:34 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:41,946|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:41 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:46,483|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:46 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:47,206|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:47 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:47,503|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:47 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:47,537|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:47 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:51,000|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:51 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:51,224|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:51 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:52,468|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:52 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:55,034|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:55 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:25:55,267|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:25:55 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 704 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:26:00,117|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:26:00,120|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:00,126|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:00,130|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:26:00 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:26:19,142|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:26:19,145|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:19,146|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:19,151|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:26:19 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:26:32,256|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:26:32,259|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:32,261|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:32,264|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:26:32 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:26:37,181|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:26:37,182|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:37,183|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:26:37,184|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:26:37 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:26:58,069|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:26:58 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:26:59,263|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:26:59 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 463 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:27:14,496|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:27:14 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:27:28,693|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-07-04 10:27:28,700|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-07-04 10:27:28,701|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-07-04 10:27:28,702|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-07-04 10:27:28,703|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-07-04 10:27:28,704|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-07-04 10:27:28,712|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-07-04 10:27:28,712|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-07-04 10:27:28,714|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-07-04 10:27:28,715|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-07-04 10:27:28,716|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-07-04 10:27:28,716|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-07-04 10:27:28,717|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-07-04 10:27:28,718|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-07-04 10:27:28,719|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-07-04 10:27:28,720|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-07-04 10:27:28,720|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-07-04 10:27:28,721|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-07-04 10:27:28,725|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-07-04 10:27:28,726|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-07-04 10:27:28,726|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-07-04 10:27:28,727|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-07-04 10:27:28,727|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-07-04 10:27:28,728|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-07-04 10:27:28,728|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-07-04 10:27:28,729|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-07-04 10:27:28,730|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-07-04 10:27:28,730|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-07-04 10:27:28,730|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-07-04 10:27:28,731|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-07-04 10:27:28,731|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-07-04 10:27:28,732|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-07-04 10:27:28,732|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-07-04 10:27:28,733|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-07-04 10:27:28,734|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-07-04 10:27:28,734|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-07-04 10:27:28,735|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-07-04 10:27:28,735|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-07-04 10:27:28,736|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-07-04 10:27:28,737|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-07-04 10:27:28,738|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-07-04 10:27:28,739|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-07-04 10:27:35,783|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:27:35,788|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:27:35,788|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:27:35,791|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:27:35 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:28:00,081|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:28:00 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:28:00,126|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:28:00 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:28:01,405|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:28:01 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 563 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:29:47,103|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:29:47 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 563 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:29:53,369|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:29:53 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 537 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:02,215|DEBUG|sqlBaseMgr.py:76|_exeCute|
+2018-07-04 10:31:02,216|ERROR|selectOverAllData.py:211|handleHttp|[1001] [错误|存储数据失败] []
+2018-07-04 10:31:02,216|ERROR|gmweb_svr.py:147|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-07-04 10:31:02,218|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:31:02 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 309 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:31:02,231|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:02 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:02,453|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:02 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 547 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:11,644|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:31:11 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 563 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:31:19,529|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:19 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:21,067|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:21 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:25,085|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:25 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 463 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:28,078|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:31:28 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 495 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:31:46,243|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:31:46 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 537 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:21,238|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:21 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:22,374|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:22 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:23,559|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:23 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:26,580|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:26 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 546 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:28,984|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:28 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:31,395|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:31 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:33,684|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:33 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:35,851|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:35 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 422 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:37,919|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:37 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 422 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:39,725|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:32:39 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 495 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:32:42,245|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:32:42 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:32:45,980|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:32:45 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:32:46,049|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:32:46 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 422 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:32:46,931|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:32:46 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:32:53,468|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:32:53 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:33:01,304|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:33:01 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:33:03,992|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:33:03 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:33:07,764|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:33:07 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 409 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:33:10,515|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:33:10 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:33:36,897|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:33:36 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:37:35,328|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:37:35 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:37:54,036|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:37:54 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:38:00,672|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:02:38:00 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 10:42:17,779|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:17 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:22,761|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:22 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 537 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:26,136|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:26 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:27,205|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:27 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:30,625|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:30 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 516 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:33,086|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:33 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:34,979|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:34 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 465 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:37,324|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:37 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:38,889|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:38 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:40,077|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:40 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 558 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 10:42:41,936|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:02:42:41 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 11:47:52,925|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:47:52 +0000] "POST /player/system_manage/login HTTP/1.1" 200 742 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:47:57,244|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:47:57 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:47:58,533|DEBUG|getRetainData.py:37|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:47:58,534|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:47:58,536|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:47:58 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:00,282|ERROR|sqlBaseMgr.py:478|getRepairData|execute getRepairedData sql time[0.009273767471313477]
+2018-07-04 11:48:00,299|ERROR|sqlBaseMgr.py:514|getRepairedCount|execute getRepairedCount sql time[0.0020599365234375]
+2018-07-04 11:48:00,304|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:00 +0000] "POST /player/system_manage/RepairHistory HTTP/1.1" 200 605 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:01,188|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:01 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:01,521|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:01 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:02,198|DEBUG|selectOverAllData.py:54|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:48:02,198|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:48:02,200|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:02 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:05,265|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:05 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:05,733|DEBUG|getRetainData.py:37|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:48:05,739|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:48:05,745|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:05 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:23,848|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:23 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:48,663|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:48 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:49,614|DEBUG|getRechargeData.py:36|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:48:49,615|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:48:49,618|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:49 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:48:55,165|DEBUG|getRechargeData.py:36|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:48:55,166|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:48:55,168|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:48:55 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:23,447|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:23 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:27,886|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:27 +0000] "POST /player/system_manage/getAllActions HTTP/1.1" 200 724 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:27,974|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:27 +0000] "POST /player/system_manage/getAllRole HTTP/1.1" 200 861 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:30,800|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:30 +0000] "POST /player/system_manage/getAllAccount HTTP/1.1" 200 416 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:37,329|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:37 +0000] "POST /player/account_manage/getPlayerByParams HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:41,813|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:41 +0000] "POST /player/account_manage/getPlayerByParams HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:46,458|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:46 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:47,529|DEBUG|selectOverAllData.py:54|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:49:47,531|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:49:47,534|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:47 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:51,338|DEBUG|selectOverAllData.py:54|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:49:51,339|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:49:51,341|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:51 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:49:53,913|DEBUG|selectOverAllData.py:54|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:49:53,914|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:49:53,916|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:49:53 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:50:08,596|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-04 11:50:08,600|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 11:50:08,605|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:08 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:16,954|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:16 +0000] "POST /player/system_manage/login HTTP/1.1" 200 742 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:36,288|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:36 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:37,736|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:37 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 567 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:39,586|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:39 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:40,568|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:40 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 539 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:42,133|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:42 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:42,970|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:42 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 413 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:47,697|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:47 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:48,306|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:48 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 465 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:50:56,765|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-04 11:50:56,767|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 11:50:56,770|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:50:56 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:51:05,035|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:05 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:06,191|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:06 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 419 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:07,603|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:07 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:08,622|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:08 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 539 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:10,600|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:10 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:11,141|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:11 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 413 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:12,949|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:12 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:14,398|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:14 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 567 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:16,301|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:16 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 11:51:39,363|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:39 +0000] "POST /player/system_manage/login HTTP/1.1" 200 742 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:51:42,481|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:42 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:51:43,265|DEBUG|getNewAccountData.py:48|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:51:43,266|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:51:43,269|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:51:43 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:52:16,865|DEBUG|getNewAccountData.py:48|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:52:16,866|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:52:16,867|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:52:16 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:52:18,432|DEBUG|getNewAccountData.py:48|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:52:18,433|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:52:18,435|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:52:18 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:52:20,355|DEBUG|getNewAccountData.py:48|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:52:20,355|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:52:20,357|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:52:20 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:52:28,122|DEBUG|getNewAccountData.py:48|handleHttp|[2, '网络错误|输入参数非法']
+2018-07-04 11:52:28,123|ERROR|gmweb_svr.py:147|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-07-04 11:52:28,125|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:52:28 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:52:50,087|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:52:50 +0000] "POST /player/msg_manage/getAllBanner HTTP/1.1" 200 591 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:11,283|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:11 +0000] "POST /player/msg_manage/getAllBanner HTTP/1.1" 200 591 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:13,962|ERROR|sqlBaseMgr.py:324|getMsg|execute getMsg sql time[0.02522587776184082]
+2018-07-04 11:53:14,977|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:14 +0000] "POST /player/msg_manage/GetMsg HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:16,337|ERROR|sqlBaseMgr.py:324|getMsg|execute getMsg sql time[0.004845380783081055]
+2018-07-04 11:53:17,347|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:17 +0000] "POST /player/msg_manage/GetMsg HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:18,632|ERROR|sqlBaseMgr.py:478|getRepairData|execute getRepairedData sql time[0.003972053527832031]
+2018-07-04 11:53:18,671|ERROR|sqlBaseMgr.py:514|getRepairedCount|execute getRepairedCount sql time[0.02606368064880371]
+2018-07-04 11:53:18,675|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:18 +0000] "POST /player/system_manage/RepairHistory HTTP/1.1" 200 605 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:20,185|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:20 +0000] "POST /player/msg_manage/getAllBanner HTTP/1.1" 200 591 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:24,583|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:24 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 353 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:24,700|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:24 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 353 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:24,718|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:24 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 200 353 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:26,824|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:26 +0000] "POST /player/account_manage/getOfflineCharge HTTP/1.1" 200 266 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:31,361|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:31 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 315 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:35,107|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:35 +0000] "POST /player/account_manage/getTransInfoByParams HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:51,917|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:51 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 315 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:54,870|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:54 +0000] "POST /player/account_manage/getAntiWaterNoteByParams HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:53:57,359|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:53:57 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 315 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 11:54:01,930|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:03:54:01 +0000] "POST /player/account_manage/getAllPayChannel HTTP/1.1" 200 315 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+2018-07-04 13:45:20,786|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:45:20 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:47:04,366|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:47:04 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 273 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:51:46,144|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-04 13:51:46,145|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-04 13:51:46,152|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:46 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 305 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:51,353|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:51 +0000] "POST /player/system_manage/login HTTP/1.1" 200 747 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:55,863|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:55 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:56,759|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:56 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:57,338|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:57 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:58,876|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:58 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:51:59,038|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:51:59 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:02,986|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:02 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:09,204|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:09 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:10,770|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:10 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 560 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:14,951|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:14 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:16,215|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:16 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 539 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:17,646|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:17 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:18,565|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:18 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 466 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:30,008|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:30 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:32,560|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:32 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:34,907|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:34 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:37,603|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:37 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:52:40,355|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:52:40 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:55:23,038|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:55:23 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:55:29,074|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:55:29 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:55:34,110|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:05:55:34 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 469 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 13:57:16,613|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:57:16 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:57:18,311|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:57:18 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:57:19,550|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:57:19 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:57:20,804|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:57:20 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 13:57:25,866|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:05:57:25 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:04:43,110|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:04:43 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:12:28,516|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:06:12:28 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 560 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:13:06,733|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:06 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:07,713|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:07 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:09,446|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:09 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:10,736|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:10 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:12,826|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:12 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:14,361|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:14 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:16,992|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:16 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:19,167|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:19 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:13:32,904|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:06:13:32 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 561 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:13:36,630|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:13:36 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 464 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:14:14,018|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:14:14 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:14:15,701|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:14:15 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 545 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:14:16,104|ERROR|sqlBaseMgr.py:607|getAgentConfig|execute getAgentConfig sql time[0.02800726890563965]
+2018-07-04 14:14:16,113|ERROR|selectAgent.py:87|handleHttp|[7] [提醒|数据不存在] []
+2018-07-04 14:14:16,119|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:06:14:16 +0000] "POST /player/agent_manage/selectAgent HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:14:17,255|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:14:17 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:14:18,052|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:14:18 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 408 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:14:42,993|ERROR|sqlBaseMgr.py:607|getAgentConfig|execute getAgentConfig sql time[0.01366424560546875]
+2018-07-04 14:14:42,998|ERROR|selectAgent.py:87|handleHttp|[7] [提醒|数据不存在] []
+2018-07-04 14:14:43,001|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:06:14:43 +0000] "POST /player/agent_manage/selectAgent HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:14:50,649|ERROR|sqlBaseMgr.py:607|getAgentConfig|execute getAgentConfig sql time[0.008896112442016602]
+2018-07-04 14:14:50,654|ERROR|selectAgent.py:87|handleHttp|[7] [提醒|数据不存在] []
+2018-07-04 14:14:50,663|INFO|helpers.py:529|log|192.168.1.171 - - [04/Jul/2018:06:14:50 +0000] "POST /player/agent_manage/selectAgent HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-04 14:15:45,490|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:45 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 408 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:47,028|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:47 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:48,852|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:48 +0000] "POST /player/data_manage/getNewAccountData HTTP/1.1" 200 545 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:50,479|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:50 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:50,668|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:50 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:51,238|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:51 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:51,541|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:51 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:52,723|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:52 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:15:53,417|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:15:53 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-07-04 14:43:50,865|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:43:50 +0000] "POST /player/agent_manage/login HTTP/1.1" 200 358 "-" "PostmanRuntime/7.1.5"
+2018-07-04 14:43:57,368|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:43:57 +0000] "POST /player/agent_manage/test1/getHistoricalBill HTTP/1.1" 200 267 "-" "PostmanRuntime/7.1.5"
+2018-07-04 14:44:07,071|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-07-04 14:44:07,073|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-07-04 14:44:07,073|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-07-04 14:44:07,074|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-07-04 14:44:07,080|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-07-04 14:44:07,082|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-07-04 14:44:07,082|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-07-04 14:44:07,083|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-07-04 14:44:07,084|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-07-04 14:44:07,085|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-07-04 14:44:07,086|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-07-04 14:44:07,087|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-07-04 14:44:07,092|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-07-04 14:44:07,094|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-07-04 14:44:07,094|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-07-04 14:44:07,095|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-07-04 14:44:07,096|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-07-04 14:44:07,096|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-07-04 14:44:07,101|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-07-04 14:44:07,102|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-07-04 14:44:07,103|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-07-04 14:44:07,104|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-07-04 14:44:07,105|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-07-04 14:44:07,105|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-07-04 14:44:07,106|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-07-04 14:44:07,107|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-07-04 14:44:07,108|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-07-04 14:44:07,108|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-07-04 14:44:07,109|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-07-04 14:44:07,109|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-07-04 14:44:07,110|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-07-04 14:44:07,110|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-07-04 14:44:07,111|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-07-04 14:44:07,112|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-07-04 14:44:07,113|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-07-04 14:44:07,113|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-07-04 14:44:07,114|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-07-04 14:44:07,114|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-07-04 14:44:07,115|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-07-04 14:44:07,116|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-07-04 14:44:07,117|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-07-04 14:44:07,118|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-07-04 14:44:38,683|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:44:38 +0000] "POST /player/agent_manage/test1/getHistoricalBill HTTP/1.1" 200 267 "-" "PostmanRuntime/7.1.5"
+2018-07-04 14:45:49,361|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:45:49 +0000] "POST /player/agent_manage/test1/getHistoricalBill HTTP/1.1" 200 358 "-" "PostmanRuntime/7.1.5"
+2018-07-04 14:57:27,897|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:06:57:27 +0000] "POST /player/agent_manage/test1/getHistoricalBill HTTP/1.1" 200 360 "-" "PostmanRuntime/7.1.5"
+2018-07-04 15:01:48,527|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:01:48 +0000] "POST /player/agent_manage/test1/getHistoricalBill HTTP/1.1" 200 363 "-" "PostmanRuntime/7.1.5"

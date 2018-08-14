@@ -1,0 +1,10 @@
+2018-06-22 09:40:06,891|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 246, datetime.datetime(2018, 6, 21, 20, 14, 38))
+2018-06-22 09:40:06,892|ERROR|oss_svr.py:90|__initData|bill log is between two days
+2018-06-22 09:40:09,913|ERROR|ossFile.py:249|parse_line_data|seekPos[54] not valid bill log error[KeyError('accountId',)]
+2018-06-22 09:40:09,915|ERROR|ossFile.py:250|parse_line_data|2018-06-21 10:49:19,275|{"billType": "betResultBill"}
+
+2018-06-22 09:46:18,675|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 246, datetime.datetime(2018, 6, 22, 9, 40, 9))
+2018-06-22 09:46:33,149|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 246, datetime.datetime(2018, 6, 22, 9, 40, 9))
+2018-06-22 11:02:46,257|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=56630.828661096 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.217 seconds
+2018-06-22 11:03:01,755|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=56646.157243156 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.327 seconds
+2018-06-22 17:58:34,202|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=81578.912473204 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.105 seconds

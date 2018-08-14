@@ -1,0 +1,153 @@
+项目简要说明
+
+
+总体说明
+项目基于 asyncio 开发，但是分为多个不同进程，对外接口直接使用的数据全部存储于  redis 中，其中用户注册、登陆会访问其他认证接口；
+完整项目需要配置 mysql、redis、nginx，其中 nginx 仅用于头像上传操作，所以配置环境时如果不处理头像更新，可以不配置 nginx；
+项目目录基本上和进程对应，配置项、错误码等公共部分被提取出来设置在单独目录。
+
+环境搭建
+要搭建环境最少需要 python3.5 以上环境，mysql、redis，配置好 mysql 中的表，安装好项目所需的库（pipinstall.txt），然后启动所有进程就可以提供服务了。
+
+
+数据存储相关目录
+redisscript
+这个目录下包含了一些 redis 里执行的  lua 脚本，用来完成一些组合操作
+
+logic/data
+这个目录下保存了 redis 中的数据结构，读写数据结构时要通过这里的类来实现以便数据结构统一
+
+sql
+建表语句，目录名就是对应的 database 名，搭建开发环境时需要用到
+
+
+项目进程说明
+connect
+connect 进程负责保持和客户端的 websocket 连接，将用户递交数据记录到 redis，然后后台的 logic 进程会从 connect 中读取数据并处理，并将需要返回的数据记录到 redis，由 connect 下发给客户端；connect 进程需要根据用户登陆信息将数据保存到 redis 的 list 中，逻辑进程要对应处理 list，这种对应关系通过配置文件和 procVariable.py 文件中的配置项来确定，其中配置项中和 redis 中 list 位置有关的变量为：
+debug                会根据这个变量确定 redis 地址（ip：port），在 config 目录下的文件里可以找到正式环境和测试环境的配置项，实际上目前只是会导致使用 debug 配置或者正式配置
+这里目前是通过在变量中使用不同名字（debug 的带有 debug）来区分的，后续可以考虑把需要区分的地址放到不同文件，根据 debug 来导入正式/测试配置文件
+group_id                会确定 list 的键名，logic 进程通过命令行传入 group_id 来启动对应不同         group_id 的处理进程，可以看到，可能有多个 logic 进程处理同一个 connect 的数据
+
+logic
+该进程负责处理对应 group_id 的数据，需要传入 work_id 参数（目前只有一个地方也就是生成订单号的时候用到了）；处理后会把结果推送到对应 group_id 会处理的 redis 队列中下发回客户端
+
+appweb
+这个进程负责一些 web 页面的展示接口，app 上部分展示页面使用
+
+datacenter
+用于获得新的比赛数据，以便管理端/客户端可以看到最新比赛
+
+gm
+管理端接口，以及竞赛数据更新接口
+
+resultcenter
+结算用，管理端操作竞猜结果后由这里实现快速结算到用户的数据中；实际上就是把管理端的耗时操作异步处理下
+
+logserver
+监听 20001 端口，负责通过 syslog 收集多进程的日志方便查看，凡是使用了  lib\multiprocesslogbylogserver\multiPLogger.py 文件中 initLogger 这个类的都会把日志发到集中服务器，目前有 logic、 noticesvr、 resultcenter 3个进程使用了
+
+payserver
+接收微信/支付宝支付回调，保存到 redis
+
+payuser
+检查 payserver 的记录推送通知客户端，并修改用户资料
+像这种推送，可以考虑使用一个单独的后台进程统一处理，以方便管理；把修改操作放到 payserver 中
+
+dbsvr
+负责把 redis 中数据记录到本项目的数据库，项目中各处数据插入/更新操作会保存到指定地方，以便这边可以定期将数据写入数据库，用于关键数据备份及管理端查询。也就是需要保存到 mysql 中的数据最好是通过 redis 中的 lua 脚本来实现更新，在脚本中把数据另写一份和这里对接
+
+osssvr
+收集日志并记录到本项目的数据库，主要用于管理端数据分析，比如查看昨天的注册人数、竞猜数据等，可以看到这里的功能实际上和 dbsvr 是互补的，要是可以通过日志收集到，也可以不在 redis 中做处理
+
+
+wxnotifysvr
+忽略
+
+externsvr
+收发短信，头像上传等第三方接口处理
+
+noticesvr
+推送通知，通过第三方推送消息到客户端，比如用户预约需要在时间截止时推送；或者用户竞猜了的比赛开始等
+
+
+
+
+竞猜是我们 app 中一个非常重要的功能模块，其功能相对来说也有点复杂，现将其主要过程做简单介绍。
+
+竞猜的完整周期
+管理端创建赛事——审核成功，开盘——进行中赛事，用户竞猜——竞赛开始，停止投注——封盘、开奖
+理论上应该是这样，有一些异常比如取消了比赛，提前封盘/开奖。
+
+状态分析
+赛事中有一个状态值 iGuessState 保存了该场赛事的当前状态：
+0:未开始 1:停止下注 2：竞猜中 3:正在结算 4：已结算 5：已经关闭 6：取消 7:无结果 8:已退款 9:已到账
+赛事刚创建时状态是 0，未开始；
+管理端开始赛事时将状态设置为2，停止下注；
+管理端收到结算请求将状态改为 3（赛事有结果）或者 7（赛事无结果）；
+
+
+赛事的详情只有一份，始终保持在 matchDataKey 中，通过 datacenter 的 updateMatchPlatform 从管理端的一个接口拉取添加；
+赛事创建后会在 preMatchDataForApprovalSortKey 中保留一个 key 值，表示赛事待审核；
+赛事审核 gm.agreeApprovalMatch 之后，会添加到 matchDataSortListKey_{type} 、 matchDataSortListKey_all 、matchResultDoing_all、 matchResultDoing_{type} 四个键中；
+管理端封盘/启动 gm.editMatchClose 可以将进行中的赛事状态设置为 0/1 也就是未开始或者停止下注；
+用户端参与竞猜 logic.msgProjectBet ；
+管理端开始比赛 gm.editmatchstart 将赛事状态设置为 2 ；
+开奖 gm.setGuessResult、resultcenter.msgResultGuess 后，会将赛事从 matchResultDoing_all、 matchResultDoing_{type} 中移除，添加到 matchResultFinish_all 、 matchResultFinish_{type}
+开奖之所以要用 resultcenter 处理，是为了提高处理速度。这里可能设置为无结果，那么赛事状态会改为 7，否则会是 4；
+
+
+
+
+
+目前我们的一个标准模型是这样的：
+客户端——>connect——>db0 connect2logic_group[{grouId}]<—取—logic
+
+logic——>db0 logic2connect_group[{grouId}]<—取—connect——>客户端
+
+push——>db4 pushDataKey_{host}_{grouId}<—取—connect——>客户端
+
+其中  connect 和客户端直接通过 websocket 接收及发送消息，与所有其他进程间通过 redis 的 list 来通信，统一结构为 [head, body]，接下来解释不同过程中 head 和 body 的基本规范。
+下面提到的 {groupId} 是指通过命令行传递给 connect 进程的一个参数  groupid，{host} 是 connect 所在主机名；
+
+客户端发给 connect 的数据在函数 connect/connect_svr.py 中的 handlerWebSocket 处理，该函数只是将 head 处理一下加入 udid 和 客户端 ip 之类的信息，并转存到 redis 的队列给 logic 进程处理，实际上是保存到list  connect2logic_group[{grouId}]；
+
+logic 在从 connect2logic_group[{grouId}] 收到消息后，会根据 head 中的 msgId 来调用相应处理函数（logic\register\handleRegister.py 注册了所有处理函数），在 logic/logic_svr.py 中的 handlerConnectMessage 实现调度，并将处理结果保存到 connect 的 logic 队列，这里在 head 中需要加入处理的 udid，实际上是保存到 list logic2connect_group[{grouId}]；
+
+connect 从 logic2connect_group[{grouId}] 中收到消息就根据 udid 找到客户端的 websocket，将消息下发到客户端，在 connect/connect_svr.py 中的 handlerLogicMessage 函数中处理；
+
+push 消息给客户端的话，是在队列 pushDataKey_{host}_{grouId} ，数据结构和 logic 返回的一致，处理函数在 connect/connect_svr.py 中的 handlerPushMessage；
+
+
+redis 队列读写示例：
+@asyncio.coroutine
+def publish(self,head,body):
+ ‘’‘推送数据到 redis，connect\mgr\fifoMgr.py’‘’
+with (yield from self.objAioRedis) as redis:
+    pushBuff = pickle.dumps([head,body])
+    yield from redis.lpush(self.strPublisName,pushBuff)
+
+@asyncio.coroutine
+def updateFifoChannel(self):
+‘’‘监听 redis 队列，取数据，logic\datamgr\fifoMgr.py ’‘’
+    while True:
+        try:
+            result = yield from self.get()
+
+            for var_msg in result:
+            if var_msg is None:
+                continue
+            msg = pickle.loads(var_msg)
+            head = msg[0]
+            body = msg[1]
+
+            #if head != None and body != None:
+            #print("callFunction")
+            ## 这里调用处理函数；处理函数会写队列
+            yield from self.callFunction(head, body)
+
+            if self.bDebug:
+                yield from asyncio.sleep(0.1)
+            else:
+                yield from asyncio.sleep(0.01)
+        except Exception as e:
+            logging.exception(e)

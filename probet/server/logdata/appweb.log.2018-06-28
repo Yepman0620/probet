@@ -1,0 +1,1549 @@
+2018-06-28 10:35:33,065|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 10:35:33,066|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 10:35:33,068|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:02:35:33 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 365 "-" "PostmanRuntime/7.1.5"
+2018-06-28 13:49:19,969|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-06-28 13:49:19,982|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:05:49:19 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:12:24,510|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:12:24,543|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:12:24 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:14:02,926|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:14:02,934|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:14:02 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:17:26,349|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.012054443359375]
+2018-06-28 14:17:26,356|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:06:17:26 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "PostmanRuntime/7.1.5"
+2018-06-28 14:17:40,378|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.003062009811401367]
+2018-06-28 14:17:40,383|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:06:17:40 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "PostmanRuntime/7.1.5"
+2018-06-28 14:18:47,876|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:18:47,886|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:18:47 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:19:27,904|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 14:19:27,919|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 14:19:27,921|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 14:19:27,930|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 14:19:27,932|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 14:19:27,937|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 14:19:27,938|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 14:19:27,940|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 14:19:27,945|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 14:19:27,946|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 14:19:27,961|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 14:19:27,963|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 14:19:27,963|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 14:19:27,974|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 14:19:27,979|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 14:19:27,981|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 14:19:27,982|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 14:19:27,988|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 14:19:28,013|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 14:19:28,014|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 14:19:28,015|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 14:19:28,016|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 14:19:28,017|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 14:19:28,018|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 14:19:28,019|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 14:19:28,021|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 14:19:28,022|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 14:19:28,022|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 14:19:28,023|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 14:19:28,024|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 14:19:28,025|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 14:19:28,027|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 14:19:28,028|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 14:19:28,029|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 14:19:28,030|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 14:19:28,031|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 14:19:28,033|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 14:19:28,034|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 14:19:28,053|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 14:19:28,054|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 14:19:28,056|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 14:19:28,057|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 14:19:57,390|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.002187490463256836]
+2018-06-28 14:19:57,394|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:06:19:57 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "PostmanRuntime/7.1.5"
+2018-06-28 14:25:32,816|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:25:32,830|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:25:32 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:27:04,372|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:27:04 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:28:46,997|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:28:46 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:28:52,319|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:28:52 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:28:52,323|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:28:52 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:28:52,326|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:28:52 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:30:08,629|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:30:08 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:31:33,100|ERROR|appweb_svr.py:115|handlerWebApp|'accountId'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 93, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dicHandleParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 24, in handleHttp
+    strAccountId = dictParam["accountId"]
+KeyError: 'accountId'
+2018-06-28 14:31:33,105|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:31:33 +0000] "GET /active/firstChargeActivity HTTP/1.1" 200 293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 14:31:33,160|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:31:33 +0000] "GET /favicon.ico HTTP/1.1" 404 258 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 14:32:04,794|ERROR|appweb_svr.py:115|handlerWebApp|'accountId'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 93, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dicHandleParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 24, in handleHttp
+    strAccountId = dictParam["accountId"]
+KeyError: 'accountId'
+2018-06-28 14:32:04,798|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:32:04 +0000] "GET /active/firstChargeActivity HTTP/1.1" 200 293 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+2018-06-28 14:32:04,830|ERROR|appweb_svr.py:115|handlerWebApp|'accountId'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 93, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dicHandleParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 24, in handleHttp
+    strAccountId = dictParam["accountId"]
+KeyError: 'accountId'
+2018-06-28 14:32:04,833|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:32:04 +0000] "GET /active/firstChargeActivity HTTP/1.1" 200 293 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+2018-06-28 14:32:05,045|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:32:05 +0000] "GET /favicon.ico HTTP/1.1" 404 258 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+2018-06-28 14:32:28,360|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:32:28 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:32:29,957|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:32:29 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:34:50,854|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:50,869|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:50,877|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:50,878|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:50,880|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:50,892|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:50,893|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:50,897|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:50,898|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,546|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,575|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,580|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,584|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:52,593|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,599|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:52,600|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:34:52,604|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:34:52,604|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:34:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:36:56,790|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:36:56 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:36:56,817|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:36:56 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:36:56,828|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:36:56 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,562|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,625|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:37:03,629|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,652|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,666|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,678|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:37:03,683|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:03,688|ERROR|appweb_svr.py:111|handlerWebApp|[301] [错误|活动未找到] []
+2018-06-28 14:37:03,694|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:37:03 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 311 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:37:47,953|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:37:47 +0000] "OPTIONS /active/firstChargeActivity HTTP/1.1" 200 218 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:38:34,314|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:38:34,325|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:38:34 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:39:11,471|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:11 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:39:11,482|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:11 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:39:11,487|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:11 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:39:20,406|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:20 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:39:20,434|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:20 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:39:20,438|INFO|helpers.py:529|log|192.168.1.171 - - [28/Jun/2018:06:39:20 +0000] "POST /player/account_manage/getAllOfflineAccount HTTP/1.1" 404 244 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-28 14:40:32,680|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-06-28 14:40:32,682|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:40:32 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 313 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:41:12,499|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:41:12,508|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:41:12 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:44:14,425|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:44:14,448|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:44:14 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:44:52,725|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:44:52,751|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:44:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:45:10,093|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:45:10,111|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:45:10 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:45:39,527|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:45:39,538|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:45:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:47:00,299|ERROR|appweb_svr.py:115|handlerWebApp|boundary missed for Content-Type: multipart/form-data
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 55, in handlerWebApp
+    ret = yield from request.post()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 537, in post
+    multipart = yield from self.multipart()
+  File "/usr/lib/python3.5/asyncio/coroutines.py", line 206, in coro
+    res = func(*args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 516, in multipart
+    return reader(self._headers, self._payload)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 545, in __init__
+    self._boundary = ('--' + self._get_boundary()).encode()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 638, in _get_boundary
+    % self.headers[CONTENT_TYPE])
+ValueError: boundary missed for Content-Type: multipart/form-data
+2018-06-28 14:47:00,326|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:47:00 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 334 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:50:56,193|ERROR|appweb_svr.py:115|handlerWebApp|boundary missed for Content-Type: multipart/form-data
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 55, in handlerWebApp
+    ret = yield from request.post()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 537, in post
+    multipart = yield from self.multipart()
+  File "/usr/lib/python3.5/asyncio/coroutines.py", line 206, in coro
+    res = func(*args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 516, in multipart
+    return reader(self._headers, self._payload)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 545, in __init__
+    self._boundary = ('--' + self._get_boundary()).encode()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 638, in _get_boundary
+    % self.headers[CONTENT_TYPE])
+ValueError: boundary missed for Content-Type: multipart/form-data
+2018-06-28 14:50:56,196|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:50:56 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 334 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:52:22,429|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:52:22,434|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:52:22 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:53:25,841|ERROR|appweb_svr.py:115|handlerWebApp|boundary missed for Content-Type: multipart/form-data
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 55, in handlerWebApp
+    ret = yield from request.post()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 537, in post
+    multipart = yield from self.multipart()
+  File "/usr/lib/python3.5/asyncio/coroutines.py", line 206, in coro
+    res = func(*args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/web_request.py", line 516, in multipart
+    return reader(self._headers, self._payload)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 545, in __init__
+    self._boundary = ('--' + self._get_boundary()).encode()
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/multipart.py", line 638, in _get_boundary
+    % self.headers[CONTENT_TYPE])
+ValueError: boundary missed for Content-Type: multipart/form-data
+2018-06-28 14:53:25,865|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:53:25 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 334 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:54:39,778|ERROR|appweb_svr.py:115|handlerWebApp|Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 61, in handlerWebApp
+    dictParam.update(json.loads(ret.decode()))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-28 14:54:39,792|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:54:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 331 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 14:58:53,071|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 14:58:53,073|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 14:58:53,085|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:06:58:53 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 365 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:00:20,262|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 15:00:20,263|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 15:00:20,267|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:00:20 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 365 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:01:22,752|ERROR|appweb_svr.py:111|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-06-28 15:01:22,753|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:01:22 +0000] "GET /player/login HTTP/1.1" 200 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 15:02:04,789|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 15:02:04,790|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-28 15:02:04,791|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:02:04 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 365 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:02:04,805|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.003860950469970703]
+2018-06-28 15:02:04,812|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:02:04 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:15,768|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:03:15,771|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:15 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:15,780|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0021750926971435547]
+2018-06-28 15:03:15,785|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:15 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:40,586|ERROR|certifytoken.py:30|certify_token|Error('Incorrect padding',)
+2018-06-28 15:03:40,587|ERROR|appweb_svr.py:115|handlerWebApp|Incorrect padding
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 27, in handleHttp
+    certifytoken.certify_token(strAccountId, strToken)
+  File "/home/python/Desktop/company_project/server/lib/certifytoken.py", line 31, in certify_token
+    raise e
+  File "/home/python/Desktop/company_project/server/lib/certifytoken.py", line 12, in certify_token
+    token_str = base64.urlsafe_b64decode(token).decode('utf-8')
+  File "/usr/lib/python3.5/base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+  File "/usr/lib/python3.5/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+2018-06-28 15:03:40,612|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:40 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 298 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:40,623|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0028753280639648438]
+2018-06-28 15:03:40,628|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:40 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:55,341|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:03:55,350|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:55 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:03:55,381|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009146451950073242]
+2018-06-28 15:03:55,398|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:03:55 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:12,460|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:04:12,466|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:12 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:12,483|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005206108093261719]
+2018-06-28 15:04:12,492|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:12 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:31,755|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:04:31,764|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:31 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:31,785|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005002737045288086]
+2018-06-28 15:04:31,792|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:31 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:52,004|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:04:52,012|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:04:52,061|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007246255874633789]
+2018-06-28 15:04:52,068|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:04:52 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:05:17,051|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 25, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 15:05:17,073|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:05:17 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:05:17,096|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00473785400390625]
+2018-06-28 15:05:17,104|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:05:17 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:05:42,462|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007293701171875]
+2018-06-28 15:05:42,469|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:05:42 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:09:19,698|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.008948326110839844]
+2018-06-28 15:09:19,720|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:09:19 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:09:19,746|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0031440258026123047]
+2018-06-28 15:09:19,751|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:09:19 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:10:00,073|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006664276123046875]
+2018-06-28 15:10:00,090|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:10:00 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:10:00,119|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.007251262664794922]
+2018-06-28 15:10:00,129|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:10:00 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:14:56,204|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.014155149459838867]
+2018-06-28 15:14:56,219|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:14:56 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:14:56,239|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.003945827484130859]
+2018-06-28 15:14:56,248|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:14:56 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:14:58,324|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004131793975830078]
+2018-06-28 15:14:58,330|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:14:58 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:14:58,343|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.002993345260620117]
+2018-06-28 15:14:58,347|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:14:58 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:14,136|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005768299102783203]
+2018-06-28 15:15:14,142|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:14 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:14,156|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.002977132797241211]
+2018-06-28 15:15:14,161|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:14 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:39,341|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005612850189208984]
+2018-06-28 15:15:39,352|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:39 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:39,387|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.00667572021484375]
+2018-06-28 15:15:39,394|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:59,414|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00583195686340332]
+2018-06-28 15:15:59,426|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:59 +0000] "POST /player/login HTTP/1.1" 200 414 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:15:59,456|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.005974769592285156]
+2018-06-28 15:15:59,465|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:15:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:19:13,816|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0028374195098876953]
+2018-06-28 15:19:13,824|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:19:13 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:19:13,840|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0019884109497070312]
+2018-06-28 15:19:13,843|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:19:13 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:19:45,215|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.008734703063964844]
+2018-06-28 15:19:45,226|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:19:45 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:19:45,252|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0053844451904296875]
+2018-06-28 15:19:45,261|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:19:45 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:39,024|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005689859390258789]
+2018-06-28 15:23:39,034|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:39 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:39,050|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.003037691116333008]
+2018-06-28 15:23:39,055|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:40,625|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0059719085693359375]
+2018-06-28 15:23:40,632|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:40 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:40,655|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0035448074340820312]
+2018-06-28 15:23:40,661|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:40 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:41,321|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005374908447265625]
+2018-06-28 15:23:41,332|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:41 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:23:41,348|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.00287628173828125]
+2018-06-28 15:23:41,353|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:23:41 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:29:58,966|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009698629379272461]
+2018-06-28 15:29:58,985|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:29:58 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 15:29:59,048|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.023702144622802734]
+2018-06-28 15:29:59,058|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:29:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 15:30:06,975|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004995822906494141]
+2018-06-28 15:30:06,982|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:30:06 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:30:07,013|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0019023418426513672]
+2018-06-28 15:30:07,016|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:30:07 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:31:02,062|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.008599996566772461]
+2018-06-28 15:31:02,075|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:31:02 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:31:02,103|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0037047863006591797]
+2018-06-28 15:31:02,109|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:31:02 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:32:22,660|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005020618438720703]
+2018-06-28 15:32:22,669|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:32:22 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:32:22,725|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.02720808982849121]
+2018-06-28 15:32:22,736|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:32:22 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:33:10,053|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004422187805175781]
+2018-06-28 15:33:10,063|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:33:10 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:33:10,081|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.003721952438354492]
+2018-06-28 15:33:10,087|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:33:10 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:33:54,493|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0058057308197021484]
+2018-06-28 15:33:54,505|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:33:54 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:33:54,526|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.00516963005065918]
+2018-06-28 15:33:54,535|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:33:54 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:34:08,089|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005558013916015625]
+2018-06-28 15:34:08,097|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:34:08 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:34:08,110|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.004131793975830078]
+2018-06-28 15:34:08,122|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:34:08 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:34:29,812|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004647016525268555]
+2018-06-28 15:34:29,822|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:34:29 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:34:29,843|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.004511356353759766]
+2018-06-28 15:34:29,856|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:34:29 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:35:17,290|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0037431716918945312]
+2018-06-28 15:35:17,297|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:35:17 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:35:17,315|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0038862228393554688]
+2018-06-28 15:35:17,321|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:35:17 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:01,394|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.016335010528564453]
+2018-06-28 15:37:01,420|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:01 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:01,485|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.007157087326049805]
+2018-06-28 15:37:01,501|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:01 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:12,758|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.003918170928955078]
+2018-06-28 15:37:12,766|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:12 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:12,804|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.002695798873901367]
+2018-06-28 15:37:12,810|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:12 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:18,376|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0053577423095703125]
+2018-06-28 15:37:18,381|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:18 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:18,397|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0025873184204101562]
+2018-06-28 15:37:18,401|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:18 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:25,312|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007547140121459961]
+2018-06-28 15:37:25,321|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:25 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:37:25,342|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.005262851715087891]
+2018-06-28 15:37:25,350|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:37:25 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:38:33,673|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.029923677444458008]
+2018-06-28 15:38:33,689|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:38:33 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:38:33,710|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.0037555694580078125]
+2018-06-28 15:38:33,716|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:38:33 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:38:40,720|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006040811538696289]
+2018-06-28 15:38:40,744|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:38:40 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:38:40,770|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getAllWeixinInfo sql time[0.006196498870849609]
+2018-06-28 15:38:40,775|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:38:40 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 289 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:47:28,549|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.018957853317260742]
+2018-06-28 15:47:28,573|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 15:47:28,580|ERROR|appweb_svr.py:111|handlerWebApp|[302] [错误|活动已经过期,请咨询客服人员] []
+2018-06-28 15:47:28,584|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:07:47:28 +0000] "POST /player/regist HTTP/1.1" 200 340 "-" "PostmanRuntime/7.1.5"
+2018-06-28 15:49:47,272|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.029538393020629883]
+2018-06-28 15:49:47,306|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 15:49:47,416|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 15:49:47,417|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 15:49:47,418|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 15:49:47,418|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 15:49:47,419|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 15:49:47,420|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 15:49:47,420|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 15:49:47,421|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 15:49:47,422|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 15:49:47,422|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 15:49:47,427|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 15:49:47,428|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 15:49:47,428|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 15:49:47,429|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 15:49:47,430|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 15:49:47,431|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 15:49:47,431|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 15:49:47,432|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 15:49:47,435|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 15:49:47,436|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 15:49:47,436|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 15:49:47,437|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 15:49:47,437|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 15:49:47,438|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 15:49:47,438|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 15:49:47,439|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 15:49:47,440|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 15:49:47,440|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 15:49:47,441|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 15:49:47,441|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 15:49:47,442|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 15:49:47,442|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 15:49:47,443|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 15:49:47,444|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 15:49:47,445|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 15:49:47,445|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 15:49:47,446|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 15:49:47,446|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 15:49:47,447|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 15:49:47,447|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 15:49:47,449|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 15:49:47,449|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 15:51:32,890|DEBUG|regist.py:120|handleHttp|((), {})
+2018-06-28 15:51:32,893|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:07:51:32 +0000] "POST /player/regist HTTP/1.1" 200 412 "-" "PostmanRuntime/7.1.5"
+2018-06-28 15:51:46,061|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-28 15:51:46,065|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:07:51:46 +0000] "POST /player/regist HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.5"
+2018-06-28 15:51:54,309|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.014046192169189453]
+2018-06-28 15:51:54,361|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 15:51:54,449|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 15:51:54,450|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 15:51:54,451|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 15:51:54,452|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 15:51:54,453|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 15:51:54,454|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 15:51:54,454|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 15:51:54,455|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 15:51:54,456|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 15:51:54,456|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 15:51:54,467|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 15:51:54,467|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 15:51:54,468|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 15:51:54,469|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 15:51:54,470|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 15:51:54,470|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 15:51:54,471|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 15:51:54,472|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 15:51:54,475|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 15:51:54,476|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 15:51:54,476|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 15:51:54,476|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 15:51:54,477|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 15:51:54,477|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 15:51:54,478|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 15:51:54,479|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 15:51:54,479|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 15:51:54,480|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 15:51:54,480|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 15:51:54,481|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 15:51:54,481|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 15:51:54,481|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 15:51:54,482|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 15:51:54,482|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 15:51:54,483|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 15:51:54,483|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 15:51:54,484|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 15:51:54,484|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 15:51:54,485|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 15:51:54,486|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 15:51:54,488|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 15:51:54,489|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 15:51:56,164|DEBUG|regist.py:120|handleHttp|getActiveDataByLock() missing 1 required positional argument: 'reenTrantLock'
+2018-06-28 15:51:56,167|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:07:51:56 +0000] "POST /player/regist HTTP/1.1" 200 415 "-" "PostmanRuntime/7.1.5"
+2018-06-28 15:54:08,439|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.031179189682006836]
+2018-06-28 15:54:08,465|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 15:54:08,477|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:07:54:08 +0000] "POST /player/regist HTTP/1.1" 200 417 "-" "PostmanRuntime/7.1.5"
+2018-06-28 15:55:06,403|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006407260894775391]
+2018-06-28 15:55:06,409|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:55:06 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:55:06,446|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.011085271835327148]
+2018-06-28 15:55:06,452|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:55:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:57:10,273|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.020925521850585938]
+2018-06-28 15:57:10,299|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:57:10 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:57:10,320|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.007715940475463867]
+2018-06-28 15:57:10,331|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:57:10 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:57:52,128|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.011557579040527344]
+2018-06-28 15:57:52,147|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:57:52 +0000] "POST /player/login HTTP/1.1" 200 418 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:57:52,192|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.006646156311035156]
+2018-06-28 15:57:52,199|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:57:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:00,124|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.024265289306640625]
+2018-06-28 15:58:00,137|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:00 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:00,152|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.0047817230224609375]
+2018-06-28 15:58:00,159|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:00 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:15,239|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00912165641784668]
+2018-06-28 15:58:15,258|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:15 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:15,311|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.0276949405670166]
+2018-06-28 15:58:15,341|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:15 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:28,015|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.027213096618652344]
+2018-06-28 15:58:28,041|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:28 +0000] "POST /player/login HTTP/1.1" 200 418 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:58:28,066|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.00565028190612793]
+2018-06-28 15:58:28,074|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:58:28 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:59:02,556|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009261846542358398]
+2018-06-28 15:59:02,569|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:59:02 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:59:02,606|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.005476474761962891]
+2018-06-28 15:59:02,621|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:59:02 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:59:20,639|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009133577346801758]
+2018-06-28 15:59:20,657|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:59:20 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 15:59:20,703|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.011059999465942383]
+2018-06-28 15:59:20,711|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:07:59:20 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:06:33,814|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004475116729736328]
+2018-06-28 16:06:33,822|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:06:33 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:06:33,844|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.002241849899291992]
+2018-06-28 16:06:33,848|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:06:33 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:07:40,223|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.02358222007751465]
+2018-06-28 16:07:40,249|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:07:40 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:07:40,267|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.004370927810668945]
+2018-06-28 16:07:40,275|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:07:40 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:10:32,184|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007834672927856445]
+2018-06-28 16:10:32,203|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:10:32 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:10:32,220|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.004712104797363281]
+2018-06-28 16:10:32,225|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:10:32 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:11:02,588|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.019496679306030273]
+2018-06-28 16:11:02,604|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:11:02 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:11:02,617|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.0020470619201660156]
+2018-06-28 16:11:02,620|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:11:02 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:17:59,828|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.013138771057128906]
+2018-06-28 16:17:59,849|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:17:59 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:17:59,910|ERROR|sqlBaseMgr.py:975|getFirstRechValidWater|execute getFirstRechValidWater sql time[0.020601749420166016]
+2018-06-28 16:17:59,930|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:17:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 290 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:24:58,394|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005754232406616211]
+2018-06-28 16:24:58,398|ERROR|appweb_svr.py:115|handlerWebApp|'classDataBaseMgr' object has no attribute 'getValidWaterMonthly'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 41, in handleHttp
+    validWater=yield from classDataBaseMgr.getInstance().getValidWaterMonthly(strAccountId)
+AttributeError: 'classDataBaseMgr' object has no attribute 'getValidWaterMonthly'
+2018-06-28 16:24:58,404|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:24:58 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 346 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:25:24,449|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.003722667694091797]
+2018-06-28 16:25:24,459|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:25:24 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:26:24,213|ERROR|certifytoken.py:30|certify_token|[210] [错误|用户鉴权信息过期，请重新登陆账号] []
+2018-06-28 16:26:24,214|ERROR|appweb_svr.py:111|handlerWebApp|[210] [错误|用户鉴权信息过期，请重新登陆账号] []
+2018-06-28 16:26:24,217|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:26:24 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:26:33,105|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0025556087493896484]
+2018-06-28 16:26:33,112|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:26:33 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:26:38,863|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0028154850006103516]
+2018-06-28 16:26:38,871|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:26:38 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 304 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:36:35,964|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0048677921295166016]
+2018-06-28 16:36:35,971|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:36:35 +0000] "POST /player/login HTTP/1.1" 200 411 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:36:35,988|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.002813100814819336]
+2018-06-28 16:36:35,996|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:36:35 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:37:06,144|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0022974014282226562]
+2018-06-28 16:37:06,150|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:37:06 +0000] "POST /player/login HTTP/1.1" 200 414 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:37:06,175|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.001956462860107422]
+2018-06-28 16:37:06,182|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:37:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:37:39,530|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.013910293579101562]
+2018-06-28 16:37:39,549|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:37:39 +0000] "POST /player/login HTTP/1.1" 200 413 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:37:39,581|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.009640216827392578]
+2018-06-28 16:37:39,609|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:37:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:38:31,042|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004998922348022461]
+2018-06-28 16:38:31,053|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:38:31 +0000] "POST /player/login HTTP/1.1" 200 414 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:38:31,071|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004752397537231445]
+2018-06-28 16:38:31,087|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:38:31 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:39:25,510|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.01035451889038086]
+2018-06-28 16:39:25,530|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:39:25 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:39:25,550|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004889011383056641]
+2018-06-28 16:39:25,567|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:39:25 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:29,156|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.04528188705444336]
+2018-06-28 16:45:29,173|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:29 +0000] "POST /player/login HTTP/1.1" 200 418 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:29,196|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.006329774856567383]
+2018-06-28 16:45:29,311|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:45:29,331|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:29 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:34,361|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005159854888916016]
+2018-06-28 16:45:34,373|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:34 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:34,400|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0030612945556640625]
+2018-06-28 16:45:34,414|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:45:34,420|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:34 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:37,845|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.005710124969482422]
+2018-06-28 16:45:37,856|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:37 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:45:37,882|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005732059478759766]
+2018-06-28 16:45:37,909|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:45:37,916|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:45:37 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:46:16,856|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007925748825073242]
+2018-06-28 16:46:16,863|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:46:16 +0000] "POST /player/login HTTP/1.1" 200 418 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:46:16,874|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0019261837005615234]
+2018-06-28 16:46:16,882|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:46:16,887|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:46:16 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:46:36,280|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004083395004272461]
+2018-06-28 16:46:36,295|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:46:36 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:46:36,312|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0038378238677978516]
+2018-06-28 16:46:36,337|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:46:36,344|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:46:36 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:47:44,204|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0039136409759521484]
+2018-06-28 16:47:44,212|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:47:44 +0000] "POST /player/login HTTP/1.1" 200 418 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:47:44,236|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0051343441009521484]
+2018-06-28 16:47:44,246|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo_wagers.status' in 'where clause'")
+2018-06-28 16:47:44,251|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:47:44 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 350 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:48:55,973|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.021725893020629883]
+2018-06-28 16:48:56,003|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:48:56 +0000] "POST /player/login HTTP/1.1" 200 415 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:48:56,032|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005099773406982422]
+2018-06-28 16:48:56,085|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+2018-06-28 16:48:56,108|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:48:56 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 342 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:48:57,484|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00535130500793457]
+2018-06-28 16:48:57,495|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:48:57 +0000] "POST /player/login HTTP/1.1" 200 420 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:48:57,540|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005471467971801758]
+2018-06-28 16:48:57,606|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+2018-06-28 16:48:57,614|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:48:57 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 342 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:49:20,007|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0035419464111328125]
+2018-06-28 16:49:20,025|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+2018-06-28 16:49:20,031|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:49:20 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:49:29,816|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006683826446533203]
+2018-06-28 16:49:29,826|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:49:29 +0000] "POST /player/login HTTP/1.1" 200 415 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:49:29,857|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004845142364501953]
+2018-06-28 16:49:29,878|ERROR|appweb_svr.py:115|handlerWebApp|(1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 43, in handleHttp
+    pingboValidWater=yield from classSqlBaseMgr.getInstance().getAccountPinboHistoryValidWater(activeTime,activeTime+86400,strAccountId)
+  File "/home/python/Desktop/company_project/server/datawrapper/sqlBaseMgr.py", line 473, in getAccountPinboHistoryValidWater
+    result = yield from conn.execute(sql)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/utils.py", line 61, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/connection.py", line 77, in _execute
+    yield from cursor.execute(query, dp)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 239, in execute
+    yield from self._query(query)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py", line 460, in _query
+    yield from conn.query(q)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 398, in query
+    yield from self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 582, in _read_query_result
+    yield from result.read()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 835, in read
+    first_packet = yield from self.connection._read_packet()
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/connection.py", line 552, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.5/dist-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'dj_pinbo.odds' in 'where clause'")
+2018-06-28 16:49:29,888|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:49:29 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 343 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:51:07,668|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0042896270751953125]
+2018-06-28 16:51:07,686|ERROR|appweb_svr.py:115|handlerWebApp|unsupported operand type(s) for +: 'int' and 'dict'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 47, in handleHttp
+    data.validWater="%.2f"%round((validWater+pingboValidWater)/100,2)
+TypeError: unsupported operand type(s) for +: 'int' and 'dict'
+2018-06-28 16:51:07,691|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:51:07 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 329 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:51:22,516|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.002683401107788086]
+2018-06-28 16:51:22,637|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 16:51:22,639|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 16:51:22,640|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 16:51:22,640|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 16:51:22,642|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 16:51:22,649|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 16:51:22,650|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 16:51:22,651|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 16:51:22,654|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 16:51:22,654|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 16:51:22,656|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 16:51:22,656|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 16:51:22,657|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 16:51:22,659|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 16:51:22,659|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 16:51:22,661|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 16:51:22,663|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 16:51:22,663|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 16:51:22,667|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 16:51:22,668|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 16:51:22,669|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 16:51:22,670|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 16:51:22,670|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 16:51:22,671|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 16:51:22,675|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 16:51:22,677|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 16:51:22,679|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 16:51:22,679|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 16:51:22,680|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 16:51:22,681|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 16:51:22,681|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 16:51:22,681|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 16:51:22,682|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 16:51:22,683|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 16:51:22,683|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 16:51:22,684|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 16:51:22,685|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 16:51:22,685|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 16:51:22,686|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 16:51:22,687|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 16:51:22,688|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 16:51:22,689|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 16:51:37,404|ERROR|appweb_svr.py:115|handlerWebApp|unsupported operand type(s) for +: 'int' and 'dict'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 47, in handleHttp
+    data.validWater="%.2f"%round((validWater+pingboValidWater)/100,2)
+TypeError: unsupported operand type(s) for +: 'int' and 'dict'
+2018-06-28 16:51:37,409|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:51:37 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 329 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:52:49,055|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0036170482635498047]
+2018-06-28 16:52:49,073|ERROR|appweb_svr.py:115|handlerWebApp|unsupported operand type(s) for +: 'int' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 47, in handleHttp
+    data.validWater="%.2f"%round((validWater+pingboValidWater.get('validWaterCoin',0))/100,2)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+2018-06-28 16:52:49,077|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:52:49 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 332 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:52:58,269|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0023903846740722656]
+2018-06-28 16:52:58,432|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 16:52:58,437|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 16:52:58,438|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 16:52:58,438|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 16:52:58,441|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 16:52:58,442|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 16:52:58,442|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 16:52:58,443|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 16:52:58,446|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 16:52:58,447|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 16:52:58,450|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 16:52:58,451|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 16:52:58,451|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 16:52:58,453|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 16:52:58,454|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 16:52:58,455|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 16:52:58,456|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 16:52:58,457|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 16:52:58,460|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 16:52:58,462|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 16:52:58,463|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 16:52:58,464|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 16:52:58,466|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 16:52:58,466|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 16:52:58,467|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 16:52:58,468|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 16:52:58,469|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 16:52:58,470|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 16:52:58,470|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 16:52:58,471|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 16:52:58,471|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 16:52:58,472|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 16:52:58,473|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 16:52:58,473|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 16:52:58,474|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 16:52:58,475|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 16:52:58,476|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 16:52:58,478|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 16:52:58,482|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 16:52:58,483|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 16:52:58,485|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 16:52:58,487|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 16:54:04,894|ERROR|appweb_svr.py:115|handlerWebApp|unsupported operand type(s) for +: 'int' and 'NoneType'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/firstChargeActivity.py", line 47, in handleHttp
+    data.validWater="%.2f"%round((validWater+pingboValidWater.get('validWaterCoin',0))/100,2)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+2018-06-28 16:54:04,898|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:54:04 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 332 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:54:16,597|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004476785659790039]
+2018-06-28 16:54:16,621|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:54:16 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 302 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:54:59,249|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.010296344757080078]
+2018-06-28 16:54:59,274|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:54:59 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:54:59,331|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0070879459381103516]
+2018-06-28 16:54:59,374|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:54:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:55:53,909|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0054852962493896484]
+2018-06-28 16:55:53,918|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:55:53 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:55:53,938|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0033142566680908203]
+2018-06-28 16:55:53,958|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:55:53 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:57:06,418|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009577751159667969]
+2018-06-28 16:57:06,451|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:57:06 +0000] "POST /player/login HTTP/1.1" 200 413 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:57:06,477|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.007964849472045898]
+2018-06-28 16:57:06,518|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:57:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:57:47,210|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0136566162109375]
+2018-06-28 16:57:47,230|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:57:47 +0000] "POST /player/login HTTP/1.1" 200 413 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:57:47,260|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.011090278625488281]
+2018-06-28 16:57:47,306|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:57:47 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:15,972|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.017364978790283203]
+2018-06-28 16:59:16,015|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 16:59:16,034|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:59:16 +0000] "POST /player/regist HTTP/1.1" 200 418 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:59:25,923|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006126880645751953]
+2018-06-28 16:59:25,930|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:25 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:25,942|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0020873546600341797]
+2018-06-28 16:59:25,959|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:25 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:35,541|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.002290964126586914]
+2018-06-28 16:59:35,562|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:08:59:35 +0000] "POST /player/deposit HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 16:59:38,619|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006278514862060547]
+2018-06-28 16:59:38,634|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:38 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:38,652|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004899024963378906]
+2018-06-28 16:59:38,691|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:38 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:49,833|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0062596797943115234]
+2018-06-28 16:59:49,838|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:49 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 16:59:49,855|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0018720626831054688]
+2018-06-28 16:59:49,872|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:08:59:49 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:00:04,609|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.028805017471313477]
+2018-06-28 17:00:04,646|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:00:04 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:00:04,669|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005370378494262695]
+2018-06-28 17:00:04,696|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:00:04 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:04:48,654|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006285667419433594]
+2018-06-28 17:04:48,663|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:04:48 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:04:48,704|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0039000511169433594]
+2018-06-28 17:04:48,724|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:04:48 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:04:58,400|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.003198862075805664]
+2018-06-28 17:04:58,407|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:04:58 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:04:58,434|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0024216175079345703]
+2018-06-28 17:04:58,452|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:04:58 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:05:52,247|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.003599882125854492]
+2018-06-28 17:05:52,255|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:05:52 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:05:52,271|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0035169124603271484]
+2018-06-28 17:05:52,284|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:05:52 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:06:06,524|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009259939193725586]
+2018-06-28 17:06:06,544|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:06:06 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:06:06,573|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.005471706390380859]
+2018-06-28 17:06:06,606|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:06:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:06:59,751|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0052220821380615234]
+2018-06-28 17:06:59,761|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:06:59 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:06:59,781|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004483699798583984]
+2018-06-28 17:06:59,827|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:06:59 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:06,601|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.015285491943359375]
+2018-06-28 17:08:06,623|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:06 +0000] "POST /player/login HTTP/1.1" 200 416 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:06,645|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0054547786712646484]
+2018-06-28 17:08:06,678|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:06 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:46,533|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0050847530364990234]
+2018-06-28 17:08:46,544|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:46 +0000] "POST /player/login HTTP/1.1" 200 417 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:46,565|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.004797220230102539]
+2018-06-28 17:08:46,586|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:46 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:55,698|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.011236429214477539]
+2018-06-28 17:08:55,717|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:55 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:08:55,785|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.009093761444091797]
+2018-06-28 17:08:55,841|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:08:55 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 299 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:13:49,828|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.002206087112426758]
+2018-06-28 17:13:49,843|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:13:49 +0000] "POST /player/deposit HTTP/1.1" 200 342 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:15:07,294|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0023756027221679688]
+2018-06-28 17:15:07,309|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:15:07 +0000] "POST /player/deposit HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:16:10,112|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009648323059082031]
+2018-06-28 17:16:10,152|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 17:16:10,161|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:16:10 +0000] "POST /player/regist HTTP/1.1" 200 423 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:16:19,584|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.003432750701904297]
+2018-06-28 17:16:19,596|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:16:19 +0000] "POST /player/deposit HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:17:42,332|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.006070137023925781]
+2018-06-28 17:17:42,365|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 17:17:42,374|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:17:42 +0000] "POST /player/regist HTTP/1.1" 200 425 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:17:54,583|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.002129077911376953]
+2018-06-28 17:17:54,596|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:17:54 +0000] "POST /player/deposit HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:19:59,813|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-28 17:19:59,816|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:19:59 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:26:59,454|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 17:26:59,456|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 17:26:59,457|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 17:26:59,458|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 17:26:59,459|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 17:26:59,461|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 17:26:59,461|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 17:26:59,462|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 17:26:59,463|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 17:26:59,464|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 17:26:59,469|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 17:26:59,470|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 17:26:59,471|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 17:26:59,472|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 17:26:59,474|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 17:26:59,475|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 17:26:59,476|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 17:26:59,477|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 17:26:59,481|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 17:26:59,482|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 17:26:59,483|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 17:26:59,484|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 17:26:59,485|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 17:26:59,486|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 17:26:59,486|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 17:26:59,487|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 17:26:59,488|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 17:26:59,488|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 17:26:59,488|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 17:26:59,489|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 17:26:59,493|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 17:26:59,493|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 17:26:59,494|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 17:26:59,495|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 17:26:59,499|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 17:26:59,501|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 17:26:59,502|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 17:26:59,502|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 17:26:59,503|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 17:26:59,504|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 17:26:59,507|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 17:26:59,508|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 17:27:23,688|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-28 17:27:33,129|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:27:33 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:28:21,309|ERROR|appweb_svr.py:111|handlerWebApp|[1000] [错误|数据版本有误] []
+2018-06-28 17:28:21,311|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:28:21 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:28:24,729|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0030221939086914062]
+2018-06-28 17:28:24,733|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:24 +0000] "POST /player/login HTTP/1.1" 200 422 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 17:28:24,743|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.002138853073120117]
+2018-06-28 17:28:24,760|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:24 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 17:28:27,019|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 17:28:27,023|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 17:28:27,025|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 17:28:27,025|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 17:28:27,029|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 17:28:27,030|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 17:28:27,031|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 17:28:27,031|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 17:28:27,033|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 17:28:27,034|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 17:28:27,036|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 17:28:27,037|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 17:28:27,037|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 17:28:27,039|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 17:28:27,039|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 17:28:27,040|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 17:28:27,041|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 17:28:27,041|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 17:28:27,045|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 17:28:27,046|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 17:28:27,047|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 17:28:27,048|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 17:28:27,048|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 17:28:27,049|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 17:28:27,049|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 17:28:27,050|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 17:28:27,051|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 17:28:27,052|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 17:28:27,053|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 17:28:27,054|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 17:28:27,054|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 17:28:27,055|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 17:28:27,055|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 17:28:27,056|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 17:28:27,056|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 17:28:27,057|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 17:28:27,057|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 17:28:27,058|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 17:28:27,058|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 17:28:27,059|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 17:28:27,060|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 17:28:27,061|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 17:28:39,037|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:28:39 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 357 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:28:39,050|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.002605438232421875]
+2018-06-28 17:28:39,057|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:39 +0000] "POST /player/login HTTP/1.1" 200 421 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:28:39,067|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0028085708618164062]
+2018-06-28 17:28:39,081|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:39 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 301 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:28:50,830|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004460573196411133]
+2018-06-28 17:28:50,837|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:50 +0000] "POST /player/login HTTP/1.1" 200 419 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:28:50,862|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0022211074829101562]
+2018-06-28 17:28:50,903|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:28:50 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 301 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:29:26,415|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.010188579559326172]
+2018-06-28 17:29:26,440|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:29:26 +0000] "POST /player/login HTTP/1.1" 200 423 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:29:26,482|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0033321380615234375]
+2018-06-28 17:29:26,518|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:29:26 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 301 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:33:03,797|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0024611949920654297]
+2018-06-28 17:33:03,814|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:33:03 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:35:48,364|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00403141975402832]
+2018-06-28 17:35:48,404|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 17:35:48,429|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:35:48 +0000] "POST /player/regist HTTP/1.1" 200 422 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:36:03,070|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0027086734771728516]
+2018-06-28 17:36:03,085|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:36:03 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:38:04,165|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.010673284530639648]
+2018-06-28 17:38:04,240|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 17:38:04,256|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:38:04 +0000] "POST /player/regist HTTP/1.1" 200 419 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:38:15,688|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0036160945892333984]
+2018-06-28 17:38:15,703|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:38:15 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:40:25,326|ERROR|appweb_svr.py:115|handlerWebApp|'token'
+Traceback (most recent call last):
+  File "/home/python/Desktop/company_project/server/appweb/appweb_svr.py", line 62, in handlerWebApp
+    bytesResponse = yield from objHandleFunction(dictParam)
+  File "/home/python/Desktop/company_project/server/appweb/handle/active/perMonthVipActive.py", line 32, in handleHttp
+    strToken = dictParam["token"]
+KeyError: 'token'
+2018-06-28 17:40:25,348|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:40:25 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 287 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:41:38,307|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:41:38 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 353 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:48:55,405|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:48:55 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:50:40,885|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:50:40 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:50:51,393|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:50:51 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:51:21,652|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:51:21 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:51:45,821|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:51:45 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:52:02,956|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:52:02 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:55:21,724|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:55:21 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:56:20,644|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:09:56:20 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 17:59:42,997|ERROR|appweb_svr.py:111|handlerWebApp|[204] [提醒|账号已存在] []
+2018-06-28 17:59:43,000|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:59:43 +0000] "POST /player/regist HTTP/1.1" 200 312 "-" "PostmanRuntime/7.1.5"
+2018-06-28 17:59:55,579|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.009012460708618164]
+2018-06-28 17:59:55,620|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 17:59:55,646|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:09:59:55 +0000] "POST /player/regist HTTP/1.1" 200 415 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:00:52,573|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0062160491943359375]
+2018-06-28 18:00:52,593|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:00:52 +0000] "POST /player/deposit HTTP/1.1" 200 340 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:04:47,492|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:10:04:47 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 18:07:14,134|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:10:07:14 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 18:07:50,674|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:10:07:50 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 18:08:13,476|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:10:08:13 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 18:08:22,060|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:10:08:22 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 352 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+2018-06-28 18:11:53,460|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.021018266677856445]
+2018-06-28 18:11:53,488|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 18:11:53,495|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:11:53 +0000] "POST /player/regist HTTP/1.1" 200 418 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:12:12,487|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0022230148315429688]
+2018-06-28 18:12:12,500|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:12:12 +0000] "POST /player/deposit HTTP/1.1" 200 340 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:14:53,911|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.013529777526855469]
+2018-06-28 18:14:53,962|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 18:14:53,973|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:14:53 +0000] "POST /player/regist HTTP/1.1" 200 418 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:15:04,325|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0022161006927490234]
+2018-06-28 18:15:04,339|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:15:04 +0000] "POST /player/deposit HTTP/1.1" 200 342 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:25:08,075|ERROR|sqlBaseMgr.py:398|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.007083415985107422]
+2018-06-28 18:25:08,097|ERROR|active.py:16|initActiveData|account[{}] active data already exist
+2018-06-28 18:25:08,106|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:25:08 +0000] "POST /player/regist HTTP/1.1" 200 417 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:25:21,610|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.003101825714111328]
+2018-06-28 18:25:21,625|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:25:21 +0000] "POST /player/deposit HTTP/1.1" 200 343 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:27:19,671|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0024836063385009766]
+2018-06-28 18:27:19,690|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:27:19 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 304 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:27:37,886|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.002247333526611328]
+2018-06-28 18:27:37,900|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:27:37 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:27:43,310|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.0020792484283447266]
+2018-06-28 18:27:43,323|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:27:43 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "PostmanRuntime/7.1.5"
+2018-06-28 18:28:01,836|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 18:28:01,838|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 18:28:01,839|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 18:28:01,839|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 18:28:01,840|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 18:28:01,841|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 18:28:01,842|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 18:28:01,842|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 18:28:01,847|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 18:28:01,848|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 18:28:01,849|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 18:28:01,850|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 18:28:01,850|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 18:28:01,852|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 18:28:01,852|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 18:28:01,853|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 18:28:01,854|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 18:28:01,855|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 18:28:01,859|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 18:28:01,860|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 18:28:01,862|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 18:28:01,863|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 18:28:01,864|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 18:28:01,864|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 18:28:01,865|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 18:28:01,866|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 18:28:01,870|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 18:28:01,871|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 18:28:01,875|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 18:28:01,875|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 18:28:01,876|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 18:28:01,876|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 18:28:01,877|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 18:28:01,879|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 18:28:01,880|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 18:28:01,880|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 18:28:01,881|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 18:28:01,883|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 18:28:01,884|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 18:28:01,886|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 18:28:01,888|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 18:28:01,891|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 18:28:19,183|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.00470280647277832]
+2018-06-28 18:28:46,487|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:10:28:46 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:09:56,971|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[2.399599075317383]
+2018-06-28 19:10:22,134|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:10:22 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 300 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:12:51,733|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.012175321578979492]
+2018-06-28 19:12:51,759|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:12:51 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:12:58,347|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.00225067138671875]
+2018-06-28 19:12:58,448|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-28 19:12:58,452|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-28 19:12:58,454|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-28 19:12:58,454|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-28 19:12:58,455|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-28 19:12:58,456|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-28 19:12:58,458|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-28 19:12:58,459|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-28 19:12:58,461|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-28 19:12:58,462|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-28 19:12:58,468|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-28 19:12:58,470|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-28 19:12:58,471|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-28 19:12:58,473|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-28 19:12:58,474|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-28 19:12:58,476|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-28 19:12:58,477|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-28 19:12:58,478|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-28 19:12:58,484|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-28 19:12:58,485|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-28 19:12:58,486|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-28 19:12:58,487|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-28 19:12:58,487|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-28 19:12:58,488|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-28 19:12:58,489|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-28 19:12:58,490|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-28 19:12:58,491|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-28 19:12:58,491|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-28 19:12:58,492|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-28 19:12:58,492|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-28 19:12:58,493|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-28 19:12:58,494|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-28 19:12:58,495|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-28 19:12:58,495|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-28 19:12:58,496|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-28 19:12:58,501|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-28 19:12:58,502|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-28 19:12:58,502|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-28 19:12:58,503|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-28 19:12:58,503|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-28 19:12:58,509|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-28 19:12:58,510|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-28 19:13:56,385|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:13:56 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:14:23,782|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[5.942546844482422]
+2018-06-28 19:16:15,665|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:16:15 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 297 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:49,788|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0023965835571289062]
+2018-06-28 19:17:49,806|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:49 +0000] "POST /player/deposit HTTP/1.1" 200 340 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:54,659|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0023233890533447266]
+2018-06-28 19:17:54,672|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:54 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:55,309|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0021872520446777344]
+2018-06-28 19:17:55,322|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:55 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:55,907|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0024156570434570312]
+2018-06-28 19:17:55,922|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:55 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:56,503|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0023763179779052734]
+2018-06-28 19:17:56,515|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:56 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:57,027|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0021047592163085938]
+2018-06-28 19:17:57,040|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:57 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:57,499|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.00587153434753418]
+2018-06-28 19:17:57,527|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:57 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:58,128|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.00228118896484375]
+2018-06-28 19:17:58,140|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:58 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:58,678|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0022106170654296875]
+2018-06-28 19:17:58,698|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:58 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:59,236|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0025382041931152344]
+2018-06-28 19:17:59,249|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:59 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:17:59,691|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.006454944610595703]
+2018-06-28 19:17:59,702|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:17:59 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:18:00,132|ERROR|sqlBaseMgr.py:936|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.002329111099243164]
+2018-06-28 19:18:00,144|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:18:00 +0000] "POST /player/deposit HTTP/1.1" 200 339 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:19:47,041|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:19:47 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 353 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:20:05,782|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.5586068630218506]
+2018-06-28 19:20:05,794|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:20:05 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 304 "-" "PostmanRuntime/7.1.5"
+2018-06-28 19:32:36,328|INFO|helpers.py:529|log|192.168.1.184 - - [28/Jun/2018:11:32:36 +0000] "POST /active/perMonthVipActive HTTP/1.1" 200 353 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-28 19:55:18,812|ERROR|sqlBaseMgr.py:975|getFirstRechCoin|execute getFirstRechValidWater sql time[0.013819217681884766]
+2018-06-28 19:55:18,836|INFO|helpers.py:529|log|192.168.1.120 - - [28/Jun/2018:11:55:18 +0000] "POST /active/firstChargeActivity HTTP/1.1" 200 314 "-" "PostmanRuntime/7.1.5"

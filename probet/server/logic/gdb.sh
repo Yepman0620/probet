@@ -1,0 +1,1 @@
+~/run/python3/bin/pudb3 ~/code/server/logic/logic_svr.py --rf release --wid 1 --gid 1 --gcount 1 --rmq 0 --gdb gdb

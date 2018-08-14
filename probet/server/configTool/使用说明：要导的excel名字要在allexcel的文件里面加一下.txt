@@ -1,0 +1,12 @@
+1. 新的配表支持在 cs 行添加列类型和正则合法性检查, 这行配置由程序搞定.
+   number/string/numberlist/stringlist/regex/combo
+
+2. 当 regex 时，cs:regex:pattern 第3列是正则模式.
+
+3. 当combo时: cs:combo:;!4!,!3
+   合法内容示例: (3,4,2;98,5,9;6,27,44;8,2,5)
+   
+   用 ! 分隔4个字段，第1个表示大分隔号（;), 第2个表示1维数组有多少个.
+   第3个是小分隔号，第4个表示2维数组有多少个.
+   
+4. 使用 newexport.cmd 导出一个配表(将excel 拖上去).

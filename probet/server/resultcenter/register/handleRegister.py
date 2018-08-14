@@ -1,0 +1,21 @@
+from ssprotocol.protoDataCenterResult import result_msgId
+
+from resultcenter.resulthandler import msgResultGuess
+from resultcenter.resulthandler import msgBackGuess
+from resultcenter.resulthandler import msgNoResultGuess
+from resultcenter.resulthandler import msgCancelAwardMatch
+from resultcenter.resulthandler import msgAwardMatch
+from resultcenter.resulthandler import msgCancelResultGuess
+from resultcenter.resulthandler import msgCancelResultGuessByGuessUId
+
+
+g_obj_handlerRegister = {}
+g_obj_handlerRegister[result_msgId.msg_result] = msgResultGuess.handleResultGuess
+g_obj_handlerRegister[result_msgId.msg_back] = msgBackGuess.msgBackGuess
+g_obj_handlerRegister[result_msgId.msg_no_result] = msgNoResultGuess.msgNoResultGuess
+
+
+g_obj_handlerRegister[result_msgId.msg_award] = msgAwardMatch.handleAwardMatch
+g_obj_handlerRegister[result_msgId.msg_cancel_award] = msgCancelAwardMatch.handleCancelAwardMatch
+g_obj_handlerRegister[result_msgId.msg_cancel_result] = msgCancelResultGuess.handleCancelResultGuess
+g_obj_handlerRegister[result_msgId.msg_cancel_result_guessUId] = msgCancelResultGuessByGuessUId.handleCancelResultGuessByUId

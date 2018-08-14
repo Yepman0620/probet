@@ -1,0 +1,26 @@
+2018-06-14 14:23:54,484|base_events.py:1148|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1599, in <module>
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1026, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/python/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 312, in <module>
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 299, in _wakeup
+    self._step(exc)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/home/python/Desktop/company_project/server/lib/fifoMgr.py", line 89, in get
+    return result
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 310, in __exit__
+    self._pool.release(self._conn)
+  File "/usr/local/lib/python3.5/dist-packages/aioredis/pool.py", line 218, in release
+    async_task(self._wakeup(), loop=self._loop)
+task: <Task pending coro=<RedisPool._wakeup() running at /usr/local/lib/python3.5/dist-packages/aioredis/pool.py:263> created at /usr/local/lib/python3.5/dist-packages/aioredis/pool.py:218>

@@ -1,0 +1,378 @@
+2018-06-15 10:31:26,661|INFO|singlePLogger.py:108|initLogger|singleLogger init finish
+2018-06-15 10:43:33,528|ERROR|appweb_svr.py:111|handlerWebApp|[202] [提醒|账号未找到] []
+2018-06-15 10:43:33,534|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:43:33 +0000] "POST /player/getUserCoin HTTP/1.1" 200 313 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:43:33,558|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.017760515213012695]
+2018-06-15 10:43:33,571|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:43:33 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:44:27,703|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.011194944381713867]
+2018-06-15 10:44:27,734|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:44:27 +0000] "POST /player/regist HTTP/1.1" 200 418 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:44:27,863|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:44:27 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:44:27,891|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:44:27 +0000] "GET /message/getAllBanner HTTP/1.1" 200 490 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:44:27,923|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.010028362274169922]
+2018-06-15 10:44:27,928|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:44:27 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:49:27,625|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:49:27 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:49:27,646|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03867602348327637]
+2018-06-15 10:49:27,664|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:49:27 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:49:28,027|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:49:28 +0000] "GET /message/getAllBanner HTTP/1.1" 200 490 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 10:49:28,031|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.036840200424194336]
+2018-06-15 10:49:28,038|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:02:49:28 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:01:20,212|INFO|singlePLogger.py:108|initLogger|singleLogger init finish
+2018-06-15 11:03:15,576|ERROR|appweb_svr.py:111|handlerWebApp|[210] [错误|用户鉴权信息过期，请重新登陆账号] []
+2018-06-15 11:03:15,584|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:15 +0000] "POST /player/getUserCoin HTTP/1.1" 200 352 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:03:15,599|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.008427143096923828]
+2018-06-15 11:03:15,609|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:15 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:03:26,090|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0051500797271728516]
+2018-06-15 11:03:26,094|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:26 +0000] "POST /player/login HTTP/1.1" 200 424 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:03:26,216|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:26 +0000] "POST /player/getUserCoin HTTP/1.1" 200 264 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:03:26,229|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03966808319091797]
+2018-06-15 11:03:26,234|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:26 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:03:26,252|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:03:26 +0000] "GET /message/getAllBanner HTTP/1.1" 200 496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:06,701|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:06 +0000] "POST /player/getUserCoin HTTP/1.1" 200 264 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:06,722|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.00803375244140625]
+2018-06-15 11:11:06,730|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:06 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:07,084|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:07 +0000] "GET /message/getAllBanner HTTP/1.1" 200 496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:07,101|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.00919961929321289]
+2018-06-15 11:11:07,105|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:07 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:58,787|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:58 +0000] "POST /player/getUserCoin HTTP/1.1" 200 264 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:58,792|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01685357093811035]
+2018-06-15 11:11:58,796|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:58 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:59,247|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:59 +0000] "GET /message/getAllBanner HTTP/1.1" 200 496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:11:59,250|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.029218196868896484]
+2018-06-15 11:11:59,257|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:11:59 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:15:54,195|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-15 11:15:54,195|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-06-15 11:15:54,196|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:15:54 +0000] "POST /player/deposit HTTP/1.1" 200 366 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:16:06,983|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0024056434631347656]
+2018-06-15 11:16:06,988|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:16:06 +0000] "POST /player/login HTTP/1.1" 200 440 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:16:56,157|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:16:56 +0000] "POST /player/deposit HTTP/1.1" 200 364 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:17:09,842|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:17:09 +0000] "POST /player/deposit HTTP/1.1" 200 363 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:17:11,458|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.008313894271850586]
+2018-06-15 11:17:11,465|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:11 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:11,482|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.010319709777832031]
+2018-06-15 11:17:11,491|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:11 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:21,038|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:17:21 +0000] "POST /player/deposit HTTP/1.1" 200 363 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:17:43,319|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.009683847427368164]
+2018-06-15 11:17:43,339|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:43 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:43,356|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:43 +0000] "GET /message/getAllBanner HTTP/1.1" 200 496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:51,053|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03496193885803223]
+2018-06-15 11:17:51,062|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:51 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:51,067|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.04063582420349121]
+2018-06-15 11:17:51,072|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:51 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:52,729|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:52 +0000] "GET /message/getAllBanner HTTP/1.1" 200 496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:17:52,735|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0498502254486084]
+2018-06-15 11:17:52,747|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:17:52 +0000] "POST /message/GetMsg HTTP/1.1" 200 376 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:18:03,855|INFO|singlePLogger.py:108|initLogger|singleLogger init finish
+2018-06-15 11:18:08,199|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:18:08 +0000] "POST /player/deposit HTTP/1.1" 200 364 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:18:22,545|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-15 11:18:22,548|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-15 11:18:22,549|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-15 11:18:22,550|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-15 11:18:22,551|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-15 11:18:22,554|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-15 11:18:22,556|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-15 11:18:22,562|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-15 11:18:22,566|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-15 11:18:22,567|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-15 11:18:22,569|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-15 11:18:22,571|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-15 11:18:22,577|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-15 11:18:22,580|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-15 11:18:22,582|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-15 11:18:22,587|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-15 11:18:22,591|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-15 11:18:22,593|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-15 11:18:22,626|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-15 11:18:22,628|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-15 11:18:22,629|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-15 11:18:22,630|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-15 11:18:22,631|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-15 11:18:22,632|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-15 11:18:22,633|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-15 11:18:22,634|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-15 11:18:22,635|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-15 11:18:22,636|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-15 11:18:22,636|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-15 11:18:22,640|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-15 11:18:22,641|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-15 11:18:22,642|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-15 11:18:22,642|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-15 11:18:22,643|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-15 11:18:22,644|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-15 11:18:22,645|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-15 11:18:22,645|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-15 11:18:22,646|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-15 11:18:22,649|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-15 11:18:22,651|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-15 11:18:22,652|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-15 11:18:22,654|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-15 11:18:39,136|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:18:39 +0000] "POST /player/deposit HTTP/1.1" 200 365 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:19:20,028|INFO|helpers.py:529|log|192.168.1.120 - - [15/Jun/2018:03:19:20 +0000] "POST /player/deposit HTTP/1.1" 200 364 "-" "PostmanRuntime/7.1.1"
+2018-06-15 11:20:29,296|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.019266843795776367]
+2018-06-15 11:20:29,306|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:20:29 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:21:33,505|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.010355472564697266]
+2018-06-15 11:21:33,517|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:21:33 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:22:44,243|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:22:44 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:22:44,282|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.021107196807861328]
+2018-06-15 11:22:44,302|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:22:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:22:44,673|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.035906314849853516]
+2018-06-15 11:22:44,683|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:22:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:22:44,728|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:22:44 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:23:14,665|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:23:14 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:23:14,686|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.055136919021606445]
+2018-06-15 11:23:14,705|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:23:14 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:23:15,081|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:23:15 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:23:15,090|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.07359576225280762]
+2018-06-15 11:23:15,111|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:23:15 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:33:03,756|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:33:03 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:33:03,768|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.008480548858642578]
+2018-06-15 11:33:03,776|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:33:03 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:33:04,120|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.027042388916015625]
+2018-06-15 11:33:04,132|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:33:04 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:33:04,144|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:33:04 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:01,098|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.016862869262695312]
+2018-06-15 11:35:01,103|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:01 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:01,108|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.022713661193847656]
+2018-06-15 11:35:01,114|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:01 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:03,893|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.034673213958740234]
+2018-06-15 11:35:03,912|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:03 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:04,872|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.019016742706298828]
+2018-06-15 11:35:04,888|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:04 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:15,197|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:15 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:15,200|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.023983240127563477]
+2018-06-15 11:35:15,207|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:15 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:26,371|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0312809944152832]
+2018-06-15 11:35:26,377|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:26 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:26,380|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.032642364501953125]
+2018-06-15 11:35:26,387|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:26 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:28,414|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:28 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:28,418|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.06073927879333496]
+2018-06-15 11:35:28,428|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:28 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:33,345|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03238677978515625]
+2018-06-15 11:35:33,354|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:33 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:33,357|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.029830217361450195]
+2018-06-15 11:35:33,363|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:33 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:44,844|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:44 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:35:44,848|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.07427668571472168]
+2018-06-15 11:35:44,855|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:35:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:38,711|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01860833168029785]
+2018-06-15 11:37:38,718|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:38 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:38,721|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.021867990493774414]
+2018-06-15 11:37:38,726|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:38 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:44,755|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:44 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:44,763|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.023524761199951172]
+2018-06-15 11:37:44,771|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:44,920|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:44 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:44,927|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.046633005142211914]
+2018-06-15 11:37:44,934|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:37:44,941|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.017011165618896484]
+2018-06-15 11:37:44,948|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:37:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:50,304|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.016730546951293945]
+2018-06-15 11:38:50,311|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:50 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:50,323|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.007801055908203125]
+2018-06-15 11:38:50,330|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:50 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:54,286|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0460662841796875]
+2018-06-15 11:38:54,294|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:54 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:54,297|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03386521339416504]
+2018-06-15 11:38:54,305|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:54 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:54,329|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:54 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:57,644|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:57 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:57,656|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.032010555267333984]
+2018-06-15 11:38:57,663|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:57 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:58,115|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:58 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:58,118|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0515749454498291]
+2018-06-15 11:38:58,125|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:58 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:38:58,128|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.05186581611633301]
+2018-06-15 11:38:58,134|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:38:58 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:39:58,762|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:39:58 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:39:58,772|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.027706146240234375]
+2018-06-15 11:39:58,783|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:39:58 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:39:59,233|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:39:59 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:39:59,247|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.07156252861022949]
+2018-06-15 11:39:59,254|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:39:59 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:39:59,259|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.06436705589294434]
+2018-06-15 11:39:59,268|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:39:59 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:41:20,139|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.020799875259399414]
+2018-06-15 11:41:20,155|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:41:20 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:41:28,627|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:41:28 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:41:28,642|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.009983062744140625]
+2018-06-15 11:41:28,648|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:41:28 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:41:29,073|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:41:29 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:41:29,081|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.029145479202270508]
+2018-06-15 11:41:29,089|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:41:29 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:03,957|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01502370834350586]
+2018-06-15 11:43:03,967|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:03 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:05,604|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:05 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:05,627|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.013849735260009766]
+2018-06-15 11:43:05,633|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:05 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:06,008|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:06 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:06,010|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.028287649154663086]
+2018-06-15 11:43:06,015|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:06 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:35,624|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.026731491088867188]
+2018-06-15 11:43:35,631|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:35 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:35,634|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.02938365936279297]
+2018-06-15 11:43:35,639|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:35 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:46,872|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:46 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:43:46,876|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.04403495788574219]
+2018-06-15 11:43:46,882|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:43:46 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:00,954|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:00 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:00,960|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.017604589462280273]
+2018-06-15 11:49:00,966|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:00 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:01,335|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:01 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:01,346|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03252434730529785]
+2018-06-15 11:49:01,358|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:01 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:10,448|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:10 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:10,465|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03561592102050781]
+2018-06-15 11:49:10,476|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:10 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:10,832|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:10 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:10,836|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.039641618728637695]
+2018-06-15 11:49:10,855|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:10 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:27,325|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.019143342971801758]
+2018-06-15 11:49:27,330|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:27 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:27,332|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.021842002868652344]
+2018-06-15 11:49:27,338|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:27 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:34,163|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:34 +0000] "POST /match/get/recentRank HTTP/1.1" 200 828 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:34,197|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:34 +0000] "POST /player/getguesscoin HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:34,206|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:34 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:34,650|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:34 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:34,658|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.02611231803894043]
+2018-06-15 11:49:34,665|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:34 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:35,987|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:35 +0000] "POST /match/get/recentRank HTTP/1.1" 200 814 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:36,015|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:36 +0000] "POST /player/getguesscoin HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:36,041|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01938176155090332]
+2018-06-15 11:49:36,049|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:36 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:49:36,052|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:49:36 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:50:36,770|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:50:36 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:36,781|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:36 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:58,788|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:58 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:58,806|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03641915321350098]
+2018-06-15 11:51:58,836|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:58 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:59,246|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:59 +0000] "POST /match/get/recentRank HTTP/1.1" 200 737 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:59,281|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:59 +0000] "POST /player/getguesscoin HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:51:59,297|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:51:59 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:53:00,208|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:53:00 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:53:12,992|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:53:12 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:53:12,997|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.030678987503051758]
+2018-06-15 11:53:13,001|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:53:13 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:57:18,151|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:57:18 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:57:18,173|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.016575098037719727]
+2018-06-15 11:57:18,177|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:57:18 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:57:18,479|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03438210487365723]
+2018-06-15 11:57:18,488|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:57:18 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:57:18,496|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:57:18 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:43,915|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:43 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:43,927|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03133201599121094]
+2018-06-15 11:59:43,946|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:43 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:44,289|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:44 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:44,292|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.031074047088623047]
+2018-06-15 11:59:44,298|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:59,715|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:59 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 11:59:59,722|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01769399642944336]
+2018-06-15 11:59:59,728|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:03:59:59 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:00:00,139|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:00:00 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:00:00,142|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.04514479637145996]
+2018-06-15 12:00:00,147|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:00:00 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:02:54,854|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:02:54 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:02:54,884|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.014909982681274414]
+2018-06-15 12:02:54,892|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:02:54 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:02:55,310|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03388404846191406]
+2018-06-15 12:02:55,320|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:02:55 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:02:55,332|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:02:55 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:03:34,885|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:03:34 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:03:34,895|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.022536516189575195]
+2018-06-15 12:03:34,905|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:03:34 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:03:35,193|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:03:35 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:03:35,204|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0343327522277832]
+2018-06-15 12:03:35,212|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:03:35 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:00,241|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.012204885482788086]
+2018-06-15 12:04:00,251|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:00 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:13,526|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:13 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:13,534|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01477503776550293]
+2018-06-15 12:04:13,541|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:13 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:13,892|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:13 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:13,904|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.02965545654296875]
+2018-06-15 12:04:13,915|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:13 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:25,332|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03532266616821289]
+2018-06-15 12:04:25,345|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:25 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:25,347|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.0459747314453125]
+2018-06-15 12:04:25,351|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:25 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:26,885|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:26 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:26,889|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.05098128318786621]
+2018-06-15 12:04:26,897|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:26 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:55,015|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01759815216064453]
+2018-06-15 12:04:55,021|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:55 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:04:55,024|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.02040886878967285]
+2018-06-15 12:04:55,030|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:04:55 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:05:49,914|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:05:49 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:05:49,921|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.052054405212402344]
+2018-06-15 12:05:49,930|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:05:49 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:05:56,080|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03711891174316406]
+2018-06-15 12:05:56,094|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:05:56 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:05:56,098|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.04628396034240723]
+2018-06-15 12:05:56,108|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:05:56 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:05:57,710|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.022792339324951172]
+2018-06-15 12:05:57,725|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:05:57 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:00,705|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:00 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:00,714|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.08518290519714355]
+2018-06-15 12:06:00,727|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:00 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:25,381|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.029149532318115234]
+2018-06-15 12:06:25,390|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:25 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:25,401|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.039064884185791016]
+2018-06-15 12:06:25,406|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:25 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:43,327|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.018488407135009766]
+2018-06-15 12:06:43,340|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:43 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:44,025|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.019590139389038086]
+2018-06-15 12:06:44,035|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:44 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:45,769|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03285646438598633]
+2018-06-15 12:06:45,779|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:45 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:46,816|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.022034645080566406]
+2018-06-15 12:06:46,827|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:46 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:48,288|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.033586978912353516]
+2018-06-15 12:06:48,298|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:48 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:49,082|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.011135101318359375]
+2018-06-15 12:06:49,091|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:49 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:49,559|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.03449416160583496]
+2018-06-15 12:06:49,575|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:49 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 12:06:50,077|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.020520687103271484]
+2018-06-15 12:06:50,094|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:04:06:50 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:43:23,353|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:43:23 +0000] "POST /message/getOneMsg HTTP/1.1" 200 246 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:05,225|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:05 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:05,242|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:05 +0000] "POST /match/get/recentRank HTTP/1.1" 200 922 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:05,257|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:05 +0000] "POST /player/getguesscoin HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:16,577|ERROR|sqlBaseMgr.py:355|getSysMsg|execute getSysMsg sql time[0.016576766967773438]
+2018-06-15 13:51:16,588|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:16 +0000] "POST /player/showUserCenter HTTP/1.1" 200 397 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:16,595|ERROR|sqlBaseMgr.py:359|getSysMsg|execute getSysMsgCount sql time[0.035161733627319336]
+2018-06-15 13:51:16,609|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:16 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:16,613|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.011888265609741211]
+2018-06-15 13:51:16,618|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:16 +0000] "POST /player/userInbox HTTP/1.1" 200 386 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:18,665|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.030767440795898438]
+2018-06-15 13:51:18,683|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:18 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:18,706|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:18 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:20,183|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:20 +0000] "POST /match/get/recentRank HTTP/1.1" 200 828 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:20,222|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:20 +0000] "POST /player/getguesscoin HTTP/1.1" 200 268 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:20,283|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.05006289482116699]
+2018-06-15 13:51:20,295|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:20 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:20,305|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:20 +0000] "POST /match/get/recentAllMatch HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:25,105|ERROR|sqlBaseMgr.py:355|getSysMsg|execute getSysMsg sql time[0.01735997200012207]
+2018-06-15 13:51:25,113|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:25 +0000] "POST /player/showUserCenter HTTP/1.1" 200 397 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:25,115|ERROR|sqlBaseMgr.py:359|getSysMsg|execute getSysMsgCount sql time[0.027390241622924805]
+2018-06-15 13:51:25,125|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:25 +0000] "POST /player/getUserCoin HTTP/1.1" 200 263 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:51:25,127|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.00690770149230957]
+2018-06-15 13:51:25,130|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:51:25 +0000] "POST /player/userInbox HTTP/1.1" 200 386 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:52:16,593|ERROR|sqlBaseMgr.py:382|changeReadFlag|execute changeReadFlag sql time[0.02435898780822754]
+2018-06-15 13:52:16,621|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:52:16 +0000] "POST /player/getSysMsg HTTP/1.1" 200 625 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 13:52:16,636|ERROR|sqlBaseMgr.py:355|getSysMsg|execute getSysMsg sql time[0.004824399948120117]
+2018-06-15 13:52:16,641|ERROR|sqlBaseMgr.py:359|getSysMsg|execute getSysMsgCount sql time[0.00983738899230957]
+2018-06-15 13:52:16,652|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.0038192272186279297]
+2018-06-15 13:52:16,657|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:05:52:16 +0000] "POST /player/userInbox HTTP/1.1" 200 387 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:30,373|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01859140396118164]
+2018-06-15 14:01:30,385|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:30 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:30,389|ERROR|appweb_svr.py:111|handlerWebApp|[2] [网络错误|输入参数非法] []
+2018-06-15 14:01:30,393|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:30 +0000] "POST /message/getOneMsg HTTP/1.1" 200 323 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:33,357|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.026120901107788086]
+2018-06-15 14:01:33,386|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:33 +0000] "POST /message/GetMsg HTTP/1.1" 200 267 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:34,258|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.01641225814819336]
+2018-06-15 14:01:34,271|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:34 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:37,341|ERROR|sqlBaseMgr.py:319|getMsg|execute getMsg sql time[0.019679784774780273]
+2018-06-15 14:01:37,346|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:37 +0000] "POST /message/GetMsg HTTP/1.1" 200 379 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 14:01:37,391|INFO|helpers.py:529|log|192.168.1.184 - - [15/Jun/2018:06:01:37 +0000] "GET /message/getAllBanner HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+2018-06-15 15:51:32,497|INFO|singlePLogger.py:108|initLogger|singleLogger init finish
+2018-06-15 16:18:39,241|INFO|singlePLogger.py:108|initLogger|singleLogger init finish

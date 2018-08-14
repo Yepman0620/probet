@@ -1,0 +1,17 @@
+__pycache__
+logdata
+logging*
+*.zip
+.DS_Store
+.idea
+*.deb
+tmp
+configTool
+*.svn
+*.git
+*.log
+djfb_mnist_digits_images
+Mnist_data
+mnist_digits_images
+test*.png
+goods

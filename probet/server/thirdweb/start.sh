@@ -1,0 +1,1 @@
+nohup ~/run/python3/bin/python3.6 ~/code/server/thirdweb/thirdweb_svr.py --rf release  >> logging.log 2>&1 &

@@ -1,0 +1,11 @@
+2018-07-04 15:24:10,709|ERROR|certifytoken.py:30|certify_token|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-07-04 15:24:10,745|ERROR|appweb_svr.py:111|handlerWebApp|[211] [提醒|账号超过6小时没有登陆，需要重新输入账号密码登陆] []
+2018-07-04 15:24:10,747|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:24:10 +0000] "POST /player/deposit HTTP/1.1" 200 366 "-" "PostmanRuntime/7.1.5"
+2018-07-04 15:24:32,661|ERROR|sqlBaseMgr.py:444|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.004637718200683594]
+2018-07-04 15:24:32,683|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:24:32 +0000] "POST /player/login HTTP/1.1" 200 414 "-" "PostmanRuntime/7.1.5"
+2018-07-04 15:24:46,474|ERROR|sqlBaseMgr.py:1078|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.01777505874633789]
+2018-07-04 15:24:46,503|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:24:46 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"
+2018-07-04 15:24:47,868|ERROR|sqlBaseMgr.py:1078|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.00308990478515625]
+2018-07-04 15:24:47,883|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:24:47 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"
+2018-07-04 15:24:49,082|ERROR|sqlBaseMgr.py:1078|getAllAlipayInfo|execute getAllAlipayInfo sql time[0.0020568370819091797]
+2018-07-04 15:24:49,094|INFO|helpers.py:529|log|192.168.1.120 - - [04/Jul/2018:07:24:49 +0000] "POST /player/deposit HTTP/1.1" 200 344 "-" "PostmanRuntime/7.1.5"

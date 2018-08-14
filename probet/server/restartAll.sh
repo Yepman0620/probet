@@ -1,0 +1,32 @@
+cd logserver;
+./restart.sh;
+sleep 1s
+cd ../appweb;
+./restart.sh;
+echo "restart.sh appweb";
+cd ../logic;
+./restart.sh;
+echo "restart.sh logic";
+cd ../connect;
+./restart.sh;
+echo "restart.sh connect";
+cd ../gmweb;
+./restart.sh;
+echo "restart.sh gmweb";
+cd ../dbsvr;
+./restart.sh;
+echo "restart.sh dbsvr";
+cd ../thirdweb;
+./restart.sh;
+echo "restart.sh thirdweb";
+cd ../matchcenter;
+./restart.sh;
+echo "restart.sh matchcenter";
+cd ../osssvr;
+./restart.sh;
+echo "restart.sh osssvr";
+cd ../resultcenter;
+./restart.sh;
+echo "restart.sh resultcenter";
+
+echo "restart.sh calcsvr";

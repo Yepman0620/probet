@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1adf2077-a22b-474e-88ac-31c232714b3e" name="online" url="http://23.245.103.166">
+        <fileTransfer host="23.245.103.166" port="22" privateKey="C:\Users\Administrator\Desktop\seven" rootFolder="/home/kingbet/code/server" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+nohup ~/run/python3/bin/python3.6 ~/code/server/matchcenter/matchcenter_svr.py --rf release --gdb gdb  >>logging.log 2>&1 &

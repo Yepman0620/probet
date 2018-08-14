@@ -1,0 +1,6 @@
+2018-07-05 10:00:27,097|ERROR|tools.py:58|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-07-05 10:00:27,104|ERROR|gmweb_svr.py:147|handlerWebApp|[260] [提醒|token信息有误] []
+2018-07-05 10:00:27,107|INFO|helpers.py:529|log|192.168.1.171 - - [05/Jul/2018:02:00:27 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-05 10:00:32,478|INFO|helpers.py:529|log|192.168.1.171 - - [05/Jul/2018:02:00:32 +0000] "POST /player/system_manage/login HTTP/1.1" 200 741 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-07-05 10:01:14,416|INFO|helpers.py:529|log|192.168.1.171 - - [05/Jul/2018:02:01:14 +0000] "POST /player/data_manage/getAllAgent HTTP/1.1" 200 272 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"

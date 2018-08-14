@@ -1,0 +1,8 @@
+2018-06-21 20:13:28,846|ERROR|appweb_svr.py:111|handlerWebApp|[212] [提醒|账号或密码不正确] []
+2018-06-21 20:13:28,849|INFO|helpers.py:529|log|192.168.1.110 - - [21/Jun/2018:12:13:28 +0000] "POST /player/login HTTP/1.1" 200 325 "-" "PostmanRuntime/7.1.1"
+2018-06-21 20:14:38,809|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.012342214584350586]
+2018-06-21 20:14:38,822|INFO|helpers.py:529|log|192.168.1.110 - - [21/Jun/2018:12:14:38 +0000] "POST /player/login HTTP/1.1" 200 441 "-" "PostmanRuntime/7.1.1"
+2018-06-21 20:18:32,921|ERROR|sqlBaseMgr.py:355|getSysMsg|execute getSysMsg sql time[0.03834962844848633]
+2018-06-21 20:18:32,947|ERROR|sqlBaseMgr.py:359|getSysMsg|execute getSysMsgCount sql time[0.06495952606201172]
+2018-06-21 20:18:33,010|ERROR|sqlBaseMgr.py:393|getSysMsgUnReadNum|execute getSysMsgUnReadNum sql time[0.008602142333984375]
+2018-06-21 20:18:33,032|INFO|helpers.py:529|log|192.168.1.110 - - [21/Jun/2018:12:18:33 +0000] "POST /player/userInbox HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"

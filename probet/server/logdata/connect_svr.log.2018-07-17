@@ -1,0 +1,49 @@
+2018-07-17 18:37:20,280|WARNING|base_events.py:1428|_run_once|Executing <Handle <TaskWakeupMethWrapper object at 0x7f63b2389d08>(<Future finis...events.py:276>) created at /usr/lib/python3.6/asyncio/streams.py:399> took 0.109 seconds
+2018-07-17 20:34:33,381|ERROR|reciveMgr.py:74|updatePushData|CancelledError()
+2018-07-17 20:34:33,384|ERROR|fifoMgr.py:121|updateFifoChannel|CancelledError()
+2018-07-17 20:34:33,395|ERROR|base_events.py:1266|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/chenguanghai/.pycharm_helpers/pydev/pydevd.py", line 1599, in <module>
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/chenguanghai/.pycharm_helpers/pydev/pydevd.py", line 1026, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/chenguanghai/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/chenguanghai/Desktop/probet/server/connect/connect_svr.py", line 462, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 422, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 1424, in _run_once
+    handle._run()
+  File "/usr/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/home/chenguanghai/Desktop/probet/server/lib/reciveMgr.py", line 72, in updatePushData
+    yield from self.callFunction(objPushData[0],objPushData[1])
+  File "/home/chenguanghai/.local/lib/python3.6/site-packages/aioredis/pool.py", line 310, in __exit__
+    self._pool.release(self._conn)
+  File "/home/chenguanghai/.local/lib/python3.6/site-packages/aioredis/pool.py", line 218, in release
+    async_task(self._wakeup(), loop=self._loop)
+task: <Task pending coro=<RedisPool._wakeup() running at /home/chenguanghai/.local/lib/python3.6/site-packages/aioredis/pool.py:263> created at /home/chenguanghai/.local/lib/python3.6/site-packages/aioredis/pool.py:218>
+2018-07-17 20:34:33,610|ERROR|base_events.py:1266|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/chenguanghai/.pycharm_helpers/pydev/pydevd.py", line 1599, in <module>
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/chenguanghai/.pycharm_helpers/pydev/pydevd.py", line 1026, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/chenguanghai/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/chenguanghai/Desktop/probet/server/connect/connect_svr.py", line 455, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 422, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 1424, in _run_once
+    handle._run()
+  File "/usr/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/home/chenguanghai/Desktop/probet/server/connect/connect_svr.py", line 373, in init
+    yield from __initUpdate()
+  File "/usr/lib/python3.6/asyncio/coroutines.py", line 212, in coro
+    res = func(*args, **kw)
+  File "/home/chenguanghai/Desktop/probet/server/connect/connect_svr.py", line 322, in __initUpdate
+    asyncio.ensure_future(reciveMgr.classReciveMgr.getInstance().updatePushData(procVariable.host,procVariable.group_id))
+task: <Task pending coro=<classReciveMgr.updatePushData() running at /home/chenguanghai/Desktop/probet/server/lib/reciveMgr.py:68> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f63b2389618>()] created at /usr/lib/python3.6/asyncio/base_events.py:276> cb=[gather.<locals>._done_callback(7)() at /usr/lib/python3.6/asyncio/tasks.py:616] created at /home/chenguanghai/Desktop/probet/server/connect/connect_svr.py:322>

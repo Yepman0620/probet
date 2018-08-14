@@ -1,0 +1,6 @@
+2018-06-28 09:51:05,806|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 4233, datetime.datetime(2018, 6, 27, 18, 23, 39))
+2018-06-28 09:51:05,815|ERROR|oss_svr.py:90|__initData|bill log is between two days
+2018-06-28 15:23:41,849|ERROR|ossFile.py:251|parse_line_data|seekPos[4246] not valid bill log error[JSONDecodeError('Expecting value: line 1 column 1 (char 0)',)]
+2018-06-28 15:23:41,855|ERROR|ossFile.py:252|parse_line_data| 1530170621}
+
+2018-06-28 16:57:47,509|WARNING|base_events.py:1308|_run_once|Executing <Task pending coro=<__secTickCallLater() running at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:31> wait_for=<Future pending cb=[Task._wakeup()] created at /usr/lib/python3.5/asyncio/base_events.py:252> created at /usr/lib/python3.5/asyncio/tasks.py:532> took 0.157 seconds

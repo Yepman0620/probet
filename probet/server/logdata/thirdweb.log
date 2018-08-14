@@ -1,0 +1,3 @@
+2018-06-21 10:49:19,279|ERROR|thirdweb_svr.py:103|handlerWebApp|KeyError('messageData',)
+2018-06-21 10:49:19,304|INFO|helpers.py:529|log|192.168.1.120 - - [21/Jun/2018:02:49:19 +0000] "GET /pinbo/wagerschanges HTTP/1.1" 200 257 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-06-21 10:49:19,358|INFO|helpers.py:529|log|192.168.1.120 - - [21/Jun/2018:02:49:19 +0000] "GET /favicon.ico HTTP/1.1" 404 220 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"

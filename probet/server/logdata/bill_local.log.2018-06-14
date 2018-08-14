@@ -1,0 +1,3 @@
+2018-06-14 14:49:46,040|singleLogger init finish
+2018-06-14 14:50:10,255|{"vipLevel": 0, "loginDevice": "", "loginIp": "", "vipExp": 0, "billType": "loginBill", "accountId": "test2", "coin": 100000, "loginTime": 1528959010}
+2018-06-14 14:52:34,245|{"vipLevel": 0, "loginDevice": "", "loginIp": "", "vipExp": 0, "billType": "loginBill", "accountId": "test2", "coin": 100000, "loginTime": 1528959154}

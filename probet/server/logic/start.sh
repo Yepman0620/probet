@@ -1,0 +1,2 @@
+nohup ~/run/python3/bin/python3.6 ~/code/server/logic/logic_svr.py --rf release --wid 1 --gid 1 --gcount 1 --rmq 0 >> logging.log 2>&1 &
+nohup ~/run/python3/bin/python3.6 ~/code/server/logic/logic_svr.py --rf release --wid 2 --gid 2 --gcount 1 --rmq 0 >> logging.log 2>&1 &

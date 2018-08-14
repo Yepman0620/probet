@@ -1,0 +1,87 @@
+2018-06-29 10:13:43,279|{"accountId": "yeshifu15", "regIp": "", "regDevice": "", "agentId": "", "billType": "regBill", "regTime": 1530238423, "channel": 0}
+2018-06-29 10:13:43,281|{"loginDevice": "", "accountId": "yeshifu15", "loginTime": 1530238423, "loginIp": "", "coin": 100000, "vipExp": 0, "agentId": "", "billType": "loginBill", "vipLevel": 0}
+2018-06-29 11:17:33,114|{"accountId": "yeshifu16", "regIp": "", "regDevice": "", "agentId": "", "billType": "regBill", "regTime": 1530242253, "channel": 0}
+2018-06-29 11:17:33,119|{"loginDevice": "", "accountId": "yeshifu16", "loginTime": 1530242253, "loginIp": "", "coin": 100000, "vipExp": 0, "agentId": "", "billType": "loginBill", "vipLevel": 0}
+2018-06-29 14:51:42,279|{"regIp": "", "agentId": "", "regTime": 1530255102, "regDevice": "", "channel": 0, "accountId": "yeshifu1", "billType": "regBill"}
+2018-06-29 14:51:42,280|{"vipExp": 0, "vipLevel": 0, "agentId": "", "loginDevice": "", "loginTime": 1530255102, "accountId": "yeshifu1", "loginIp": "", "billType": "loginBill", "coin": 100000}
+2018-06-29 15:17:38,453|{"regDevice": "", "agentId": "", "accountId": "yeshifu1", "regTime": 1530256658, "regIp": "", "channel": 0, "billType": "regBill"}
+2018-06-29 15:17:38,456|{"agentId": "", "coin": 100000, "loginIp": "", "loginDevice": "", "loginTime": 1530256658, "accountId": "yeshifu1", "billType": "loginBill", "vipExp": 0, "vipLevel": 0}
+2018-06-29 15:23:21,692|{"regDevice": "", "agentId": "", "accountId": "yeshifu2", "regTime": 1530257001, "regIp": "", "channel": 0, "billType": "regBill"}
+2018-06-29 15:23:21,694|{"agentId": "", "coin": 100000, "loginIp": "", "loginDevice": "", "loginTime": 1530257001, "accountId": "yeshifu2", "billType": "loginBill", "vipExp": 0, "vipLevel": 0}
+2018-06-29 15:24:36,715|{"regDevice": "", "agentId": "", "accountId": "yeshifu3", "regTime": 1530257076, "regIp": "", "channel": 0, "billType": "regBill"}
+2018-06-29 15:24:36,720|{"agentId": "", "coin": 100000, "loginIp": "", "loginDevice": "", "loginTime": 1530257076, "accountId": "yeshifu3", "billType": "loginBill", "vipExp": 0, "vipLevel": 0}
+2018-06-29 15:40:05,328|{"regDevice": "", "agentId": "", "accountId": "yeshifu4", "regTime": 1530258005, "regIp": "", "channel": 0, "billType": "regBill"}
+2018-06-29 15:40:05,330|{"agentId": "", "coin": 100000, "loginIp": "", "loginDevice": "", "loginTime": 1530258005, "accountId": "yeshifu4", "billType": "loginBill", "vipExp": 0, "vipLevel": 0}
+2018-06-29 15:41:22,014|{"regDevice": "", "agentId": "", "accountId": "yeshifu5", "regTime": 1530258082, "regIp": "", "channel": 0, "billType": "regBill"}
+2018-06-29 15:41:22,016|{"agentId": "", "coin": 100000, "loginIp": "", "loginDevice": "", "loginTime": 1530258082, "accountId": "yeshifu5", "billType": "loginBill", "vipExp": 0, "vipLevel": 0}
+2018-06-29 15:43:31,694|{"channel": 0, "billType": "regBill", "agentId": "", "regIp": "", "regDevice": "", "accountId": "yeshifu6", "regTime": 1530258211}
+2018-06-29 15:43:31,698|{"coin": 100000, "vipLevel": 0, "billType": "loginBill", "agentId": "", "loginIp": "", "accountId": "yeshifu6", "loginTime": 1530258211, "loginDevice": "", "vipExp": 0}
+2018-06-29 15:50:19,924|{"channel": 0, "billType": "regBill", "agentId": "", "regIp": "", "regDevice": "", "accountId": "yeshifu7", "regTime": 1530258619}
+2018-06-29 15:50:19,928|{"coin": 100000, "vipLevel": 0, "billType": "loginBill", "agentId": "", "loginIp": "", "accountId": "yeshifu7", "loginTime": 1530258619, "loginDevice": "", "vipExp": 0}
+2018-06-29 16:06:53,548|{"billType": "regBill", "regIp": "", "regTime": 1530259613, "regDevice": "", "accountId": "yeshifu8", "agentId": "", "channel": 0}
+2018-06-29 16:06:53,549|{"billType": "loginBill", "coin": 100000, "loginDevice": "", "loginIp": "", "loginTime": 1530259613, "vipLevel": 0, "accountId": "yeshifu8", "agentId": "", "vipExp": 0}
+2018-06-29 16:09:31,440|{"channel": 0, "accountId": "yeshifu9", "billType": "regBill", "regTime": 1530259771, "regIp": "", "regDevice": "", "agentId": ""}
+2018-06-29 16:09:31,447|{"accountId": "yeshifu9", "loginDevice": "", "billType": "loginBill", "vipLevel": 0, "vipExp": 0, "coin": 100000, "loginTime": 1530259771, "loginIp": "", "agentId": ""}
+2018-06-29 16:11:42,238|{"channel": 0, "accountId": "yeshifu10", "billType": "regBill", "regTime": 1530259902, "regIp": "", "regDevice": "", "agentId": ""}
+2018-06-29 16:11:42,249|{"accountId": "yeshifu10", "loginDevice": "", "billType": "loginBill", "vipLevel": 0, "vipExp": 0, "coin": 100000, "loginTime": 1530259902, "loginIp": "", "agentId": ""}
+2018-06-29 16:16:10,061|{"channel": 0, "accountId": "zx1111", "billType": "regBill", "regTime": 1530260170, "regIp": "", "regDevice": "", "agentId": ""}
+2018-06-29 16:16:10,064|{"accountId": "zx1111", "loginDevice": "", "billType": "loginBill", "vipLevel": 0, "vipExp": 0, "coin": 100000, "loginTime": 1530260170, "loginIp": "", "agentId": ""}
+2018-06-29 16:20:21,115|{"accountId": "zx1111", "vipLevel": 0, "coin": 100000, "loginIp": "", "loginDevice": "", "billType": "loginBill", "agentId": "", "vipExp": 0, "loginTime": 1530260421}
+2018-06-29 16:38:49,394|{"accountId": "zx1111", "vipLevel": 0, "coin": 100000, "loginIp": "", "loginDevice": "", "billType": "loginBill", "agentId": "", "vipExp": 0, "loginTime": 1530261529}
+2018-06-29 16:39:20,954|{"accountId": "zx1111", "vipLevel": 0, "coin": 100000, "loginIp": "", "loginDevice": "", "billType": "loginBill", "agentId": "", "vipExp": 0, "loginTime": 1530261560}
+2018-06-29 16:43:57,510|{"regTime": 1530261837, "channel": 0, "billType": "regBill", "regDevice": "", "agentId": "", "regIp": "", "accountId": "yeshifu0"}
+2018-06-29 16:43:57,512|{"loginTime": 1530261837, "coin": 100000, "accountId": "yeshifu0", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:46:39,435|{"regTime": 1530261999, "channel": 0, "billType": "regBill", "regDevice": "", "agentId": "", "regIp": "", "accountId": "zx1111"}
+2018-06-29 16:46:39,436|{"loginTime": 1530261999, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:50:15,109|{"loginTime": 1530262215, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:54:44,537|{"loginTime": 1530262484, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:55:27,369|{"loginTime": 1530262527, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:55:47,296|{"loginTime": 1530262547, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:57:10,831|{"loginTime": 1530262630, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:57:16,834|{"loginTime": 1530262636, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:57:35,145|{"regTime": 1530262655, "channel": 0, "billType": "regBill", "regDevice": "", "agentId": "", "regIp": "", "accountId": "yeshifu1"}
+2018-06-29 16:57:35,147|{"loginTime": 1530262655, "coin": 100000, "accountId": "yeshifu1", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:58:06,400|{"loginTime": 1530262686, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 16:59:05,381|{"loginTime": 1530262745, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:02:02,431|{"loginTime": 1530262922, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:02:39,306|{"loginTime": 1530262959, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:08:26,831|{"loginTime": 1530263306, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:17:32,736|{"loginTime": 1530263852, "coin": 100000, "accountId": "zx1111", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:47:57,931|{"loginTime": 1530265677, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:48:04,524|{"loginTime": 1530265684, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:48:10,253|{"loginTime": 1530265690, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:52:11,041|{"regTime": 1530265931, "channel": 0, "billType": "regBill", "regDevice": "", "agentId": "", "regIp": "", "accountId": "yeshifu10"}
+2018-06-29 17:52:11,043|{"loginTime": 1530265931, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:55:15,783|{"loginTime": 1530266115, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:55:50,017|{"loginTime": 1530266150, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:56:10,082|{"loginTime": 1530266170, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 17:56:27,377|{"loginTime": 1530266187, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:04:52,947|{"loginTime": 1530266692, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:15:42,473|{"loginTime": 1530267342, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:16:41,594|{"loginTime": 1530267401, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:17:38,026|{"loginTime": 1530267458, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:18:46,631|{"loginTime": 1530267526, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:23:41,780|{"loginTime": 1530267821, "coin": 5288800, "accountId": "yeshifu1", "vipLevel": 4, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:24:50,951|{"loginTime": 1530267890, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:25:33,736|{"loginTime": 1530267933, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:26:18,289|{"loginTime": 1530267978, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:27:13,410|{"loginTime": 1530268033, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:27:27,330|{"loginTime": 1530268047, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:28:32,087|{"loginTime": 1530268112, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:30:56,036|{"loginTime": 1530268256, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 18:31:25,732|{"loginTime": 1530268285, "coin": 100000, "accountId": "yeshifu10", "vipLevel": 0, "agentId": "", "vipExp": 0, "loginIp": "", "loginDevice": "", "billType": "loginBill"}
+2018-06-29 19:39:12,443|{"agentId": "", "billType": "regBill", "regIp": "", "channel": 0, "regTime": 1530272352, "regDevice": "", "accountId": "yeshifu11"}
+2018-06-29 19:39:12,445|{"loginDevice": "", "loginTime": 1530272352, "agentId": "", "accountId": "yeshifu11", "vipLevel": 0, "loginIp": "", "vipExp": 0, "coin": 100000, "billType": "loginBill"}
+2018-06-29 19:39:47,564|{"payIp": "", "payCoin": 1500000, "firstPayTime": 1530272387, "agentId": "", "firstPayCoin": 0, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272387, "accountId": "yeshifu11", "orderId": "15b0170e-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:39:50,577|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272390, "accountId": "yeshifu11", "orderId": "16bfd9ff-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:39:52,439|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272392, "accountId": "yeshifu11", "orderId": "17dd6b44-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:39:54,424|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272394, "accountId": "yeshifu11", "orderId": "17dd6b45-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:39:56,135|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272396, "accountId": "yeshifu11", "orderId": "19031c62-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:40:01,137|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272401, "accountId": "yeshifu11", "orderId": "16bfd9fe-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:40:13,045|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272413, "accountId": "yeshifu11", "orderId": "1a2cd133-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:40:14,623|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272414, "accountId": "yeshifu11", "orderId": "1b619a1b-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:40:17,572|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272417, "accountId": "yeshifu11", "orderId": "1a2cd132-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:40:19,666|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272419, "accountId": "yeshifu11", "orderId": "19031c63-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:41:10,593|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272470, "accountId": "yeshifu11", "orderId": "1b619a1a-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:41:12,530|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272472, "accountId": "yeshifu11", "orderId": "1c7763f8-7b91-11e8-a0a8-000c29bf6fb0"}
+2018-06-29 19:41:14,404|{"payIp": "", "payCoin": 1500000, "agentId": "", "firstPayCoin": 1500000, "orderState": 2, "payChannel": "AlipayTransfer", "billType": "payBill", "payTime": 1530272474, "accountId": "yeshifu11", "orderId": "1c7763f9-7b91-11e8-a0a8-000c29bf6fb0"}

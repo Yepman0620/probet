@@ -1,0 +1,2 @@
+for iPid in `ps aux | grep python3.6 |  grep heartCheck.py | awk '{print $2}'`; do kill -9 ${iPid}; done
+~/run/python3/bin/pudb3 ~/code/server/connect/connect_svr.py --rf release --wid 1 --gid 1 --wip 0.0.0.0 --wp 12345 --gdb gdb

@@ -1,0 +1,2 @@
+nohup ~/run/python3/bin/python3.6 ~/code/server/connect/connect_svr.py --rf release --wid 1 --gid 1 --wip 0.0.0.0 --wp 12345 >> logging.log 2>&1 &
+nohup ~/run/python3/bin/python3.6 ~/code/server/connect/connect_svr.py --rf debug --wid 2 --gid 2 --wip 0.0.0.0 --wp 54321 >> logging.log 2>&1 &

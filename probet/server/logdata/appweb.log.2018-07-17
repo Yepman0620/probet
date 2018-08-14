@@ -1,0 +1,60 @@
+2018-07-17 17:44:24,782|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/chenguanghai/Desktop/probet/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-07-17 17:44:24,788|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:44:24 +0000] "POST /boping_api/create_user HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:46:14,231|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/chenguanghai/Desktop/probet/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-07-17 17:46:14,233|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:46:14 +0000] "POST /boping_api/create_user HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:46:34,036|ERROR|appweb_svr.py:111|handlerWebApp|[202] [提醒|账号未找到] []
+2018-07-17 17:46:34,039|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:46:34 +0000] "POST /player/login HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:47:16,194|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/chenguanghai/Desktop/probet/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-07-17 17:47:16,196|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:47:16 +0000] "POST /boping_api/create_user HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:47:28,689|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/chenguanghai/Desktop/probet/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-07-17 17:47:28,690|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:47:28 +0000] "POST /boping_api/create_user HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:47:55,245|DEBUG|create_user.py:37|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 17:47:55,249|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 17:47:55,253|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:47:55 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:48:56,110|DEBUG|create_user.py:38|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 17:48:56,111|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 17:48:56,113|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:48:56 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:50:02,636|DEBUG|create_user.py:38|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 17:50:02,638|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 17:50:02,639|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:50:02 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:59:25,912|ERROR|appweb_svr.py:115|handlerWebApp|"Key not found: 'Content-Type'"
+Traceback (most recent call last):
+  File "/home/chenguanghai/Desktop/probet/server/appweb/appweb_svr.py", line 54, in handlerWebApp
+    if request.headers["Content-Type"].find("multipart/form-data") >= 0:
+  File "multidict/_multidict.pyx", line 140, in multidict._multidict._Base.__getitem__
+  File "multidict/_multidict.pyx", line 135, in multidict._multidict._Base._getone
+KeyError: "Key not found: 'Content-Type'"
+2018-07-17 17:59:25,918|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:59:25 +0000] "POST /boping_api/create_user HTTP/1.1" 200 313 "-" "PostmanRuntime/7.1.5"
+2018-07-17 17:59:43,481|DEBUG|create_user.py:38|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 17:59:43,482|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 17:59:43,483|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:09:59:43 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"
+2018-07-17 18:00:11,087|DEBUG|create_user.py:38|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 18:00:11,090|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 18:00:11,095|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:10:00:11 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"
+2018-07-17 18:08:12,988|DEBUG|create_user.py:38|handleHttp|[2] [网络错误|输入参数非法] []
+2018-07-17 18:08:12,992|ERROR|appweb_svr.py:111|handlerWebApp|[1] [网络错误|系统错误] []
+2018-07-17 18:08:12,996|INFO|helpers.py:529|log|192.168.1.120 - - [17/Jul/2018:10:08:12 +0000] "POST /boping_api/create_user HTTP/1.1" 200 305 "-" "PostmanRuntime/7.1.5"

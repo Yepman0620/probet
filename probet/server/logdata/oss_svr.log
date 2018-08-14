@@ -1,0 +1,2 @@
+2018-07-05 09:48:55,290|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 17085, datetime.datetime(2018, 7, 4, 9, 47, 7))
+2018-07-05 09:48:55,294|ERROR|oss_svr.py:90|__initData|bill log is between two days

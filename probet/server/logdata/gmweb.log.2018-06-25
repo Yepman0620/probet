@@ -1,0 +1,838 @@
+2018-06-25 09:57:23,894|DEBUG|tools.py:65|wrapper|[260, '提醒|token信息有误']
+2018-06-25 09:57:23,904|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 09:57:23,908|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:01:57:23 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 306 "-" "PostmanRuntime/7.1.1"
+2018-06-25 09:57:32,589|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:01:57:32 +0000] "POST /player/system_manage/login HTTP/1.1" 200 742 "-" "PostmanRuntime/7.1.1"
+2018-06-25 09:57:45,716|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN 1528041600 AND 1528974444' at line 1")
+2018-06-25 09:57:45,717|ERROR|selectBetData.py:210|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 09:57:45,717|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 09:57:45,719|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:01:57:45 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-25 09:59:18,926|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 09:59:18,933|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 09:59:18,934|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 09:59:18,935|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 09:59:18,936|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 09:59:18,938|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 09:59:18,939|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 09:59:18,940|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 09:59:18,951|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 09:59:18,952|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 09:59:18,955|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 09:59:18,956|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 09:59:18,958|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 09:59:18,967|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 09:59:18,968|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 09:59:18,969|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 09:59:18,970|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 09:59:18,971|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 09:59:18,988|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 09:59:18,990|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 09:59:18,990|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 09:59:18,992|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 09:59:18,998|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 09:59:18,998|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 09:59:18,999|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 09:59:19,001|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 09:59:19,003|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 09:59:19,004|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 09:59:19,005|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 09:59:19,006|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 09:59:19,006|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 09:59:19,007|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 09:59:19,008|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 09:59:19,009|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 09:59:19,010|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 09:59:19,014|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 09:59:19,015|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 09:59:19,015|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 09:59:19,016|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 09:59:19,017|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 09:59:19,018|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 09:59:19,019|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:00:28,407|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN 1528041600 AND 1528974444' at line 1")
+2018-06-25 10:02:27,371|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:02:27,372|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:02:27,373|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:02:27,373|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:02:27,374|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:02:27,376|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:02:27,376|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:02:27,377|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:02:27,380|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:02:27,380|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:02:27,381|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:02:27,382|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:02:27,383|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:02:27,384|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:02:27,385|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:02:27,386|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:02:27,386|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:02:27,387|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:02:27,391|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:02:27,391|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:02:27,392|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:02:27,392|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:02:27,393|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:02:27,394|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:02:27,394|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:02:27,395|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:02:27,396|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:02:27,397|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:02:27,397|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:02:27,399|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:02:27,400|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:02:27,401|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:02:27,402|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:02:27,403|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:02:27,404|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:02:27,405|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:02:27,405|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:02:27,406|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:02:27,407|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:02:27,408|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:02:27,409|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:02:27,412|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:02:47,737|ERROR|selectBetData.py:210|handleHttp|TypeError("unsupported operand type(s) for *: 'decimal.Decimal' and 'float'",)
+2018-06-25 10:02:47,738|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:02:47,740|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:02:47 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:04:51,780|ERROR|selectBetData.py:210|handleHttp|TypeError("unsupported operand type(s) for *: 'decimal.Decimal' and 'float'",)
+2018-06-25 10:04:51,781|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:04:51,784|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:04:51 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:05:34,024|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:05:34,026|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:05:34,027|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:05:34,028|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:05:34,028|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:05:34,031|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:05:34,031|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:05:34,032|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:05:34,033|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:05:34,033|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:05:34,034|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:05:34,035|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:05:34,035|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:05:34,037|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:05:34,037|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:05:34,039|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:05:34,039|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:05:34,040|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:05:34,043|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:05:34,044|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:05:34,046|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:05:34,048|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:05:34,057|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:05:34,065|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:05:34,066|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:05:34,068|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:05:34,069|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:05:34,069|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:05:34,071|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:05:34,071|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:05:34,072|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:05:34,078|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:05:34,079|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:05:34,080|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:05:34,081|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:05:34,081|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:05:34,082|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:05:34,082|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:05:34,083|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:05:34,084|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:05:34,086|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:05:34,087|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:05:47,848|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:05:47 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 488 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:13:09,185|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:13:09 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 488 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:13:17,789|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:13:17 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:13:43,655|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:13:43,658|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:13:43,659|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:13:43,660|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:13:43,661|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:13:43,662|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:13:43,662|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:13:43,663|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:13:43,664|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:13:43,665|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:13:43,666|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:13:43,666|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:13:43,667|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:13:43,668|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:13:43,669|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:13:43,670|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:13:43,671|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:13:43,671|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:13:43,677|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:13:43,677|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:13:43,678|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:13:43,678|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:13:43,679|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:13:43,679|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:13:43,680|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:13:43,681|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:13:43,683|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:13:43,683|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:13:43,684|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:13:43,684|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:13:43,685|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:13:43,685|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:13:43,686|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:13:43,687|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:13:43,687|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:13:43,688|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:13:43,688|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:13:43,689|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:13:43,690|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:13:43,696|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:13:43,699|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:13:43,700|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:14:08,532|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:14:08 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:14:46,700|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:14:46 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 488 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:15:24,403|ERROR|selectBetData.py:210|handleHttp|TypeError('float() takes at most 1 argument (2 given)',)
+2018-06-25 10:15:24,404|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:15:24,408|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:15:24 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:15:39,614|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:15:39 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 488 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:16:26,368|ERROR|selectBetData.py:210|handleHttp|TypeError('optional argument must be a context',)
+2018-06-25 10:16:26,369|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:16:26,373|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:16:26 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:16:58,213|ERROR|selectBetData.py:210|handleHttp|TypeError('optional argument must be a context',)
+2018-06-25 10:16:58,214|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:16:58,218|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:16:58 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 309 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:17:42,571|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:17:42 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 492 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:19:03,746|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:19:03 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 487 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:20:46,690|ERROR|selectBetData.py:210|handleHttp|TypeError('optional argument must be a context',)
+2018-06-25 10:20:46,691|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:20:46,694|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:20:46 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:20:54,630|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:20:54,633|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:20:54,634|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:20:54,635|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:20:54,636|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:20:54,638|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:20:54,640|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:20:54,641|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:20:54,643|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:20:54,644|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:20:54,645|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:20:54,646|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:20:54,647|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:20:54,648|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:20:54,650|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:20:54,650|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:20:54,651|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:20:54,652|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:20:54,656|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:20:54,658|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:20:54,659|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:20:54,659|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:20:54,660|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:20:54,661|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:20:54,662|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:20:54,663|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:20:54,667|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:20:54,668|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:20:54,668|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:20:54,669|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:20:54,670|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:20:54,672|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:20:54,673|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:20:54,674|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:20:54,678|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:20:54,683|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:20:54,684|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:20:54,685|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:20:54,686|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:20:54,688|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:20:54,689|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:20:54,690|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:21:09,996|ERROR|selectBetData.py:210|handleHttp|TypeError('optional argument must be a context',)
+2018-06-25 10:21:09,998|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:21:10,005|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:21:10 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:22:14,195|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:22:14,198|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:22:14,199|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:22:14,199|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:22:14,201|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:22:14,203|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:22:14,203|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:22:14,204|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:22:14,205|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:22:14,206|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:22:14,208|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:22:14,211|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:22:14,212|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:22:14,213|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:22:14,214|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:22:14,215|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:22:14,218|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:22:14,222|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:22:14,228|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:22:14,229|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:22:14,230|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:22:14,230|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:22:14,231|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:22:14,232|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:22:14,233|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:22:14,234|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:22:14,234|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:22:14,235|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:22:14,237|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:22:14,238|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:22:14,238|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:22:14,239|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:22:14,239|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:22:14,240|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:22:14,240|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:22:14,241|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:22:14,241|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:22:14,242|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:22:14,243|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:22:14,244|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:22:14,246|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:22:14,246|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:22:30,099|ERROR|selectBetData.py:211|handleHttp|TypeError('optional argument must be a context',)
+2018-06-25 10:22:30,101|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:22:30,104|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:22:30 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 309 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:22:56,403|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:22:56,406|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:22:56,407|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:22:56,408|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:22:56,409|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:22:56,410|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:22:56,410|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:22:56,411|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:22:56,412|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:22:56,413|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:22:56,414|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:22:56,414|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:22:56,416|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:22:56,417|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:22:56,418|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:22:56,419|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:22:56,419|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:22:56,420|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:22:56,424|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:22:56,425|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:22:56,426|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:22:56,426|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:22:56,427|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:22:56,427|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:22:56,428|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:22:56,429|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:22:56,429|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:22:56,430|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:22:56,431|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:22:56,432|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:22:56,433|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:22:56,434|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:22:56,435|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:22:56,436|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:22:56,438|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:22:56,439|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:22:56,441|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:22:56,442|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:22:56,443|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:22:56,443|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:22:56,445|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:22:56,446|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:23:09,809|ERROR|selectBetData.py:211|handleHttp|AttributeError("'decimal.Decimal' object has no attribute '__dict__'",)
+2018-06-25 10:23:09,810|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:23:09,813|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:23:09 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:23:18,019|ERROR|selectBetData.py:211|handleHttp|AttributeError("'decimal.Decimal' object has no attribute '__dict__'",)
+2018-06-25 10:23:18,022|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 10:23:18,025|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:23:18 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:24:20,698|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:24:20 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 494 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:28:41,795|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:28:41 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 492 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:30:41,990|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:30:41 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 487 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:31:26,685|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:31:26 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 491 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:34:53,251|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:34:53 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 486 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:36:28,124|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:36:28 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:36:48,202|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:36:48 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:37:06,653|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:37:06 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:42:31,999|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 10:42:32,001|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 10:42:32,002|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 10:42:32,002|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 10:42:32,006|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 10:42:32,007|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 10:42:32,008|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 10:42:32,008|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 10:42:32,010|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 10:42:32,010|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 10:42:32,011|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 10:42:32,012|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 10:42:32,013|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 10:42:32,014|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 10:42:32,015|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 10:42:32,018|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 10:42:32,024|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 10:42:32,025|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 10:42:32,033|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 10:42:32,034|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 10:42:32,034|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 10:42:32,035|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 10:42:32,035|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 10:42:32,036|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 10:42:32,038|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 10:42:32,039|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 10:42:32,040|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 10:42:32,040|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 10:42:32,041|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 10:42:32,041|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 10:42:32,042|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 10:42:32,042|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 10:42:32,043|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 10:42:32,043|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 10:42:32,044|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 10:42:32,044|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 10:42:32,045|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 10:42:32,045|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 10:42:32,046|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 10:42:32,047|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 10:42:32,048|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 10:42:32,049|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 10:43:00,236|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:43:00 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 489 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:45:09,143|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:45:09 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 497 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:46:10,988|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:46:10 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 490 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:47:46,620|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:47:46 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 501 "-" "PostmanRuntime/7.1.1"
+2018-06-25 10:50:39,269|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:02:50:39 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 493 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:33:03,469|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:33:03 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 468 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:39:25,074|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:39:25 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 469 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:39:50,185|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'agentId='test1'' at line 1")
+2018-06-25 11:39:50,188|ERROR|selectPlayTypeData.py:139|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:39:50,189|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:39:50,190|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:39:50 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 309 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:40:24,514|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'agentId='test1'' at line 1")
+2018-06-25 11:40:24,516|ERROR|selectPlayTypeData.py:139|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:40:24,517|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:40:24,521|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:40:24 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:40:27,228|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'agentId='test1'' at line 1")
+2018-06-25 11:40:27,229|ERROR|selectPlayTypeData.py:139|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:40:27,230|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:40:27,234|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:40:27 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:40:43,888|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:40:43,891|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:40:43,897|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:40:43,901|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:40:43,902|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:40:43,903|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:40:43,903|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:40:43,904|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:40:43,905|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:40:43,906|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:40:43,912|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:40:43,913|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:40:43,914|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:40:43,915|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:40:43,916|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:40:43,918|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:40:43,919|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:40:43,920|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:40:43,926|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:40:43,928|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:40:43,928|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:40:43,929|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:40:43,935|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:40:43,937|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:40:43,937|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:40:43,939|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:40:43,939|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:40:43,940|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:40:43,942|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:40:43,943|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:40:43,943|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:40:43,944|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:40:43,944|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:40:43,945|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:40:43,946|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:40:43,946|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:40:43,947|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:40:43,947|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:40:43,949|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:40:43,949|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:40:43,951|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:40:43,952|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:41:15,430|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'agentId='test1'' at line 1")
+2018-06-25 11:41:15,431|ERROR|selectPlayTypeData.py:139|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:41:15,432|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:41:15,434|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:41:15 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:41:23,423|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:41:23 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 470 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:42:42,427|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:42:42 +0000] "POST /player/data_manage/selectPlayTypeData HTTP/1.1" 200 464 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:44:14,322|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:44:14 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 491 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:44:45,972|ERROR|selectBetData.py:216|handleHttp|IndexError('list index out of range',)
+2018-06-25 11:44:45,973|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:44:45,974|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:44:45 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:44:56,740|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:44:56,742|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:44:56,743|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:44:56,747|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:44:56,749|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:44:56,750|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:44:56,751|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:44:56,754|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:44:56,756|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:44:56,759|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:44:56,764|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:44:56,764|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:44:56,765|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:44:56,766|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:44:56,767|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:44:56,769|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:44:56,772|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:44:56,773|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:44:56,778|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:44:56,779|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:44:56,779|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:44:56,780|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:44:56,780|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:44:56,781|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:44:56,782|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:44:56,782|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:44:56,783|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:44:56,784|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:44:56,784|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:44:56,785|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:44:56,785|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:44:56,787|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:44:56,788|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:44:56,788|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:44:56,789|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:44:56,790|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:44:56,790|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:44:56,791|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:44:56,792|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:44:56,793|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:44:56,794|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:44:56,795|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:46:05,320|ERROR|selectBetData.py:216|handleHttp|IndexError('list index out of range',)
+2018-06-25 11:46:05,321|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:46:05,324|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:46:05 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 310 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:46:13,898|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:46:13,900|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:46:13,902|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:46:13,903|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:46:13,903|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:46:13,905|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:46:13,906|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:46:13,907|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:46:13,908|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:46:13,909|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:46:13,910|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:46:13,910|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:46:13,911|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:46:13,912|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:46:13,913|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:46:13,913|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:46:13,914|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:46:13,915|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:46:13,920|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:46:13,922|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:46:13,922|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:46:13,923|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:46:13,924|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:46:13,925|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:46:13,925|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:46:13,927|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:46:13,928|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:46:13,928|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:46:13,929|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:46:13,929|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:46:13,931|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:46:13,933|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:46:13,933|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:46:13,934|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:46:13,936|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:46:13,936|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:46:13,937|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:46:13,937|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:46:13,938|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:46:13,939|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:46:13,940|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:46:13,941|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:48:01,972|ERROR|selectBetData.py:216|handleHttp|IndexError('list index out of range',)
+2018-06-25 11:48:01,973|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:48:01,976|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:48:01 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:48:07,625|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'resultTime BETWEEN 1528041600 AND 1528974444' at line 1")
+2018-06-25 11:48:07,626|ERROR|selectBetData.py:216|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:48:07,627|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:48:07,630|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:48:07 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 309 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:48:33,276|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:48:33,278|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:48:33,279|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:48:33,280|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:48:33,280|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:48:33,281|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:48:33,282|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:48:33,285|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:48:33,287|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:48:33,289|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:48:33,290|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:48:33,290|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:48:33,291|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:48:33,292|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:48:33,293|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:48:33,295|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:48:33,296|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:48:33,297|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:48:33,303|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:48:33,305|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:48:33,305|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:48:33,306|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:48:33,306|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:48:33,307|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:48:33,307|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:48:33,308|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:48:33,309|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:48:33,309|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:48:33,310|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:48:33,311|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:48:33,311|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:48:33,312|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:48:33,312|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:48:33,313|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:48:33,314|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:48:33,314|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:48:33,315|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:48:33,316|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:48:33,318|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:48:33,319|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:48:33,321|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:48:33,322|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:49:04,409|ERROR|base_events.py:1148|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 882, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "/home/python/.pycharm_helpers/pydev/_pydevd_bundle/pydevd_comm.py", line 294, in run
+    self._on_run()
+  File "/home/python/.pycharm_helpers/pydev/_pydevd_bundle/pydevd_comm.py", line 384, in _on_run
+    self.process_command(cmd_id, int(args[1]), args[2])
+  File "/home/python/.pycharm_helpers/pydev/_pydevd_bundle/pydevd_comm.py", line 399, in process_command
+    self.process_net_command(self.global_debugger_holder.global_dbg, cmd_id, seq, text)
+  File "/home/python/.pycharm_helpers/pydev/_pydevd_bundle/pydevd_process_net_command.py", line 388, in process_net_command
+    py_db.post_internal_command(int_cmd, thread_id)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 350, in post_internal_command
+    queue.put(int_cmd)
+  File "/usr/lib/python3.5/queue.py", line 145, in put
+    self.not_empty.notify()
+  File "/usr/lib/python3.5/threading.py", line 345, in notify
+    waiters_to_notify = _deque(_islice(all_waiters, n))
+  File "/usr/local/lib/python3.5/dist-packages/aiomysql/sa/result.py", line 240, in callback
+    asyncio.Task(cursor.close(), loop=loop)
+task: <Task pending coro=<Cursor.close() running at /usr/local/lib/python3.5/dist-packages/aiomysql/cursors.py:151> created at /usr/local/lib/python3.5/dist-packages/aiomysql/sa/result.py:240>
+2018-06-25 11:49:27,013|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'resultTime BETWEEN 1528041600 AND 1528974444' at line 1")
+2018-06-25 11:49:27,014|ERROR|selectBetData.py:216|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:49:27,015|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:49:27,018|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:49:27 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 309 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:49:42,158|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:49:42,160|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:49:42,161|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:49:42,162|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:49:42,163|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:49:42,166|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:49:42,167|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:49:42,168|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:49:42,169|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:49:42,170|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:49:42,171|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:49:42,173|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:49:42,173|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:49:42,175|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:49:42,176|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:49:42,177|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:49:42,178|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:49:42,179|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:49:42,184|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:49:42,185|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:49:42,186|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:49:42,187|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:49:42,188|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:49:42,188|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:49:42,189|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:49:42,190|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:49:42,190|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:49:42,191|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:49:42,191|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:49:42,192|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:49:42,192|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:49:42,193|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:49:42,193|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:49:42,194|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:49:42,195|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:49:42,196|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:49:42,197|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:49:42,198|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:49:42,199|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:49:42,200|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:49:42,201|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:49:42,203|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:49:44,460|DEBUG|sqlBaseMgr.py:73|_exeCute|(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN 1528041600 AND 1528974444' at line 1")
+2018-06-25 11:49:44,461|ERROR|selectBetData.py:216|handleHttp|[1001] [错误|存储数据失败] []
+2018-06-25 11:49:44,462|ERROR|gmweb_svr.py:106|handlerWebApp|[1001] [错误|存储数据失败] []
+2018-06-25 11:49:44,465|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:49:44 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 311 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:50:49,597|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:50:49,599|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:50:49,600|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:50:49,600|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:50:49,601|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:50:49,602|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:50:49,603|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:50:49,604|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:50:49,605|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:50:49,605|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:50:49,607|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:50:49,607|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:50:49,608|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:50:49,609|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:50:49,609|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:50:49,610|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:50:49,611|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:50:49,612|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:50:49,616|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:50:49,617|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:50:49,617|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:50:49,618|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:50:49,619|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:50:49,619|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:50:49,620|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:50:49,621|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:50:49,622|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:50:49,622|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:50:49,623|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:50:49,623|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:50:49,624|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:50:49,624|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:50:49,625|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:50:49,625|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:50:49,626|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:50:49,627|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:50:49,627|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:50:49,628|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:50:49,628|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:50:49,629|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:50:49,631|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:50:49,633|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:50:51,211|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:50:51 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 480 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:50:57,682|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:50:57 +0000] "POST /player/data_manage/selectBetData HTTP/1.1" 200 480 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:51:32,881|ERROR|tools.py:59|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-06-25 11:51:32,882|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 11:51:32,884|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:51:32 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 307 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:51:47,965|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:51:47 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 502 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:52:26,594|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:52:26 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 502 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:52:48,064|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:52:48 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 502 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:53:40,168|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:53:40 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 502 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:53:47,338|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:53:47 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 504 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:54:13,370|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:54:13 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 504 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:54:22,512|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:54:22 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 504 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:54:43,401|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:54:43,403|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:54:43,407|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:54:43,415|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:54:43,418|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:54:43,421|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:54:43,421|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:54:43,422|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:54:43,423|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:54:43,424|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:54:43,425|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:54:43,426|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:54:43,431|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:54:43,432|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:54:43,433|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:54:43,435|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:54:43,436|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:54:43,437|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:54:43,441|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:54:43,442|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:54:43,443|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:54:43,446|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:54:43,446|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:54:43,447|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:54:43,448|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:54:43,449|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:54:43,450|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:54:43,450|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:54:43,451|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:54:43,452|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:54:43,452|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:54:43,453|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:54:43,453|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:54:43,454|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:54:43,454|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:54:43,455|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:54:43,456|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:54:43,456|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:54:43,457|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:54:43,458|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:54:43,459|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:54:43,460|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:55:02,027|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:55:02 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 504 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:55:15,502|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:55:15 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 504 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:55:26,001|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:55:26 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:55:43,031|DEBUG|Image.py:389|init|Importing BmpImagePlugin
+2018-06-25 11:55:43,032|DEBUG|Image.py:389|init|Importing BufrStubImagePlugin
+2018-06-25 11:55:43,033|DEBUG|Image.py:389|init|Importing CurImagePlugin
+2018-06-25 11:55:43,034|DEBUG|Image.py:389|init|Importing DcxImagePlugin
+2018-06-25 11:55:43,035|DEBUG|Image.py:389|init|Importing EpsImagePlugin
+2018-06-25 11:55:43,037|DEBUG|Image.py:389|init|Importing FitsStubImagePlugin
+2018-06-25 11:55:43,039|DEBUG|Image.py:389|init|Importing FliImagePlugin
+2018-06-25 11:55:43,040|DEBUG|Image.py:389|init|Importing FpxImagePlugin
+2018-06-25 11:55:43,042|DEBUG|Image.py:389|init|Importing GbrImagePlugin
+2018-06-25 11:55:43,043|DEBUG|Image.py:389|init|Importing GifImagePlugin
+2018-06-25 11:55:43,044|DEBUG|Image.py:389|init|Importing GribStubImagePlugin
+2018-06-25 11:55:43,045|DEBUG|Image.py:389|init|Importing Hdf5StubImagePlugin
+2018-06-25 11:55:43,046|DEBUG|Image.py:389|init|Importing IcnsImagePlugin
+2018-06-25 11:55:43,048|DEBUG|Image.py:389|init|Importing IcoImagePlugin
+2018-06-25 11:55:43,048|DEBUG|Image.py:389|init|Importing ImImagePlugin
+2018-06-25 11:55:43,049|DEBUG|Image.py:389|init|Importing ImtImagePlugin
+2018-06-25 11:55:43,050|DEBUG|Image.py:389|init|Importing IptcImagePlugin
+2018-06-25 11:55:43,050|DEBUG|Image.py:389|init|Importing JpegImagePlugin
+2018-06-25 11:55:43,056|DEBUG|Image.py:389|init|Importing Jpeg2KImagePlugin
+2018-06-25 11:55:43,057|DEBUG|Image.py:389|init|Importing McIdasImagePlugin
+2018-06-25 11:55:43,057|DEBUG|Image.py:389|init|Importing MicImagePlugin
+2018-06-25 11:55:43,058|DEBUG|Image.py:389|init|Importing MpegImagePlugin
+2018-06-25 11:55:43,059|DEBUG|Image.py:389|init|Importing MpoImagePlugin
+2018-06-25 11:55:43,059|DEBUG|Image.py:389|init|Importing MspImagePlugin
+2018-06-25 11:55:43,061|DEBUG|Image.py:389|init|Importing PalmImagePlugin
+2018-06-25 11:55:43,064|DEBUG|Image.py:389|init|Importing PcdImagePlugin
+2018-06-25 11:55:43,064|DEBUG|Image.py:389|init|Importing PcxImagePlugin
+2018-06-25 11:55:43,065|DEBUG|Image.py:389|init|Importing PdfImagePlugin
+2018-06-25 11:55:43,065|DEBUG|Image.py:389|init|Importing PixarImagePlugin
+2018-06-25 11:55:43,066|DEBUG|Image.py:389|init|Importing PngImagePlugin
+2018-06-25 11:55:43,066|DEBUG|Image.py:389|init|Importing PpmImagePlugin
+2018-06-25 11:55:43,067|DEBUG|Image.py:389|init|Importing PsdImagePlugin
+2018-06-25 11:55:43,067|DEBUG|Image.py:389|init|Importing SgiImagePlugin
+2018-06-25 11:55:43,068|DEBUG|Image.py:389|init|Importing SpiderImagePlugin
+2018-06-25 11:55:43,068|DEBUG|Image.py:389|init|Importing SunImagePlugin
+2018-06-25 11:55:43,069|DEBUG|Image.py:389|init|Importing TgaImagePlugin
+2018-06-25 11:55:43,070|DEBUG|Image.py:389|init|Importing TiffImagePlugin
+2018-06-25 11:55:43,070|DEBUG|Image.py:389|init|Importing WebPImagePlugin
+2018-06-25 11:55:43,071|DEBUG|Image.py:389|init|Importing WmfImagePlugin
+2018-06-25 11:55:43,072|DEBUG|Image.py:389|init|Importing XbmImagePlugin
+2018-06-25 11:55:43,073|DEBUG|Image.py:389|init|Importing XpmImagePlugin
+2018-06-25 11:55:43,074|DEBUG|Image.py:389|init|Importing XVThumbImagePlugin
+2018-06-25 11:56:09,815|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:56:09 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:56:18,971|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:56:18 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 11:56:38,043|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:03:56:38 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:36:36,118|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:36:36 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:36:43,804|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:36:43 +0000] "POST /player/data_manage/getRetainData HTTP/1.1" 200 499 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:36:49,807|ERROR|tools.py:59|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-06-25 13:36:49,815|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 13:36:49,817|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:36:49 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 307 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:37:04,004|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:37:04 +0000] "POST /player/data_manage/getRechargeData HTTP/1.1" 200 273 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:37:24,591|ERROR|tools.py:59|wrapper|[260, '提醒|token信息有误']
+NoneType
+2018-06-25 13:37:24,592|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 13:37:24,594|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:37:24 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 307 "-" "PostmanRuntime/7.1.1"
+2018-06-25 13:37:34,233|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:05:37:34 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 584 "-" "PostmanRuntime/7.1.1"
+2018-06-25 15:52:58,774|DEBUG|tools.py:65|wrapper|[260, '提醒|token信息有误']
+2018-06-25 15:52:58,791|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 15:52:58,793|INFO|helpers.py:529|log|192.168.1.185 - - [25/Jun/2018:07:52:58 +0000] "POST /player/system_manage/getAllRole HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-25 15:52:58,805|DEBUG|tools.py:65|wrapper|[260, '提醒|token信息有误']
+2018-06-25 15:52:58,806|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 15:52:58,807|INFO|helpers.py:529|log|192.168.1.185 - - [25/Jun/2018:07:52:58 +0000] "POST /player/system_manage/getAllActions HTTP/1.1" 200 307 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-25 15:53:03,514|INFO|helpers.py:529|log|192.168.1.185 - - [25/Jun/2018:07:53:03 +0000] "POST /player/system_manage/login HTTP/1.1" 200 738 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+2018-06-25 19:16:44,047|DEBUG|tools.py:65|wrapper|[260, '提醒|token信息有误']
+2018-06-25 19:16:44,050|ERROR|gmweb_svr.py:106|handlerWebApp|[260] [提醒|token信息有误] []
+2018-06-25 19:16:44,055|INFO|helpers.py:529|log|192.168.1.120 - - [25/Jun/2018:11:16:44 +0000] "POST /player/data_manage/selectOverAllData HTTP/1.1" 200 307 "-" "PostmanRuntime/7.1.1"

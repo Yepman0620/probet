@@ -1,0 +1,32 @@
+2018-05-12 10:01:22,269|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=1486.3153963949999 _set_result_unless_cancelled(<Future finis...events.py:252>, None) at /usr/lib/python3.5/asyncio/futures.py:369 created at /usr/lib/python3.5/asyncio/tasks.py:514> took 0.128 seconds
+2018-05-12 11:03:42,936|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-12 11:56:19,798|ERROR|fifoMgr.py:113|updateFifoChannel|CancelledError()
+2018-05-12 16:45:49,734|ERROR|base_events.py:1148|default_exception_handler|Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1664, in <module>
+    main()
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1658, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/python/.pycharm_helpers/pydev/pydevd.py", line 1068, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/python/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 301, in <module>
+    g_obj_loop.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 345, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1304, in _run_once
+    handle._run()
+  File "/usr/lib/python3.5/asyncio/events.py", line 125, in _run
+    self._callback(*self._args)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 307, in _wakeup
+    self._step()
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 213, in init
+    yield from __initUpdate()
+  File "/usr/lib/python3.5/asyncio/coroutines.py", line 206, in coro
+    res = func(*args, **kw)
+  File "/home/python/Desktop/company_project/server/logic/logic_svr.py", line 165, in __initUpdate
+    asyncio.ensure_future(fifoMgr.classFIFOMgr.getInstance().updateFifoChannel())
+task: <Task cancelling coro=<classFIFOMgr.updateFifoChannel() running at /home/python/Desktop/company_project/server/lib/fifoMgr.py:109> wait_for=<Future finished result=None created at /usr/lib/python3.5/asyncio/base_events.py:252> cb=[gather.<locals>._done_callback(8)() at /usr/lib/python3.5/asyncio/tasks.py:637] created at /home/python/Desktop/company_project/server/logic/logic_svr.py:165>

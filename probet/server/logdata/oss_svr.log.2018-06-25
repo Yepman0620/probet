@@ -1,0 +1,10 @@
+2018-06-25 09:45:18,674|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 246, datetime.datetime(2018, 6, 22, 9, 40, 9))
+2018-06-25 09:45:18,677|ERROR|oss_svr.py:90|__initData|bill log is between two days
+2018-06-25 09:45:21,689|ERROR|ossFile.py:251|parse_line_data|seekPos[54] not valid bill log error[KeyError('accountId',)]
+2018-06-25 09:45:21,690|ERROR|ossFile.py:252|parse_line_data|2018-06-21 10:49:19,275|{"billType": "betResultBill"}
+
+2018-06-25 09:46:36,644|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=100226.081385558 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.160 seconds
+2018-06-25 10:02:06,352|WARNING|base_events.py:1308|_run_once|Executing <TimerHandle when=101156.21754291 __secTickCallLater.<locals>.<lambda>() at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32 created at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:32> took 0.133 seconds
+2018-06-25 13:54:54,776|WARNING|base_events.py:1308|_run_once|Executing <Task finished coro=<__secTickCallLater() done, defined at /home/python/Desktop/company_project/server/osssvr/oss_svr.py:26> result=None created at /usr/lib/python3.5/asyncio/tasks.py:532> took 0.166 seconds
+2018-06-25 15:54:43,301|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 246, datetime.datetime(2018, 6, 25, 9, 45, 21))
+2018-06-25 19:13:17,525|INFO|oss_svr.py:88|__initData|oss row is -->('127.0.0.1', '/home/python/Desktop/company_project/server/osssvr/../logdata/bill.log', 192, datetime.datetime(2018, 6, 25, 15, 54, 46))
